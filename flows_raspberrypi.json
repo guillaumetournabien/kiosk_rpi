@@ -1021,7 +1021,7 @@
         "height": 1
     },
     {
-        "id": "587d1a75.f5cf54",
+        "id": "3f79f6ed.8fce0a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "5159aeda.1fd78",
@@ -1030,7 +1030,7 @@
         "height": 1
     },
     {
-        "id": "e388744f.5b7748",
+        "id": "280cff89.6eb46",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "5159aeda.1fd78",
@@ -1039,7 +1039,7 @@
         "height": 1
     },
     {
-        "id": "ed9c5aac.e53648",
+        "id": "4741eca1.229af4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "5159aeda.1fd78",
@@ -1048,7 +1048,7 @@
         "height": 1
     },
     {
-        "id": "44000094.e4528",
+        "id": "7de3f025.dfc58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "5159aeda.1fd78",
@@ -1057,7 +1057,7 @@
         "height": 1
     },
     {
-        "id": "25a93719.44cab8",
+        "id": "d3f537d2.da76f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "5159aeda.1fd78",
@@ -1066,7 +1066,7 @@
         "height": 1
     },
     {
-        "id": "d112e561.a6b178",
+        "id": "ee43e680.bca8a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "5159aeda.1fd78",
@@ -1075,7 +1075,7 @@
         "height": 1
     },
     {
-        "id": "5cef6b51.4c9714",
+        "id": "fa369f8f.0669d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "5159aeda.1fd78",
@@ -1084,7 +1084,7 @@
         "height": 1
     },
     {
-        "id": "ecb572c2.a4bec",
+        "id": "20080469.dae6bc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "5159aeda.1fd78",
@@ -1093,7 +1093,7 @@
         "height": 1
     },
     {
-        "id": "759e778c.12cd98",
+        "id": "5bdded04.6a59f4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "5159aeda.1fd78",
@@ -1102,7 +1102,7 @@
         "height": 1
     },
     {
-        "id": "30a4bb53.ef4064",
+        "id": "4c54a06f.b6955",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "5159aeda.1fd78",
@@ -3344,7 +3344,7 @@
         "type": "function",
         "z": "447e3685.f33b78",
         "name": "Initialisation Variable",
-        "func": "// Declaration of the generic structure\n//\nvar VERSION = \"1.0.2\";\n\nvar OUT_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"I_RAW_ADC\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,\n    \"CONF_I_ABSOLUTE_LIMIT\":0,\n    \"CONF_I_ABSOLUTE_CONTINUOUS_LIMIT\":0,\n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24.1,\n    \"CONF_OVERTEMP\":true,\n    \"CONF_CAL_CURRENT_COEF_A\":1.1,\n    \"CONF_CAL_CURRENT_COEF_B\":0.1,\n    \"CONF_CAL_TEMP_COEF_A\":1.1,\n    \"CONF_CAL_TEMP_COEF_B\":0.1,\n    \"LOGGING\":false\n};\nvar PEF_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"I_RAW_ADC\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,\n    \"DRIVER_TJ\":0,\n    \"DRIVER_NTC\":0,\n    \"GLB\":0,\n    \"SR1\":0,\n    \"VDS\":0,\n    \"HSHT_SAR\":0,\n    \"CONF_I_ABSOLUTE_LIMIT\":0,\n    \"CONF_I_ABSOLUTE_CONTINUOUS_LIMIT\":0,\n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"CONF_CAL_CURRENT_COEF_A\":1,\n    \"CONF_CAL_CURRENT_COEF_B\":0,\n    \"CONF_CAL_TEMP_COEF_A\":1,\n    \"CONF_CAL_TEMP_COEF_B\":0,\n    \"REG_COMMAND\":0,\n    \"REG_INPUT1\":0,\n    \"REG_INPUT2\":0,\n    \"REG_INPUT3\":0,\n    \"REG_STATUS\":0,\n    \"REG_DATA1\":0,\n    \"REG_DATA2\":0,\n    \"REG_DATA3\":0,\n    \"LOGGING\":false\n};\nvar HB_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,    \n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"LOGGING\":false\n};\nvar IO_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"ENABLE\":true,\n    \"ANA\":0,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,    \n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"LOGGING\":false\n};\n\nvar ANA_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"ENABLE\":true,\n    \"VOLTAGE\":0,\n    \"CONF_CAL_COEF_A\":1,\n    \"CONF_CAL_COEF_B\":0,\n    \"TEMP\":0\n};\n\nvar CAN_TEMPLATE={\n    \"ENABLE\":true,\n    \"SPEED\":500,\n    \"LOAD\":0\n}\n\nvar PRODUCT_INFO_TEMPLATE={\n    \"SERIAL_NUMBER\":0,\n    \"ALIVE_COUNTER\":0,\n    \"STATE_MODE\":0,\n    \"SW_VERS_DAY\":0,\n    \"SW_VERS_MONTH\":0,\n    \"SW_VERS_YEAR\":0,\n    \"SW_VERS_MAJOR\":0,\n    \"SW_VERS_MINOR\":0,\n    \"SW_VERS_PATCH\":0\n}\nglobal.set('SW_VERSION', VERSION)\n\nglobal.set('PRODUCT_INFO', PRODUCT_INFO_TEMPLATE);\nglobal.set('CAN1',CAN_TEMPLATE);\nglobal.set('CAN2',CAN_TEMPLATE);\nglobal.set('CAN3',CAN_TEMPLATE);\n\nglobal.set('ANA_IN01',ANA_TEMPLATE);\nglobal.set('ANA_IN02',ANA_TEMPLATE);\nglobal.set('ANA_IN03',ANA_TEMPLATE);\nglobal.set('ANA_IN04',ANA_TEMPLATE);\nglobal.set('ANA_IN05',ANA_TEMPLATE);\nglobal.set('ANA_IN06',ANA_TEMPLATE);\nglobal.set('ANA_IN07',ANA_TEMPLATE);\nglobal.set('ANA_IN08',ANA_TEMPLATE);\nglobal.set('ANA_IN09',ANA_TEMPLATE);\nglobal.set('ANA_IN10',ANA_TEMPLATE);\nglobal.set('ANA_IN11',ANA_TEMPLATE);\nglobal.set('ANA_ACC_SNSR1',ANA_TEMPLATE);\nglobal.set('ANA_ACC_SNSR2',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30A',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30B',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30_PROTECT',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30A_PWR',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30B_PWR',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_5V_SW',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3_SW',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3_BRIDGE',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_12V',ANA_TEMPLATE);\nglobal.set('INTERNAL_ADC1',ANA_TEMPLATE);\nglobal.set('INTERNAL_ADC2',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP1',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP2',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP3',ANA_TEMPLATE);\n\nglobal.set('IO1',IO_TEMPLATE);\nglobal.set('IO2',IO_TEMPLATE);\nglobal.set('IO3',IO_TEMPLATE);\nglobal.set('IO4',IO_TEMPLATE);\nglobal.set('IO5',IO_TEMPLATE);\nglobal.set('IO6',IO_TEMPLATE);\nglobal.set('IO7',IO_TEMPLATE);\nglobal.set('IO8',IO_TEMPLATE);\nglobal.set('IO9',IO_TEMPLATE);\nglobal.set('IO10',IO_TEMPLATE);\nglobal.set('IO11',IO_TEMPLATE);\nglobal.set('IO12',IO_TEMPLATE);\nglobal.set('OUT1',OUT_TEMPLATE);\nglobal.set('OUT2',OUT_TEMPLATE);\nglobal.set('OUT3',OUT_TEMPLATE);\nglobal.set('OUT4',OUT_TEMPLATE);\nglobal.set('OUT5',OUT_TEMPLATE);\nglobal.set('OUT6',OUT_TEMPLATE);\nglobal.set('OUT7',OUT_TEMPLATE);\nglobal.set('OUT8',OUT_TEMPLATE);\nglobal.set('OUT9',OUT_TEMPLATE);\nglobal.set('OUT10',OUT_TEMPLATE);\nglobal.set('OUT11',OUT_TEMPLATE);\nglobal.set('OUT12',OUT_TEMPLATE);\nglobal.set('OUT13',OUT_TEMPLATE);\nglobal.set('OUT14',OUT_TEMPLATE);\nglobal.set('OUT15',OUT_TEMPLATE);\nglobal.set('OUT16',OUT_TEMPLATE);\nglobal.set('OUT17',OUT_TEMPLATE);\nglobal.set('OUT18',OUT_TEMPLATE);\nglobal.set('OUT19',OUT_TEMPLATE);\nglobal.set('OUT20',OUT_TEMPLATE);\nglobal.set('OUT21',OUT_TEMPLATE);\nglobal.set('OUT22',OUT_TEMPLATE);\nglobal.set('OUT23',OUT_TEMPLATE);\nglobal.set('OUT24',OUT_TEMPLATE);\nglobal.set('OUT25',OUT_TEMPLATE);\nglobal.set('OUT26',OUT_TEMPLATE);\nglobal.set('OUT27',OUT_TEMPLATE);\nglobal.set('OUT28',OUT_TEMPLATE);\nglobal.set('OUT29',OUT_TEMPLATE);\nglobal.set('OUT30',OUT_TEMPLATE);\nglobal.set('OUT31',OUT_TEMPLATE);\nglobal.set('OUT32',OUT_TEMPLATE);\nglobal.set('OUT33',OUT_TEMPLATE);\nglobal.set('OUT34',OUT_TEMPLATE);\nglobal.set('OUT35',OUT_TEMPLATE);\nglobal.set('OUT36',OUT_TEMPLATE);\nglobal.set('OUT37',OUT_TEMPLATE);\nglobal.set('OUT38',OUT_TEMPLATE);\nglobal.set('OUT39',OUT_TEMPLATE);\nglobal.set('OUT40',OUT_TEMPLATE);\nglobal.set('OUT41',OUT_TEMPLATE);\nglobal.set('OUT42',OUT_TEMPLATE);\nglobal.set('OUT43',OUT_TEMPLATE);\nglobal.set('OUT44',OUT_TEMPLATE);\nglobal.set('OUT45',OUT_TEMPLATE);\nglobal.set('OUT46',OUT_TEMPLATE);\nglobal.set('OUT47',OUT_TEMPLATE);\nglobal.set('OUT48',OUT_TEMPLATE);\n\nglobal.set('PEF1',PEF_TEMPLATE);\nglobal.set('PEF2',PEF_TEMPLATE);\nglobal.set('PEF3',PEF_TEMPLATE);\nglobal.set('PEF4',PEF_TEMPLATE);\nglobal.set('PEF5',PEF_TEMPLATE);\nglobal.set('PEF6',PEF_TEMPLATE);\nglobal.set('PEF7',PEF_TEMPLATE);\nglobal.set('PEF8',PEF_TEMPLATE);\nglobal.set('HB1',HB_TEMPLATE);\nglobal.set('HB2',HB_TEMPLATE);\nglobal.set('HB3',HB_TEMPLATE);\nglobal.set('HB4',HB_TEMPLATE);\nglobal.set('HB5',HB_TEMPLATE);\nglobal.set('HB6',HB_TEMPLATE);\nglobal.set('HB7',HB_TEMPLATE);\nglobal.set('HB8',HB_TEMPLATE);\n\nglobal.set('CAN0_LOGGER',[]);\nglobal.set( 'MQTT_ENABLE' , false);\n\nreturn msg;",
+        "func": "// Declaration of the generic structure\n//\nvar VERSION = \"1.0.3\";\n\nvar OUT_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"I_RAW_ADC\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,\n    \"CONF_I_ABSOLUTE_LIMIT\":0,\n    \"CONF_I_ABSOLUTE_CONTINUOUS_LIMIT\":0,\n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24.1,\n    \"CONF_OVERTEMP\":true,\n    \"CONF_CAL_CURRENT_COEF_A\":1.1,\n    \"CONF_CAL_CURRENT_COEF_B\":0.1,\n    \"CONF_CAL_TEMP_COEF_A\":1.1,\n    \"CONF_CAL_TEMP_COEF_B\":0.1,\n    \"LOGGING\":false\n};\nvar PEF_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"I_RAW_ADC\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,\n    \"DRIVER_TJ\":0,\n    \"DRIVER_NTC\":0,\n    \"GLB\":0,\n    \"SR1\":0,\n    \"VDS\":0,\n    \"HSHT_SAR\":0,\n    \"CONF_I_ABSOLUTE_LIMIT\":0,\n    \"CONF_I_ABSOLUTE_CONTINUOUS_LIMIT\":0,\n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"CONF_CAL_CURRENT_COEF_A\":1,\n    \"CONF_CAL_CURRENT_COEF_B\":0,\n    \"CONF_CAL_TEMP_COEF_A\":1,\n    \"CONF_CAL_TEMP_COEF_B\":0,\n    \"REG_COMMAND\":0,\n    \"REG_INPUT1\":0,\n    \"REG_INPUT2\":0,\n    \"REG_INPUT3\":0,\n    \"REG_STATUS\":0,\n    \"REG_DATA1\":0,\n    \"REG_DATA2\":0,\n    \"REG_DATA3\":0,\n    \"LOGGING\":false\n};\nvar HB_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,    \n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"LOGGING\":false\n};\nvar IO_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"ENABLE\":true,\n    \"ANA\":0,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,    \n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"LOGGING\":false\n};\n\nvar ANA_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"ENABLE\":true,\n    \"VOLTAGE\":0,\n    \"CONF_CAL_COEF_A\":1,\n    \"CONF_CAL_COEF_B\":0,\n    \"TEMP\":0\n};\n\nvar CAN_TEMPLATE={\n    \"ENABLE\":true,\n    \"SPEED\":500,\n    \"LOAD\":0\n}\n\nvar PRODUCT_INFO_TEMPLATE={\n    \"SERIAL_NUMBER\":0,\n    \"ALIVE_COUNTER\":0,\n    \"STATE_MODE\":0,\n    \"SW_VERS_DAY\":0,\n    \"SW_VERS_MONTH\":0,\n    \"SW_VERS_YEAR\":0,\n    \"SW_VERS_MAJOR\":0,\n    \"SW_VERS_MINOR\":0,\n    \"SW_VERS_PATCH\":0\n}\nglobal.set('SW_VERSION', VERSION)\n\nglobal.set('PRODUCT_INFO', PRODUCT_INFO_TEMPLATE);\nglobal.set('CAN1',CAN_TEMPLATE);\nglobal.set('CAN2',CAN_TEMPLATE);\nglobal.set('CAN3',CAN_TEMPLATE);\n\nglobal.set('ANA_IN01',ANA_TEMPLATE);\nglobal.set('ANA_IN02',ANA_TEMPLATE);\nglobal.set('ANA_IN03',ANA_TEMPLATE);\nglobal.set('ANA_IN04',ANA_TEMPLATE);\nglobal.set('ANA_IN05',ANA_TEMPLATE);\nglobal.set('ANA_IN06',ANA_TEMPLATE);\nglobal.set('ANA_IN07',ANA_TEMPLATE);\nglobal.set('ANA_IN08',ANA_TEMPLATE);\nglobal.set('ANA_IN09',ANA_TEMPLATE);\nglobal.set('ANA_IN10',ANA_TEMPLATE);\nglobal.set('ANA_IN11',ANA_TEMPLATE);\nglobal.set('ANA_ACC_SNSR1',ANA_TEMPLATE);\nglobal.set('ANA_ACC_SNSR2',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30A',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30B',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30_PROTECT',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30A_PWR',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30B_PWR',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_5V_SW',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3_SW',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3_BRIDGE',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_12V',ANA_TEMPLATE);\nglobal.set('INTERNAL_ADC1',ANA_TEMPLATE);\nglobal.set('INTERNAL_ADC2',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP1',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP2',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP3',ANA_TEMPLATE);\n\nglobal.set('IO1',IO_TEMPLATE);\nglobal.set('IO2',IO_TEMPLATE);\nglobal.set('IO3',IO_TEMPLATE);\nglobal.set('IO4',IO_TEMPLATE);\nglobal.set('IO5',IO_TEMPLATE);\nglobal.set('IO6',IO_TEMPLATE);\nglobal.set('IO7',IO_TEMPLATE);\nglobal.set('IO8',IO_TEMPLATE);\nglobal.set('IO9',IO_TEMPLATE);\nglobal.set('IO10',IO_TEMPLATE);\nglobal.set('IO11',IO_TEMPLATE);\nglobal.set('IO12',IO_TEMPLATE);\nglobal.set('OUT1',OUT_TEMPLATE);\nglobal.set('OUT2',OUT_TEMPLATE);\nglobal.set('OUT3',OUT_TEMPLATE);\nglobal.set('OUT4',OUT_TEMPLATE);\nglobal.set('OUT5',OUT_TEMPLATE);\nglobal.set('OUT6',OUT_TEMPLATE);\nglobal.set('OUT7',OUT_TEMPLATE);\nglobal.set('OUT8',OUT_TEMPLATE);\nglobal.set('OUT9',OUT_TEMPLATE);\nglobal.set('OUT10',OUT_TEMPLATE);\nglobal.set('OUT11',OUT_TEMPLATE);\nglobal.set('OUT12',OUT_TEMPLATE);\nglobal.set('OUT13',OUT_TEMPLATE);\nglobal.set('OUT14',OUT_TEMPLATE);\nglobal.set('OUT15',OUT_TEMPLATE);\nglobal.set('OUT16',OUT_TEMPLATE);\nglobal.set('OUT17',OUT_TEMPLATE);\nglobal.set('OUT18',OUT_TEMPLATE);\nglobal.set('OUT19',OUT_TEMPLATE);\nglobal.set('OUT20',OUT_TEMPLATE);\nglobal.set('OUT21',OUT_TEMPLATE);\nglobal.set('OUT22',OUT_TEMPLATE);\nglobal.set('OUT23',OUT_TEMPLATE);\nglobal.set('OUT24',OUT_TEMPLATE);\nglobal.set('OUT25',OUT_TEMPLATE);\nglobal.set('OUT26',OUT_TEMPLATE);\nglobal.set('OUT27',OUT_TEMPLATE);\nglobal.set('OUT28',OUT_TEMPLATE);\nglobal.set('OUT29',OUT_TEMPLATE);\nglobal.set('OUT30',OUT_TEMPLATE);\nglobal.set('OUT31',OUT_TEMPLATE);\nglobal.set('OUT32',OUT_TEMPLATE);\nglobal.set('OUT33',OUT_TEMPLATE);\nglobal.set('OUT34',OUT_TEMPLATE);\nglobal.set('OUT35',OUT_TEMPLATE);\nglobal.set('OUT36',OUT_TEMPLATE);\nglobal.set('OUT37',OUT_TEMPLATE);\nglobal.set('OUT38',OUT_TEMPLATE);\nglobal.set('OUT39',OUT_TEMPLATE);\nglobal.set('OUT40',OUT_TEMPLATE);\nglobal.set('OUT41',OUT_TEMPLATE);\nglobal.set('OUT42',OUT_TEMPLATE);\nglobal.set('OUT43',OUT_TEMPLATE);\nglobal.set('OUT44',OUT_TEMPLATE);\nglobal.set('OUT45',OUT_TEMPLATE);\nglobal.set('OUT46',OUT_TEMPLATE);\nglobal.set('OUT47',OUT_TEMPLATE);\nglobal.set('OUT48',OUT_TEMPLATE);\n\nglobal.set('PEF1',PEF_TEMPLATE);\nglobal.set('PEF2',PEF_TEMPLATE);\nglobal.set('PEF3',PEF_TEMPLATE);\nglobal.set('PEF4',PEF_TEMPLATE);\nglobal.set('PEF5',PEF_TEMPLATE);\nglobal.set('PEF6',PEF_TEMPLATE);\nglobal.set('PEF7',PEF_TEMPLATE);\nglobal.set('PEF8',PEF_TEMPLATE);\nglobal.set('HB1',HB_TEMPLATE);\nglobal.set('HB2',HB_TEMPLATE);\nglobal.set('HB3',HB_TEMPLATE);\nglobal.set('HB4',HB_TEMPLATE);\nglobal.set('HB5',HB_TEMPLATE);\nglobal.set('HB6',HB_TEMPLATE);\nglobal.set('HB7',HB_TEMPLATE);\nglobal.set('HB8',HB_TEMPLATE);\n\nglobal.set('CAN0_LOGGER',[]);\nglobal.set( 'MQTT_ENABLE' , false);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -14429,7 +14429,7 @@
         "z": "49ede7b4.4b2d88",
         "group": "5159aeda.1fd78",
         "name": "",
-        "order": 16,
+        "order": 17,
         "width": 0,
         "height": 0,
         "format": "<style>\n.md-button{\n  border-radius: 10px\n}\n</style>",
@@ -14574,7 +14574,6 @@
         "y": 480,
         "wires": [
             [
-                "68cf34ed.f8823c",
                 "599e58b2.019af8"
             ],
             [],
@@ -14607,64 +14606,10 @@
         "y": 460,
         "wires": [
             [
-                "1be1a0a4.74d9af",
                 "414baace.1ff574"
             ],
-            [
-                "db2970e6.8d197"
-            ]
+            []
         ]
-    },
-    {
-        "id": "1be1a0a4.74d9af",
-        "type": "debug",
-        "z": "49ede7b4.4b2d88",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1090,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "db2970e6.8d197",
-        "type": "debug",
-        "z": "49ede7b4.4b2d88",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1110,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "68cf34ed.f8823c",
-        "type": "debug",
-        "z": "49ede7b4.4b2d88",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 570,
-        "y": 560,
-        "wires": []
     },
     {
         "id": "599e58b2.019af8",
@@ -14681,27 +14626,9 @@
         "y": 460,
         "wires": [
             [
-                "a2978fc1.c4f63",
-                "fd0409e3.08f738"
+                "a2978fc1.c4f63"
             ]
         ]
-    },
-    {
-        "id": "fd0409e3.08f738",
-        "type": "debug",
-        "z": "49ede7b4.4b2d88",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 750,
-        "y": 540,
-        "wires": []
     },
     {
         "id": "414baace.1ff574",
@@ -14717,29 +14644,10 @@
         "x": 1150,
         "y": 420,
         "wires": [
-            [
-                "4054620e.4e598c"
-            ],
+            [],
             [],
             []
         ]
-    },
-    {
-        "id": "4054620e.4e598c",
-        "type": "debug",
-        "z": "49ede7b4.4b2d88",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1370,
-        "y": 400,
-        "wires": []
     },
     {
         "id": "fb449a6b.f32c68",
@@ -14811,6 +14719,51 @@
                 "fb449a6b.f32c68"
             ],
             []
+        ]
+    },
+    {
+        "id": "d7586779.adc5c8",
+        "type": "ui_text",
+        "z": "49ede7b4.4b2d88",
+        "group": "5159aeda.1fd78",
+        "order": 16,
+        "width": 0,
+        "height": 0,
+        "name": "Global Version",
+        "label": "Dashboard version :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 620,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "58bd3035.e55a9",
+        "type": "inject",
+        "z": "49ede7b4.4b2d88",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "SW_VERSION",
+        "payloadType": "global",
+        "x": 200,
+        "y": 760,
+        "wires": [
+            [
+                "d7586779.adc5c8"
+            ]
         ]
     }
 ]
