@@ -9,7 +9,7 @@
     {
         "id": "156e72c0.3e9c8d",
         "type": "tab",
-        "label": "CAN_analyzer",
+        "label": "CAN ANALYZER",
         "disabled": false,
         "info": ""
     },
@@ -23,21 +23,21 @@
     {
         "id": "eb8df6c6.74f658",
         "type": "tab",
-        "label": "PDC Configuration",
+        "label": "PDC CONFIGURATION",
         "disabled": false,
         "info": ""
     },
     {
         "id": "49ede7b4.4b2d88",
         "type": "tab",
-        "label": "System",
+        "label": "SYSTEM",
         "disabled": false,
         "info": ""
     },
     {
         "id": "a16b70f.e79399",
         "type": "tab",
-        "label": "Update Manager",
+        "label": "UPDATE MANAGER",
         "disabled": false,
         "info": ""
     },
@@ -99,7 +99,7 @@
         "id": "d57e2c44.f0d87",
         "type": "ui_base",
         "theme": {
-            "name": "theme-dark",
+            "name": "theme-custom",
             "lightTheme": {
                 "default": "#0094CE",
                 "baseColor": "#0094CE",
@@ -123,45 +123,45 @@
             },
             "themeState": {
                 "base-color": {
-                    "default": "#097479",
-                    "value": "#f84018",
+                    "default": "#f5560a",
+                    "value": "#f5560a",
                     "edited": true
                 },
                 "page-titlebar-backgroundColor": {
-                    "value": "#f84018",
+                    "value": "#f5560a",
                     "edited": false
                 },
                 "page-backgroundColor": {
-                    "value": "#111111",
-                    "edited": false
+                    "value": "#000000",
+                    "edited": true
                 },
                 "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
+                    "value": "#333333",
+                    "edited": true
                 },
                 "group-textColor": {
-                    "value": "#fa7d62",
-                    "edited": false
+                    "value": "#f5560a",
+                    "edited": true
                 },
                 "group-borderColor": {
-                    "value": "#555555",
-                    "edited": false
+                    "value": "#f5560a",
+                    "edited": true
                 },
                 "group-backgroundColor": {
                     "value": "#333333",
-                    "edited": false
+                    "edited": true
                 },
                 "widget-textColor": {
-                    "value": "#eeeeee",
-                    "edited": false
+                    "value": "#ffffff",
+                    "edited": true
                 },
                 "widget-backgroundColor": {
-                    "value": "#f84018",
+                    "value": "#f5560a",
                     "edited": false
                 },
                 "widget-borderColor": {
                     "value": "#333333",
-                    "edited": false
+                    "edited": true
                 },
                 "base-font": {
                     "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
@@ -632,7 +632,7 @@
         "type": "ui_group",
         "name": "COMMAND",
         "tab": "fb10ab57.739838",
-        "order": 2,
+        "order": 1,
         "disp": true,
         "width": "3",
         "collapse": true
@@ -767,16 +767,6 @@
         "order": 7,
         "disp": true,
         "width": "6",
-        "collapse": true
-    },
-    {
-        "id": "1e6fe5cf.886dfa",
-        "type": "ui_group",
-        "name": "Info",
-        "tab": "fb10ab57.739838",
-        "order": 2,
-        "disp": true,
-        "width": "32",
         "collapse": true
     },
     {
@@ -1003,9 +993,10 @@
     {
         "id": "b63d1f91.68095",
         "type": "ui_tab",
-        "name": "FILE BROWSER",
+        "d": true,
+        "name": "FILE BROWSER (Hidden)",
         "icon": "mi-folder",
-        "order": 6,
+        "order": 7,
         "disabled": false,
         "hidden": false
     },
@@ -1022,9 +1013,9 @@
     {
         "id": "23013d5a.f0dca2",
         "type": "ui_tab",
-        "name": "UPDATE MANAGER",
+        "name": "DASHBOARD UPDATER",
         "icon": "mi-file_download",
-        "order": 7,
+        "order": 6,
         "disabled": false,
         "hidden": false
     },
@@ -1035,7 +1026,7 @@
         "tab": "23013d5a.f0dca2",
         "order": 1,
         "disp": false,
-        "width": "20",
+        "width": "26",
         "collapse": false
     },
     {
@@ -1114,13 +1105,13 @@
         "id": "be14e9de.53efc8",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "1e6fe5cf.886dfa",
+        "group": "",
         "order": 3,
         "width": "32",
         "height": 1
     },
     {
-        "id": "2f959fc1.99ad5",
+        "id": "afb66c6.cca089",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "e87b1611.782c98",
@@ -1129,7 +1120,7 @@
         "height": 1
     },
     {
-        "id": "53cd9654.517ef8",
+        "id": "51a0867c.be92b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "e87b1611.782c98",
@@ -1138,94 +1129,79 @@
         "height": 1
     },
     {
-        "id": "249668b2.7827c8",
+        "id": "9ae50983.e2a3f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "e87b1611.782c98",
         "order": 5,
-        "width": 1,
+        "width": 2,
         "height": 1
     },
     {
-        "id": "291920bd.5cb2d",
+        "id": "6f2a2e1a.1dcca",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "e87b1611.782c98",
         "order": 7,
-        "width": 1,
+        "width": 2,
         "height": 1
     },
     {
-        "id": "71e8face.520f64",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "f66e5cc5.e481b",
+        "id": "16302ec1.6c81c1",
+        "type": "ui_group",
+        "name": "Changelog",
+        "tab": "23013d5a.f0dca2",
         "order": 2,
-        "width": 1,
-        "height": 1
+        "disp": true,
+        "width": "26",
+        "collapse": true
     },
     {
-        "id": "62ffa2ae.26038c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "f66e5cc5.e481b",
+        "id": "8be25437.22e6e8",
+        "type": "ui_group",
+        "name": "Info",
+        "tab": "fb10ab57.739838",
+        "order": 2,
+        "disp": true,
+        "width": 30,
+        "collapse": false
+    },
+    {
+        "id": "5b0d54fa.48bc0c",
+        "type": "ui_group",
+        "name": "PEF_Config",
+        "tab": "fb10ab57.739838",
         "order": 4,
-        "width": 1,
+        "disp": true,
+        "width": "33",
+        "collapse": false
+    },
+    {
+        "id": "3e9f4aa4.8e7d56",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8be25437.22e6e8",
+        "order": 3,
+        "width": 23,
         "height": 1
     },
     {
-        "id": "7d2aa4dc.febfac",
+        "id": "5ff1152b.78f9dc",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "f66e5cc5.e481b",
-        "order": 6,
-        "width": 1,
+        "group": "8be25437.22e6e8",
+        "order": 4,
+        "width": 30,
         "height": 1
     },
     {
-        "id": "4ffc48a1.0285f8",
+        "id": "d0da990f.2b5ba8",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "f66e5cc5.e481b",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "aabe8931.2639d8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "f66e5cc5.e481b",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1d7619f1.4bdfb6",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "f66e5cc5.e481b",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a6895622.dcb0a8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "f66e5cc5.e481b",
-        "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b69f4e1b.0a18e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "f66e5cc5.e481b",
-        "order": 16,
-        "width": 1,
-        "height": 1
+        "group": "4efd4665.343168",
+        "order": 4,
+        "width": "3",
+        "height": "20"
     },
     {
         "id": "3fd25878.e41668",
@@ -5229,8 +5205,9 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 420,
-        "y": 460,
+        "libs": [],
+        "x": 360,
+        "y": 280,
         "wires": []
     },
     {
@@ -5609,7 +5586,7 @@
         "tooltip": "",
         "group": "f66e5cc5.e481b",
         "order": 1,
-        "width": 2,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -5625,8 +5602,8 @@
         "officon": "",
         "offcolor": "",
         "animate": true,
-        "x": 130,
-        "y": 320,
+        "x": 70,
+        "y": 140,
         "wires": [
             [
                 "fe668925.155dd8"
@@ -5641,8 +5618,8 @@
         "label": "PEF2",
         "tooltip": "",
         "group": "f66e5cc5.e481b",
-        "order": 3,
-        "width": 2,
+        "order": 2,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -5656,8 +5633,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
-        "y": 360,
+        "x": 70,
+        "y": 180,
         "wires": [
             [
                 "fe668925.155dd8"
@@ -5672,8 +5649,8 @@
         "label": "PEF3",
         "tooltip": "",
         "group": "f66e5cc5.e481b",
-        "order": 5,
-        "width": 2,
+        "order": 3,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -5687,8 +5664,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
-        "y": 400,
+        "x": 70,
+        "y": 220,
         "wires": [
             [
                 "fe668925.155dd8"
@@ -5703,8 +5680,8 @@
         "label": "PEF4",
         "tooltip": "",
         "group": "f66e5cc5.e481b",
-        "order": 7,
-        "width": 2,
+        "order": 4,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -5718,8 +5695,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
-        "y": 440,
+        "x": 70,
+        "y": 260,
         "wires": [
             [
                 "fe668925.155dd8"
@@ -5734,8 +5711,8 @@
         "label": "PEF5",
         "tooltip": "",
         "group": "f66e5cc5.e481b",
-        "order": 9,
-        "width": 2,
+        "order": 5,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -5749,8 +5726,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
-        "y": 480,
+        "x": 70,
+        "y": 300,
         "wires": [
             [
                 "fe668925.155dd8"
@@ -5765,8 +5742,8 @@
         "label": "PEF6",
         "tooltip": "",
         "group": "f66e5cc5.e481b",
-        "order": 11,
-        "width": 2,
+        "order": 6,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -5780,8 +5757,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
-        "y": 520,
+        "x": 70,
+        "y": 340,
         "wires": [
             [
                 "fe668925.155dd8"
@@ -5796,8 +5773,8 @@
         "label": "PEF7",
         "tooltip": "",
         "group": "f66e5cc5.e481b",
-        "order": 13,
-        "width": 2,
+        "order": 7,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -5811,8 +5788,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
-        "y": 560,
+        "x": 70,
+        "y": 380,
         "wires": [
             [
                 "fe668925.155dd8"
@@ -5827,8 +5804,8 @@
         "label": "PEF8",
         "tooltip": "",
         "group": "f66e5cc5.e481b",
-        "order": 15,
-        "width": 2,
+        "order": 8,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -5842,8 +5819,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
-        "y": 600,
+        "x": 70,
+        "y": 420,
         "wires": [
             [
                 "fe668925.155dd8"
@@ -6898,8 +6875,8 @@
         "payloadType": "json",
         "topic": "",
         "topicType": "str",
-        "x": 120,
-        "y": 80,
+        "x": 140,
+        "y": 140,
         "wires": [
             [
                 "52916a4f.cea6c4",
@@ -6912,8 +6889,8 @@
         "type": "shutdown",
         "z": "49ede7b4.4b2d88",
         "name": "",
-        "x": 1350,
-        "y": 80,
+        "x": 720,
+        "y": 140,
         "wires": []
     },
     {
@@ -6922,7 +6899,7 @@
         "z": "49ede7b4.4b2d88",
         "name": "",
         "pauseType": "delay",
-        "timeout": "100",
+        "timeout": "300",
         "timeoutUnits": "milliseconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -6931,11 +6908,11 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 460,
-        "y": 80,
+        "x": 470,
+        "y": 140,
         "wires": [
             [
-                "193a8c17.eb39e4"
+                "3fbedae0.c1a046"
             ]
         ]
     },
@@ -6960,8 +6937,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 140,
+        "x": 140,
+        "y": 200,
         "wires": [
             [
                 "ee88e080.647bf"
@@ -6979,58 +6956,12 @@
         "timer": "1",
         "oldrc": false,
         "name": "",
-        "x": 480,
-        "y": 140,
+        "x": 500,
+        "y": 200,
         "wires": [
             [],
             [],
             []
-        ]
-    },
-    {
-        "id": "193a8c17.eb39e4",
-        "type": "delay",
-        "z": "49ede7b4.4b2d88",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 700,
-        "y": 80,
-        "wires": [
-            [
-                "b4a88c2a.9a5"
-            ]
-        ]
-    },
-    {
-        "id": "b4a88c2a.9a5",
-        "type": "delay",
-        "z": "49ede7b4.4b2d88",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 980,
-        "y": 80,
-        "wires": [
-            [
-                "3fbedae0.c1a046"
-            ]
         ]
     },
     {
@@ -7052,8 +6983,8 @@
         "payloadType": "json",
         "topic": "",
         "topicType": "str",
-        "x": 90,
-        "y": 200,
+        "x": 110,
+        "y": 260,
         "wires": [
             [
                 "65bd543d.d7e96c"
@@ -7065,8 +6996,8 @@
         "type": "restart",
         "z": "49ede7b4.4b2d88",
         "name": "",
-        "x": 430,
-        "y": 200,
+        "x": 450,
+        "y": 260,
         "wires": []
     },
     {
@@ -7076,8 +7007,8 @@
         "d": true,
         "name": "socketcan0",
         "config": "a2a7ae15.44d7e",
-        "x": 550,
-        "y": 380,
+        "x": 1670,
+        "y": 140,
         "wires": []
     },
     {
@@ -7101,8 +7032,8 @@
         "topic": "",
         "payload": "{\"ext\":false,\"canid\":384,\"dlc\":8,\"data\":[10,20,30,40,50,60,70,80]}",
         "payloadType": "json",
-        "x": 160,
-        "y": 318,
+        "x": 1280,
+        "y": 78,
         "wires": [
             [
                 "c2b9623.f1cfda"
@@ -7130,8 +7061,8 @@
         "topic": "",
         "payload": "123#00112233",
         "payloadType": "str",
-        "x": 160,
-        "y": 400,
+        "x": 1280,
+        "y": 160,
         "wires": [
             [
                 "c2b9623.f1cfda"
@@ -7159,8 +7090,8 @@
         "topic": "",
         "payload": "1F334455#1122334455667788",
         "payloadType": "str",
-        "x": 160,
-        "y": 440,
+        "x": 1280,
+        "y": 200,
         "wires": [
             [
                 "c2b9623.f1cfda"
@@ -7188,8 +7119,8 @@
         "topic": "",
         "payload": "{\"ext\":true,\"canid\":32278,\"dlc\":5,\"data\":[1,2,3,4,5]}",
         "payloadType": "json",
-        "x": 160,
-        "y": 360,
+        "x": 1280,
+        "y": 120,
         "wires": [
             [
                 "c2b9623.f1cfda"
@@ -7202,8 +7133,8 @@
         "z": "156e72c0.3e9c8d",
         "name": "socketcan1",
         "config": "4fa76aa7.abf7b4",
-        "x": 550,
-        "y": 560,
+        "x": 1670,
+        "y": 320,
         "wires": []
     },
     {
@@ -7227,8 +7158,8 @@
         "topic": "",
         "payload": "{\"ext\":false,\"canid\":387,\"dlc\":8,\"data\":[10,20,30,40,50,60,70,80]}",
         "payloadType": "json",
-        "x": 160,
-        "y": 520,
+        "x": 1280,
+        "y": 280,
         "wires": [
             [
                 "2dd43c60.ce6c94"
@@ -7256,8 +7187,8 @@
         "topic": "",
         "payload": "123#00112233",
         "payloadType": "str",
-        "x": 160,
-        "y": 600,
+        "x": 1280,
+        "y": 360,
         "wires": [
             [
                 "2dd43c60.ce6c94"
@@ -7285,8 +7216,8 @@
         "topic": "",
         "payload": "1F334455#1122334455667788",
         "payloadType": "str",
-        "x": 160,
-        "y": 640,
+        "x": 1280,
+        "y": 400,
         "wires": [
             [
                 "2dd43c60.ce6c94"
@@ -7314,8 +7245,8 @@
         "topic": "",
         "payload": "{\"ext\":true,\"canid\":32278,\"dlc\":5,\"data\":[1,2,3,4,5]}",
         "payloadType": "json",
-        "x": 160,
-        "y": 560,
+        "x": 1280,
+        "y": 320,
         "wires": [
             [
                 "2dd43c60.ce6c94"
@@ -7343,33 +7274,13 @@
         "topic": "",
         "payload": "{\"ext\":false,\"canid\":500,\"dlc\":8,\"data\":[255,20,255,40,255,60,255,80]}",
         "payloadType": "json",
-        "x": 130,
-        "y": 280,
+        "x": 1250,
+        "y": 40,
         "wires": [
             [
                 "c2b9623.f1cfda"
             ]
         ]
-    },
-    {
-        "id": "61aa2852.378288",
-        "type": "comment",
-        "z": "49ede7b4.4b2d88",
-        "name": "OLED DISPLAY",
-        "info": "",
-        "x": 710,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "665ac9f6.f44348",
-        "type": "comment",
-        "z": "49ede7b4.4b2d88",
-        "name": "OLED DISPLAY",
-        "info": "",
-        "x": 1100,
-        "y": 160,
-        "wires": []
     },
     {
         "id": "240945e1.a3f42a",
@@ -11777,6 +11688,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 940,
         "y": 1400,
         "wires": [],
@@ -13041,14 +12953,14 @@
         "type": "function",
         "z": "a3fb71ac.ab1f5",
         "name": "SHow Information PEF1 to PEF8",
-        "func": "var local_PEF1 = RED.util.cloneMessage(global.get('PEF1'));\nvar local_PEF2 = RED.util.cloneMessage(global.get('PEF2'));\nvar local_PEF3 = RED.util.cloneMessage(global.get('PEF3'));\nvar local_PEF4 = RED.util.cloneMessage(global.get('PEF4'));\nvar local_PEF5 = RED.util.cloneMessage(global.get('PEF5'));\nvar local_PEF6 = RED.util.cloneMessage(global.get('PEF6'));\nvar local_PEF7 = RED.util.cloneMessage(global.get('PEF7'));\nvar local_PEF8 = RED.util.cloneMessage(global.get('PEF8'));\n\nvar HexForm = \"function(cell, formatterParams, onRendered){return cell.getValue().toString(16).toUpperCase();}\"\nvar HexConv = \"function(cell, formatterParams, onRendered){ if(typeof(cell.getValue()) !== \\\"undefined\\\" && cell.getValue() !== null ){return cell.getValue().toString(16).toUpperCase();;} else{return \\\"\\\";} }\"\nvar BinConv = \"function(cell, formatterParams, onRendered){return(cell.getValue() >>> 0).toString(2);}\"\n\nvar tabledata =[\n    {\"id\":1, ...local_PEF1},\n    {\"id\":2, ...local_PEF2},\n    {\"id\":3, ...local_PEF3},\n    {\"id\":4, ...local_PEF4},\n    {\"id\":5, ...local_PEF5},\n    {\"id\":6, ...local_PEF6},\n    {\"id\":7, ...local_PEF7},\n    {\"id\":8, ...local_PEF8}\n        \n    ];\n\nvar col =   [\n                {title:\"Index\", field:\"id\", align:\"center\", width:80, minWidth:80},\n                {title:\"Name\", field:\"NAME\", align:\"center\", width:80, minWidth:80},\n                {title:\"Enable\", field:\"ENABLE\", align:\"center\", formatter:\"tickCross\", width:80, minWidth:80},\n                {title:\"Command\", field:\"CMD\", formatter:\"tickCross\", align:\"center\", width:110, minWidth:110},\n                {title:\"I_Avg\", field:\"I_AVG\", align:\"center\", width:80, minWidth:80},\n                {title:\"I_Peak\", field:\"I_PEAK\", align:\"center\"},\n                {title:\"I_Raw_ADC\", field:\"I_RAW_ADC\", align:\"center\"},\n                {title:\"Temp\", field:\"TEMP\", align:\"center\", width:80, minWidth:80},\n                {title:\"Vout\", field:\"OUT_VOLTAGE\", align:\"center\"},\n                {title:\"Driver TJ\", field:\"DRIVER_TJ\", align:\"center\"},\n                {title:\"Driver NTC\", field:\"DRIVER_NTC\", align:\"center\"},\n                {title:\"GLB\", field:\"GLB\", align:\"center\", formatter: HexForm},\n                {title:\"SR1\", field:\"SR1\", align:\"center\", formatter: BinConv, width:150, minWidth:150},\n                {title:\"VDS\", field:\"VDS\", align:\"center\"},\n                {title:\"HSHT SAR\", field:\"HSHT_SAR\", align:\"center\"}\n            ]\n\nif(msg.topic === \"Refresh\" & msg.payload === true)\n{\n    var tableR = \n        { \n            payload : tabledata,\n            \n            ui_control : \n            {\n                tabulator :\n                {\n                    layout:\"fitColumns\",\n                    reactiveData:true,\n                    columns : col\n                }\n            }\n        }\n        \n    return tableR;\n}\n\nelse if(msg.topic === \"replaceData\" & msg.payload === true)\n{\n    var table =\n        {\n            payload :\n            {\n                command :\"updateOrAddData\",\n                arguments :\n                [\n                    tabledata\n                ],\n                returnPromise : true\n            },\n            \n            ui_control :\n            {\n                tabulator :\n                {\n                    layout:\"fitColumns\",\n                    reactiveData:true,\n                    columns : col \n                }\n            }\n        }\n    return table;\n}",
+        "func": "var local_PEF1 = RED.util.cloneMessage(global.get('PEF1'));\nvar local_PEF2 = RED.util.cloneMessage(global.get('PEF2'));\nvar local_PEF3 = RED.util.cloneMessage(global.get('PEF3'));\nvar local_PEF4 = RED.util.cloneMessage(global.get('PEF4'));\nvar local_PEF5 = RED.util.cloneMessage(global.get('PEF5'));\nvar local_PEF6 = RED.util.cloneMessage(global.get('PEF6'));\nvar local_PEF7 = RED.util.cloneMessage(global.get('PEF7'));\nvar local_PEF8 = RED.util.cloneMessage(global.get('PEF8'));\n\nvar HexForm = \"function(cell, formatterParams, onRendered){return \\\"0x\\\" + cell.getValue().toString(16).toUpperCase();}\"\nvar HexConv = \"function(cell, formatterParams, onRendered){ if(typeof(cell.getValue()) !== \\\"undefined\\\" && cell.getValue() !== null ){return cell.getValue().toString(16).toUpperCase();;} else{return \\\"\\\";} }\"\nvar BinForm = \"function(cell, formatterParams, onRendered){return(cell.getValue() >>> 0).toString(2);}\"\n\nvar tabledata =[\n    {\"id\":1, ...local_PEF1},\n    {\"id\":2, ...local_PEF2},\n    {\"id\":3, ...local_PEF3},\n    {\"id\":4, ...local_PEF4},\n    {\"id\":5, ...local_PEF5},\n    {\"id\":6, ...local_PEF6},\n    {\"id\":7, ...local_PEF7},\n    {\"id\":8, ...local_PEF8}\n        \n    ];\n\nvar col =   [\n                {title:\"Index\", field:\"id\", align:\"center\", width:80, minWidth:80},\n                {title:\"Name\", field:\"NAME\", align:\"center\", width:80, minWidth:80},\n                {title:\"Enable\", field:\"ENABLE\", align:\"center\", formatter:\"tickCross\", width:80, minWidth:80},\n                {title:\"Command\", field:\"CMD\", formatter:\"tickCross\", align:\"center\", width:110, minWidth:110},\n                {title:\"I_Avg\", field:\"I_AVG\", align:\"center\", width:80, minWidth:80},\n                {title:\"I_Peak\", field:\"I_PEAK\", align:\"center\"},\n                {title:\"I_Raw_ADC\", field:\"I_RAW_ADC\", align:\"center\"},\n                {title:\"Temp\", field:\"TEMP\", align:\"center\", width:80, minWidth:80},\n                {title:\"Vout\", field:\"OUT_VOLTAGE\", align:\"center\"},\n                {title:\"Driver TJ\", field:\"DRIVER_TJ\", align:\"center\"},\n                {title:\"Driver NTC\", field:\"DRIVER_NTC\", align:\"center\"},\n                {title:\"GLB\", field:\"GLB\", align:\"center\", formatter: HexForm},\n                {title:\"SR1\", field:\"SR1\", align:\"center\", formatter: HexForm, width:150, minWidth:150},\n                {title:\"VDS\", field:\"VDS\", align:\"center\"},\n                {title:\"HSHT SAR\", field:\"HSHT_SAR\", align:\"center\"}\n            ]\n\nif(msg.topic === \"Refresh\" & msg.payload === true)\n{\n    var tableR = \n        { \n            payload : tabledata,\n            \n            ui_control : \n            {\n                tabulator :\n                {\n                    layout:\"fitColumns\",\n                    reactiveData:true,\n                    columns : col\n                }\n            }\n        }\n        \n    return tableR;\n}\n\nelse if(msg.topic === \"replaceData\" & msg.payload === true)\n{\n    var table =\n        {\n            payload :\n            {\n                command :\"updateOrAddData\",\n                arguments :\n                [\n                    tabledata\n                ],\n                returnPromise : true\n            },\n            \n            ui_control :\n            {\n                tabulator :\n                {\n                    layout:\"fitColumns\",\n                    reactiveData:true,\n                    columns : col \n                }\n            }\n        }\n    return table;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
-        "y": 620,
+        "x": 560,
+        "y": 640,
         "wires": [
             [
                 "f12a1448.b8caa8"
@@ -13060,25 +12972,26 @@
         "type": "ui_button",
         "z": "a3fb71ac.ab1f5",
         "name": "",
-        "group": "1e6fe5cf.886dfa",
+        "group": "8be25437.22e6e8",
         "order": 1,
-        "width": "4",
-        "height": "1",
+        "width": 4,
+        "height": 1,
         "passthru": false,
         "label": "Refresh",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
-        "icon": "",
+        "icon": "mi-refresh",
         "payload": "true",
         "payloadType": "bool",
         "topic": "Refresh",
         "topicType": "str",
-        "x": 380,
-        "y": 620,
+        "x": 100,
+        "y": 640,
         "wires": [
             [
-                "cab9e224.9d03b"
+                "cab9e224.9d03b",
+                "12067e14.53b9d2"
             ]
         ]
     },
@@ -13098,11 +13011,11 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "replaceData",
-        "x": 180,
-        "y": 680,
+        "x": 120,
+        "y": 580,
         "wires": [
             [
-                "a72ab39.3f2a35"
+                "ac89e3ba.3a5e"
             ]
         ]
     },
@@ -13483,7 +13396,7 @@
         "tooltip": "",
         "color": "",
         "bgcolor": "",
-        "icon": "",
+        "icon": "mi-nightlight_round",
         "payload": "{\"canfd\":true,\"ext\":false,\"canid\":1028,\"dlc\":8,\"data\":[1,0,0,0,0,0,0,0]}",
         "payloadType": "json",
         "topic": "Sleep",
@@ -13809,7 +13722,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 890,
+        "x": 870,
         "y": 180,
         "wires": []
     },
@@ -13825,7 +13738,7 @@
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 890,
+        "x": 870,
         "y": 60,
         "wires": []
     },
@@ -13839,7 +13752,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 570,
+        "x": 550,
         "y": 60,
         "wires": [
             [
@@ -13861,12 +13774,12 @@
         "tooltip": "",
         "color": "",
         "bgcolor": "",
-        "icon": "",
+        "icon": "mi-clear",
         "payload": "",
         "payloadType": "str",
         "topic": "",
         "topicType": "str",
-        "x": 370,
+        "x": 350,
         "y": 60,
         "wires": [
             [
@@ -13880,7 +13793,7 @@
         "z": "156e72c0.3e9c8d",
         "name": "",
         "group": "e87b1611.782c98",
-        "order": 6,
+        "order": 4,
         "width": 4,
         "height": 1,
         "passthru": false,
@@ -13888,12 +13801,12 @@
         "tooltip": "",
         "color": "",
         "bgcolor": "",
-        "icon": "",
+        "icon": "mi-refresh",
         "payload": "true",
         "payloadType": "bool",
         "topic": "Init",
         "topicType": "str",
-        "x": 370,
+        "x": 350,
         "y": 120,
         "wires": [
             [
@@ -13922,8 +13835,8 @@
         "topic": "",
         "payload": "{\"canfd\":true,\"ext\":false,\"canid\":12,\"dlc\":64,\"data\":[255,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,63]}",
         "payloadType": "json",
-        "x": 190,
-        "y": 680,
+        "x": 1310,
+        "y": 440,
         "wires": [
             [
                 "3110e7f3.a6aea8",
@@ -13993,8 +13906,8 @@
         "topic": "",
         "topicType": "str",
         "splitLayout": false,
-        "x": 110,
-        "y": 740,
+        "x": 1230,
+        "y": 500,
         "wires": [
             [
                 "63a55a25.e2fea4"
@@ -14011,8 +13924,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 270,
-        "y": 740,
+        "x": 1390,
+        "y": 500,
         "wires": [
             [
                 "3110e7f3.a6aea8",
@@ -14033,8 +13946,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 530,
-        "y": 680,
+        "x": 1650,
+        "y": 440,
         "wires": []
     },
     {
@@ -14056,50 +13969,17 @@
         "id": "f12a1448.b8caa8",
         "type": "ui_table",
         "z": "a3fb71ac.ab1f5",
-        "group": "1e6fe5cf.886dfa",
+        "group": "8be25437.22e6e8",
         "name": "",
-        "order": 4,
-        "width": "32",
-        "height": "6",
+        "order": 5,
+        "width": 30,
+        "height": 5,
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 930,
-        "y": 620,
+        "x": 830,
+        "y": 640,
         "wires": []
-    },
-    {
-        "id": "a72ab39.3f2a35",
-        "type": "ui_switch",
-        "z": "a3fb71ac.ab1f5",
-        "name": "",
-        "label": "Auto refresh",
-        "tooltip": "",
-        "group": "1e6fe5cf.886dfa",
-        "order": 2,
-        "width": "4",
-        "height": "1",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "x": 390,
-        "y": 680,
-        "wires": [
-            [
-                "cab9e224.9d03b"
-            ]
-        ]
     },
     {
         "id": "a34c38ca.24fa38",
@@ -14117,44 +13997,11 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "replaceData",
-        "x": 160,
+        "x": 140,
         "y": 180,
         "wires": [
             [
-                "1f1152b1.97202d"
-            ]
-        ]
-    },
-    {
-        "id": "1f1152b1.97202d",
-        "type": "ui_switch",
-        "z": "156e72c0.3e9c8d",
-        "name": "",
-        "label": "Auto refresh",
-        "tooltip": "",
-        "group": "e87b1611.782c98",
-        "order": 4,
-        "width": 5,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "x": 350,
-        "y": 180,
-        "wires": [
-            [
-                "abe98ee7.a2b27"
+                "c8d0fa3e.7fd6d8"
             ]
         ]
     },
@@ -14170,7 +14017,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
+        "x": 560,
         "y": 120,
         "wires": [
             [
@@ -14183,13 +14030,13 @@
         "type": "function",
         "z": "156e72c0.3e9c8d",
         "name": "",
-        "func": "var temp = RED.util.cloneMessage(global.get(\"CAN0_LOGGER\") || []);\n\nvar test = {};\n\ntemp.forEach(function(element, index, array){\n    temp[index].data.forEach(function(item, pos, arr){\n        test = {...test, [pos]:item};\n    });\n    temp[index] = {...temp[index], ...test};\n    delete temp[index].data\n});\n\n\n// node.warn(test);\n\nvar HexForm = \"function(cell, formatterParams, onRendered){return \\\"0x\\\" + cell.getValue().toString(16).toUpperCase();}\"\nvar HexConv = \"function(cell, formatterParams, onRendered){ if(typeof(cell.getValue()) !== \\\"undefined\\\" && cell.getValue() !== null ){return cell.getValue().toString(16).toUpperCase();;} else{return \\\"\\\";} }\"\n\nvar col =   [\n                {formatter:\"responsiveCollapse\", width:70, minWidth:70, hozAlign:\"center\",align:\"center\", resizable:false, headerSort:false},\n                {title:\"Id\", field:\"id\", align:\"center\"},\n                {title:\"Timestamp\", field:\"timestamp\"},\n                {title:\"Ext\", field:\"ext\", align:\"center\",formatter:\"tickCross\"},\n                {title:\"CanID\", field:\"canid\", align:\"center\", sorter:\"string\", formatter:HexForm},\n                {title:\"Dlc\", field:\"dlc\", align:\"center\"}\n            ]\n\nfor(i = 0; i < 64; i++)\n{\n    col.push({title:\"[\"+ i +\"]\", field: i.toString(), formatter:HexConv})\n}\n\nvar tabledata = temp;\n\nif(msg.payload === true & msg.topic === \"Init\")\n{\n    var tableR = \n        { \n            payload : tabledata,\n            \n            ui_control : \n            {\n                tabulator :\n                {\n                    layout:\"fitDataTable\",\n                    responsiveLayout:\"collapse\",\n                    responsiveLayoutCollapseStartOpen:false,\n                    reactiveData:true,\n                    columns : col\n                }\n            }\n        }\n    \n    return tableR;   \n}\n\nif(msg.payload === true & msg.topic === \"replaceData\")\n{\n    var table = \n        { \n            payload :\n            {\n                command :\"updateOrAddData\",\n                arguments :\n                [\n                    tabledata,\n                    false\n                ],   \n                returnPromise : true\n            },\n          \n            ui_control : \n            {\n                tabulator :\n                {\n                    layout:\"fitDataTable\",\n                    responsiveLayout:\"collapse\",\n                    responsiveLayoutCollapseStartOpen:false,\n                    reactiveData:true,\n                    columns : col\n                }\n            }\n        }\n    return table;\n}",
+        "func": "var temp = RED.util.cloneMessage(global.get(\"CAN0_LOGGER\") || []);\n\nvar test = {};  // Create a temporray object\n\ntemp.forEach(function(element, index, array){\n    temp[index].data.forEach(function(item, pos, arr){ // Loop through CAN0_Logger and through each frame data array\n        test = {...test, [pos]:item};\n    });\n    temp[index] = {...temp[index], ...test};\n    delete temp[index].data\n    for (var member in test) delete test[member];   // empty the temporary object\n});\n\n\n// node.warn(test);\n\nvar HexForm = \"function(cell, formatterParams, onRendered){return \\\"0x\\\" + cell.getValue().toString(16).toUpperCase();}\"\nvar HexConv = \"function(cell, formatterParams, onRendered){if(typeof(cell.getValue()) !== \\\"undefined\\\" && cell.getValue() !== null){var data = cell.getValue().toString(16).toUpperCase();if(cell.getValue()>= 0 && cell.getValue() <= 15)return '0'+data; else return data;} else {return \\\"\\\";}}\"\n\nvar col =   [\n                {formatter:\"responsiveCollapse\", width:30, minWidth:30, hozAlign:\"center\",align:\"center\", resizable:false, headerSort:false},\n                {title:\"Id\", field:\"id\", align:\"center\"},\n                {title:\"Timestamp\", field:\"timestamp\", width:150, align:\"center\"},\n                {title:\"Ext\", field:\"ext\", align:\"center\",formatter:\"tickCross\"},\n                {title:\"CanID\", field:\"canid\", align:\"center\", sorter:\"string\", formatter:HexForm, width:100},\n                {title:\"Dlc\", field:\"dlc\", align:\"center\", width:75, minWidth:75}\n            ]\n\nfor(i = 0; i < 64; i++)\n{\n    col.push({title:\"[\"+ i +\"]\", field: i.toString(), formatter:HexConv, align:\"center\"})\n}\n\nvar tabledata = temp;\n\nif(msg.payload === true & msg.topic === \"Init\")\n{\n    var tableR = \n        { \n            payload : tabledata,\n            \n            ui_control : \n            {\n                tabulator :\n                {\n                    layout:\"fitDataTable\",\n                    responsiveLayout:\"collapse\",\n                    responsiveLayoutCollapseStartOpen:false,\n                    reactiveData:true,\n                    columns : col\n                }\n            }\n        }\n    \n    return tableR;   \n}\n\nif(msg.payload === true & msg.topic === \"replaceData\")\n{\n    var table = \n        { \n            payload :\n            {\n                command :\"updateOrAddData\",\n                arguments :\n                [\n                    tabledata,\n                    false\n                ],   \n                returnPromise : true\n            },\n          \n            ui_control : \n            {\n                tabulator :\n                {\n                    layout:\"fitDataTable\",\n                    responsiveLayout:\"collapse\",\n                    responsiveLayoutCollapseStartOpen:false,\n                    reactiveData:true,\n                    columns : col\n                }\n            }\n        }\n    return table;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
+        "x": 560,
         "y": 180,
         "wires": [
             [
@@ -14208,6 +14055,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 410,
         "y": 560,
         "wires": []
@@ -14223,8 +14071,8 @@
         "timer": "",
         "oldrc": false,
         "name": "",
-        "x": 650,
-        "y": 280,
+        "x": 590,
+        "y": 340,
         "wires": [
             [],
             [],
@@ -14250,8 +14098,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 130,
-        "y": 320,
+        "x": 110,
+        "y": 380,
         "wires": [
             [
                 "cee713ed.af27"
@@ -14272,8 +14120,8 @@
         "raw": false,
         "topic": "Confirm Erase all",
         "name": "Erase",
-        "x": 290,
-        "y": 320,
+        "x": 270,
+        "y": 380,
         "wires": [
             [
                 "4a7dd6ab.f39728"
@@ -14289,12 +14137,12 @@
         "order": 14,
         "width": 0,
         "height": 0,
-        "format": "<style>\n.md-button{\n    border-radius: 10px\n}\n\n.nr-dashboard-theme ui-card-panel {\n    border-radius: 10px;\n}\n\n\n</style>",
+        "format": "<style>\n/*Change button corner radius (rounded corners)*/\n.md-button{             \n    border-radius: 10px\n}\n\n/*Change card tiles radius (rounded corners)*/\n.nr-dashboard-theme ui-card-panel {\n    border-radius: 10px;\n}\n\n/*Change style atributes of tile titles (rounded corners)*/\n.nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle{\n    font-size:20px;\n    font-weight:bold;\n}\n\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "global",
-        "x": 1760,
+        "x": 220,
         "y": 40,
         "wires": [
             []
@@ -14311,8 +14159,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
-        "y": 320,
+        "x": 440,
+        "y": 380,
         "wires": [
             [
                 "913736b2.79cb58"
@@ -14336,8 +14184,8 @@
         "raw": false,
         "topic": "",
         "name": "",
-        "x": 670,
-        "y": 360,
+        "x": 630,
+        "y": 420,
         "wires": []
     },
     {
@@ -14360,7 +14208,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 140,
-        "y": 640,
+        "y": 500,
         "wires": [
             [
                 "a0982bb.ed448d8"
@@ -14382,8 +14230,8 @@
         "raw": false,
         "topic": "Latest release",
         "name": "",
-        "x": 770,
-        "y": 460,
+        "x": 610,
+        "y": 840,
         "wires": [
             [
                 "67a82701.f17ca8"
@@ -14402,8 +14250,8 @@
         "timer": "",
         "oldrc": false,
         "name": "",
-        "x": 340,
-        "y": 480,
+        "x": 180,
+        "y": 860,
         "wires": [
             [
                 "599e58b2.019af8"
@@ -14435,8 +14283,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 930,
-        "y": 460,
+        "x": 770,
+        "y": 840,
         "wires": [
             [
                 "414baace.1ff574"
@@ -14456,8 +14304,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 460,
+        "x": 420,
+        "y": 840,
         "wires": [
             [
                 "a2978fc1.c4f63"
@@ -14476,8 +14324,8 @@
         "timer": "10",
         "oldrc": false,
         "name": "",
-        "x": 1150,
-        "y": 420,
+        "x": 990,
+        "y": 800,
         "wires": [
             [],
             [],
@@ -14496,7 +14344,7 @@
         "oldrc": false,
         "name": "",
         "x": 730,
-        "y": 620,
+        "y": 480,
         "wires": [
             [],
             [],
@@ -14518,7 +14366,7 @@
         "topic": "Do you want to restore to version before update ?",
         "name": "",
         "x": 370,
-        "y": 640,
+        "y": 500,
         "wires": [
             [
                 "ed1fad17.2ba04"
@@ -14548,7 +14396,7 @@
         "repair": false,
         "outputs": 2,
         "x": 550,
-        "y": 640,
+        "y": 500,
         "wires": [
             [
                 "fb449a6b.f32c68"
@@ -14568,8 +14416,8 @@
         "label": "Dashboard version :",
         "format": "{{msg.payload.VERSION}}",
         "layout": "row-center",
-        "x": 620,
-        "y": 760,
+        "x": 560,
+        "y": 560,
         "wires": []
     },
     {
@@ -14586,15 +14434,15 @@
                 "vt": "str"
             }
         ],
-        "repeat": "",
+        "repeat": "10",
         "crontab": "",
         "once": true,
         "onceDelay": "3",
         "topic": "",
         "payload": "SW_VERSION",
         "payloadType": "global",
-        "x": 200,
-        "y": 760,
+        "x": 140,
+        "y": 560,
         "wires": [
             [
                 "d7586779.adc5c8"
@@ -14899,6 +14747,9 @@
         "func": "msg.filename = msg.req.query.filename;\nmsg.contentdisposition = \"attachment; filename=\\\"\" + msg.req.query.filename.replace(/^.*(\\\\|\\/|\\:)/, '') + \"\\\"\";\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
         "x": 470,
         "y": 600,
         "wires": [
@@ -14907,8 +14758,7 @@
             ]
         ],
         "outputLabels": [
-            "Folder selected",
-            "File selected"
+            "Folder selected"
         ]
     },
     {
@@ -15357,6 +15207,7 @@
         "width": "5",
         "height": "1",
         "passthru": false,
+        "multiple": false,
         "options": [
             {
                 "label": "",
@@ -15366,6 +15217,7 @@
         ],
         "payload": "",
         "topic": "",
+        "topicType": "str",
         "x": 1000,
         "y": 340,
         "wires": [
@@ -15457,6 +15309,7 @@
         "passthru": false,
         "decouple": "false",
         "topic": "hidden",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -15466,6 +15319,7 @@
         "offvalueType": "bool",
         "officon": "check_box_outline_blank",
         "offcolor": "#000000",
+        "animate": true,
         "x": 180,
         "y": 360,
         "wires": [
@@ -15943,7 +15797,7 @@
         "type": "function",
         "z": "eb8df6c6.74f658",
         "name": "Initialisation Variable",
-        "func": "// Declaration of the generic structure\n//\nvar SW_VERSION = {\n        \"NAME\":\"SW_VERSION\",\n        \"VERSION\":\"1.1.1\"\n};\nvar SERIAL_NUMBER = {\n    \"NAME\":\"SERIAL_NUMBER\",\n    \"SERIAL_NUMBER\":\"0\"\n};\n\nvar OUT_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"I_RAW_ADC\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,\n    \"CONF_I_ABSOLUTE_LIMIT\":0,\n    \"CONF_I_ABSOLUTE_CONTINUOUS_LIMIT\":0,\n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24.1,\n    \"CONF_OVERTEMP\":true,\n    \"CONF_CAL_CURRENT_COEF_A\":1.1,\n    \"CONF_CAL_CURRENT_COEF_B\":0.1,\n    \"CONF_CAL_TEMP_COEF_A\":1.1,\n    \"CONF_CAL_TEMP_COEF_B\":0.1,\n    \"LOGGING\":false\n};\nvar PEF_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"I_RAW_ADC\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,\n    \"DRIVER_TJ\":0,\n    \"DRIVER_NTC\":0,\n    \"GLB\":0,\n    \"SR1\":0,\n    \"VDS\":0,\n    \"HSHT_SAR\":0,\n    \"CONF_I_ABSOLUTE_LIMIT\":0,\n    \"CONF_I_ABSOLUTE_CONTINUOUS_LIMIT\":0,\n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"CONF_CAL_CURRENT_COEF_A\":1,\n    \"CONF_CAL_CURRENT_COEF_B\":0,\n    \"CONF_CAL_TEMP_COEF_A\":1,\n    \"CONF_CAL_TEMP_COEF_B\":0,\n    \"REG_COMMAND\":0,\n    \"REG_INPUT1\":0,\n    \"REG_INPUT2\":0,\n    \"REG_INPUT3\":0,\n    \"REG_STATUS\":0,\n    \"REG_DATA1\":0,\n    \"REG_DATA2\":0,\n    \"REG_DATA3\":0,\n    \"LOGGING\":false\n};\nvar HB_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,    \n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"LOGGING\":false\n};\nvar IO_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"ANA\":0,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,    \n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"LOGGING\":false\n};\nvar ANA_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"VOLTAGE\":0,\n    \"CONF_CAL_COEF_A\":1,\n    \"CONF_CAL_COEF_B\":0,\n    \"TEMP\":0\n};\nvar CAN_TEMPLATE={\n    \"ENABLE\":true,\n    \"SPEED\":500,\n    \"LOAD\":0\n}\nvar PRODUCT_INFO_TEMPLATE={\n    \"NAME\":\"PRODUCT_INFO\",\n    \"SERIAL_NUMBER\":0,\n    \"ALIVE_COUNTER\":0,\n    \"STATE_MODE\":0,\n    \"SW_VERS_DAY\":0,\n    \"SW_VERS_MONTH\":0,\n    \"SW_VERS_YEAR\":0,\n    \"SW_VERS_MAJOR\":0,\n    \"SW_VERS_MINOR\":0,\n    \"SW_VERS_PATCH\":0\n}\nglobal.set('SW_VERSION', SW_VERSION);\nglobal.set('SERIAL_NUMBER', SERIAL_NUMBER);\nglobal.set('PRODUCT_INFO', PRODUCT_INFO_TEMPLATE);\n\nvar CAN1 = {\"NAME\":\"CAN1\", ...CAN_TEMPLATE};\nvar CAN2 = {\"NAME\":\"CAN2\", ...CAN_TEMPLATE};\nvar CAN3 = {\"NAME\":\"CAN3\", ...CAN_TEMPLATE};\n\nglobal.set('CAN1',CAN1);\nglobal.set('CAN2',CAN2);\nglobal.set('CAN3',CAN3);\n\nglobal.set('ANA_IN01',ANA_TEMPLATE);\nglobal.set('ANA_IN02',ANA_TEMPLATE);\nglobal.set('ANA_IN03',ANA_TEMPLATE);\nglobal.set('ANA_IN04',ANA_TEMPLATE);\nglobal.set('ANA_IN05',ANA_TEMPLATE);\nglobal.set('ANA_IN06',ANA_TEMPLATE);\nglobal.set('ANA_IN07',ANA_TEMPLATE);\nglobal.set('ANA_IN08',ANA_TEMPLATE);\nglobal.set('ANA_IN09',ANA_TEMPLATE);\nglobal.set('ANA_IN10',ANA_TEMPLATE);\nglobal.set('ANA_IN11',ANA_TEMPLATE);\nglobal.set('ANA_ACC_SNSR1',ANA_TEMPLATE);\nglobal.set('ANA_ACC_SNSR2',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30A',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30B',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30_PROTECT',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30A_PWR',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30B_PWR',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_5V_SW',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3_SW',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3_BRIDGE',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_12V',ANA_TEMPLATE);\nglobal.set('INTERNAL_ADC1',ANA_TEMPLATE);\nglobal.set('INTERNAL_ADC2',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP1',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP2',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP3',ANA_TEMPLATE);\n\nglobal.set('IO1',IO_TEMPLATE);\nglobal.set('IO2',IO_TEMPLATE);\nglobal.set('IO3',IO_TEMPLATE);\nglobal.set('IO4',IO_TEMPLATE);\nglobal.set('IO5',IO_TEMPLATE);\nglobal.set('IO6',IO_TEMPLATE);\nglobal.set('IO7',IO_TEMPLATE);\nglobal.set('IO8',IO_TEMPLATE);\nglobal.set('IO9',IO_TEMPLATE);\nglobal.set('IO10',IO_TEMPLATE);\nglobal.set('IO11',IO_TEMPLATE);\nglobal.set('IO12',IO_TEMPLATE);\nglobal.set('OUT1',OUT_TEMPLATE);\nglobal.set('OUT2',OUT_TEMPLATE);\nglobal.set('OUT3',OUT_TEMPLATE);\nglobal.set('OUT4',OUT_TEMPLATE);\nglobal.set('OUT5',OUT_TEMPLATE);\nglobal.set('OUT6',OUT_TEMPLATE);\nglobal.set('OUT7',OUT_TEMPLATE);\nglobal.set('OUT8',OUT_TEMPLATE);\nglobal.set('OUT9',OUT_TEMPLATE);\nglobal.set('OUT10',OUT_TEMPLATE);\nglobal.set('OUT11',OUT_TEMPLATE);\nglobal.set('OUT12',OUT_TEMPLATE);\nglobal.set('OUT13',OUT_TEMPLATE);\nglobal.set('OUT14',OUT_TEMPLATE);\nglobal.set('OUT15',OUT_TEMPLATE);\nglobal.set('OUT16',OUT_TEMPLATE);\nglobal.set('OUT17',OUT_TEMPLATE);\nglobal.set('OUT18',OUT_TEMPLATE);\nglobal.set('OUT19',OUT_TEMPLATE);\nglobal.set('OUT20',OUT_TEMPLATE);\nglobal.set('OUT21',OUT_TEMPLATE);\nglobal.set('OUT22',OUT_TEMPLATE);\nglobal.set('OUT23',OUT_TEMPLATE);\nglobal.set('OUT24',OUT_TEMPLATE);\nglobal.set('OUT25',OUT_TEMPLATE);\nglobal.set('OUT26',OUT_TEMPLATE);\nglobal.set('OUT27',OUT_TEMPLATE);\nglobal.set('OUT28',OUT_TEMPLATE);\nglobal.set('OUT29',OUT_TEMPLATE);\nglobal.set('OUT30',OUT_TEMPLATE);\nglobal.set('OUT31',OUT_TEMPLATE);\nglobal.set('OUT32',OUT_TEMPLATE);\nglobal.set('OUT33',OUT_TEMPLATE);\nglobal.set('OUT34',OUT_TEMPLATE);\nglobal.set('OUT35',OUT_TEMPLATE);\nglobal.set('OUT36',OUT_TEMPLATE);\nglobal.set('OUT37',OUT_TEMPLATE);\nglobal.set('OUT38',OUT_TEMPLATE);\nglobal.set('OUT39',OUT_TEMPLATE);\nglobal.set('OUT40',OUT_TEMPLATE);\nglobal.set('OUT41',OUT_TEMPLATE);\nglobal.set('OUT42',OUT_TEMPLATE);\nglobal.set('OUT43',OUT_TEMPLATE);\nglobal.set('OUT44',OUT_TEMPLATE);\nglobal.set('OUT45',OUT_TEMPLATE);\nglobal.set('OUT46',OUT_TEMPLATE);\nglobal.set('OUT47',OUT_TEMPLATE);\nglobal.set('OUT48',OUT_TEMPLATE);\n\nglobal.set('PEF1',PEF_TEMPLATE);\nglobal.set('PEF2',PEF_TEMPLATE);\nglobal.set('PEF3',PEF_TEMPLATE);\nglobal.set('PEF4',PEF_TEMPLATE);\nglobal.set('PEF5',PEF_TEMPLATE);\nglobal.set('PEF6',PEF_TEMPLATE);\nglobal.set('PEF7',PEF_TEMPLATE);\nglobal.set('PEF8',PEF_TEMPLATE);\nglobal.set('HB1',HB_TEMPLATE);\nglobal.set('HB2',HB_TEMPLATE);\nglobal.set('HB3',HB_TEMPLATE);\nglobal.set('HB4',HB_TEMPLATE);\nglobal.set('HB5',HB_TEMPLATE);\nglobal.set('HB6',HB_TEMPLATE);\nglobal.set('HB7',HB_TEMPLATE);\nglobal.set('HB8',HB_TEMPLATE);\n\nglobal.set('CAN0_LOGGER',[]);\nglobal.set('MQTT_ENABLE', false);\n\nglobal.set('NODE_TLS_REJECT_UNAUTHORIZED',0);\n\nreturn msg;",
+        "func": "// Declaration of the generic structure\n//\nvar SW_VERSION = {\n        \"NAME\":\"SW_VERSION\",\n        \"VERSION\":\"1.1.2\"\n};\nvar SERIAL_NUMBER = {\n    \"NAME\":\"SERIAL_NUMBER\",\n    \"SERIAL_NUMBER\":\"0\"\n};\n\nvar OUT_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"I_RAW_ADC\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,\n    \"CONF_I_ABSOLUTE_LIMIT\":0,\n    \"CONF_I_ABSOLUTE_CONTINUOUS_LIMIT\":0,\n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24.1,\n    \"CONF_OVERTEMP\":true,\n    \"CONF_CAL_CURRENT_COEF_A\":1.1,\n    \"CONF_CAL_CURRENT_COEF_B\":0.1,\n    \"CONF_CAL_TEMP_COEF_A\":1.1,\n    \"CONF_CAL_TEMP_COEF_B\":0.1,\n    \"LOGGING\":false\n};\nvar PEF_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"I_RAW_ADC\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,\n    \"DRIVER_TJ\":0,\n    \"DRIVER_NTC\":0,\n    \"GLB\":0,\n    \"SR1\":0,\n    \"VDS\":0,\n    \"HSHT_SAR\":0,\n    \"CONF_I_ABSOLUTE_LIMIT\":0,\n    \"CONF_I_ABSOLUTE_CONTINUOUS_LIMIT\":0,\n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"CONF_CAL_CURRENT_COEF_A\":1,\n    \"CONF_CAL_CURRENT_COEF_B\":0,\n    \"CONF_CAL_TEMP_COEF_A\":1,\n    \"CONF_CAL_TEMP_COEF_B\":0,\n    \"REG_COMMAND\":0,\n    \"REG_INPUT1\":0,\n    \"REG_INPUT2\":0,\n    \"REG_INPUT3\":0,\n    \"REG_STATUS\":0,\n    \"REG_DATA1\":0,\n    \"REG_DATA2\":0,\n    \"REG_DATA3\":0,\n    \"LOGGING\":false\n};\nvar HB_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,    \n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"LOGGING\":false\n};\nvar IO_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"ANA\":0,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,    \n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"LOGGING\":false\n};\nvar ANA_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"VOLTAGE\":0,\n    \"CONF_CAL_COEF_A\":1,\n    \"CONF_CAL_COEF_B\":0,\n    \"TEMP\":0\n};\nvar CAN_TEMPLATE={\n    \"ENABLE\":true,\n    \"SPEED\":500,\n    \"LOAD\":0\n}\nvar PRODUCT_INFO_TEMPLATE={\n    \"NAME\":\"PRODUCT_INFO\",\n    \"SERIAL_NUMBER\":0,\n    \"ALIVE_COUNTER\":0,\n    \"STATE_MODE\":0,\n    \"SW_VERS_DAY\":0,\n    \"SW_VERS_MONTH\":0,\n    \"SW_VERS_YEAR\":0,\n    \"SW_VERS_MAJOR\":0,\n    \"SW_VERS_MINOR\":0,\n    \"SW_VERS_PATCH\":0\n}\nglobal.set('SW_VERSION', SW_VERSION);\nglobal.set('SERIAL_NUMBER', SERIAL_NUMBER);\nglobal.set('PRODUCT_INFO', PRODUCT_INFO_TEMPLATE);\n\nvar CAN1 = {\"NAME\":\"CAN1\", ...CAN_TEMPLATE};\nvar CAN2 = {\"NAME\":\"CAN2\", ...CAN_TEMPLATE};\nvar CAN3 = {\"NAME\":\"CAN3\", ...CAN_TEMPLATE};\n\nglobal.set('CAN1',CAN1);\nglobal.set('CAN2',CAN2);\nglobal.set('CAN3',CAN3);\n\nglobal.set('ANA_IN01',ANA_TEMPLATE);\nglobal.set('ANA_IN02',ANA_TEMPLATE);\nglobal.set('ANA_IN03',ANA_TEMPLATE);\nglobal.set('ANA_IN04',ANA_TEMPLATE);\nglobal.set('ANA_IN05',ANA_TEMPLATE);\nglobal.set('ANA_IN06',ANA_TEMPLATE);\nglobal.set('ANA_IN07',ANA_TEMPLATE);\nglobal.set('ANA_IN08',ANA_TEMPLATE);\nglobal.set('ANA_IN09',ANA_TEMPLATE);\nglobal.set('ANA_IN10',ANA_TEMPLATE);\nglobal.set('ANA_IN11',ANA_TEMPLATE);\nglobal.set('ANA_ACC_SNSR1',ANA_TEMPLATE);\nglobal.set('ANA_ACC_SNSR2',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30A',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30B',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30_PROTECT',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30A_PWR',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30B_PWR',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_5V_SW',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3_SW',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3_BRIDGE',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_12V',ANA_TEMPLATE);\nglobal.set('INTERNAL_ADC1',ANA_TEMPLATE);\nglobal.set('INTERNAL_ADC2',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP1',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP2',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP3',ANA_TEMPLATE);\n\nglobal.set('IO1',IO_TEMPLATE);\nglobal.set('IO2',IO_TEMPLATE);\nglobal.set('IO3',IO_TEMPLATE);\nglobal.set('IO4',IO_TEMPLATE);\nglobal.set('IO5',IO_TEMPLATE);\nglobal.set('IO6',IO_TEMPLATE);\nglobal.set('IO7',IO_TEMPLATE);\nglobal.set('IO8',IO_TEMPLATE);\nglobal.set('IO9',IO_TEMPLATE);\nglobal.set('IO10',IO_TEMPLATE);\nglobal.set('IO11',IO_TEMPLATE);\nglobal.set('IO12',IO_TEMPLATE);\nglobal.set('OUT1',OUT_TEMPLATE);\nglobal.set('OUT2',OUT_TEMPLATE);\nglobal.set('OUT3',OUT_TEMPLATE);\nglobal.set('OUT4',OUT_TEMPLATE);\nglobal.set('OUT5',OUT_TEMPLATE);\nglobal.set('OUT6',OUT_TEMPLATE);\nglobal.set('OUT7',OUT_TEMPLATE);\nglobal.set('OUT8',OUT_TEMPLATE);\nglobal.set('OUT9',OUT_TEMPLATE);\nglobal.set('OUT10',OUT_TEMPLATE);\nglobal.set('OUT11',OUT_TEMPLATE);\nglobal.set('OUT12',OUT_TEMPLATE);\nglobal.set('OUT13',OUT_TEMPLATE);\nglobal.set('OUT14',OUT_TEMPLATE);\nglobal.set('OUT15',OUT_TEMPLATE);\nglobal.set('OUT16',OUT_TEMPLATE);\nglobal.set('OUT17',OUT_TEMPLATE);\nglobal.set('OUT18',OUT_TEMPLATE);\nglobal.set('OUT19',OUT_TEMPLATE);\nglobal.set('OUT20',OUT_TEMPLATE);\nglobal.set('OUT21',OUT_TEMPLATE);\nglobal.set('OUT22',OUT_TEMPLATE);\nglobal.set('OUT23',OUT_TEMPLATE);\nglobal.set('OUT24',OUT_TEMPLATE);\nglobal.set('OUT25',OUT_TEMPLATE);\nglobal.set('OUT26',OUT_TEMPLATE);\nglobal.set('OUT27',OUT_TEMPLATE);\nglobal.set('OUT28',OUT_TEMPLATE);\nglobal.set('OUT29',OUT_TEMPLATE);\nglobal.set('OUT30',OUT_TEMPLATE);\nglobal.set('OUT31',OUT_TEMPLATE);\nglobal.set('OUT32',OUT_TEMPLATE);\nglobal.set('OUT33',OUT_TEMPLATE);\nglobal.set('OUT34',OUT_TEMPLATE);\nglobal.set('OUT35',OUT_TEMPLATE);\nglobal.set('OUT36',OUT_TEMPLATE);\nglobal.set('OUT37',OUT_TEMPLATE);\nglobal.set('OUT38',OUT_TEMPLATE);\nglobal.set('OUT39',OUT_TEMPLATE);\nglobal.set('OUT40',OUT_TEMPLATE);\nglobal.set('OUT41',OUT_TEMPLATE);\nglobal.set('OUT42',OUT_TEMPLATE);\nglobal.set('OUT43',OUT_TEMPLATE);\nglobal.set('OUT44',OUT_TEMPLATE);\nglobal.set('OUT45',OUT_TEMPLATE);\nglobal.set('OUT46',OUT_TEMPLATE);\nglobal.set('OUT47',OUT_TEMPLATE);\nglobal.set('OUT48',OUT_TEMPLATE);\n\nglobal.set('PEF1',PEF_TEMPLATE);\nglobal.set('PEF2',PEF_TEMPLATE);\nglobal.set('PEF3',PEF_TEMPLATE);\nglobal.set('PEF4',PEF_TEMPLATE);\nglobal.set('PEF5',PEF_TEMPLATE);\nglobal.set('PEF6',PEF_TEMPLATE);\nglobal.set('PEF7',PEF_TEMPLATE);\nglobal.set('PEF8',PEF_TEMPLATE);\nglobal.set('HB1',HB_TEMPLATE);\nglobal.set('HB2',HB_TEMPLATE);\nglobal.set('HB3',HB_TEMPLATE);\nglobal.set('HB4',HB_TEMPLATE);\nglobal.set('HB5',HB_TEMPLATE);\nglobal.set('HB6',HB_TEMPLATE);\nglobal.set('HB7',HB_TEMPLATE);\nglobal.set('HB8',HB_TEMPLATE);\n\nglobal.set('CAN0_LOGGER',[]);\nglobal.set('MQTT_ENABLE', false);\n\nglobal.set('NODE_TLS_REJECT_UNAUTHORIZED',0);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -16965,7 +16819,7 @@
         "id": "33d0b864.d10c58",
         "type": "http request",
         "z": "a16b70f.e79399",
-        "name": "",
+        "name": "Fetch releases",
         "method": "GET",
         "ret": "obj",
         "paytoqs": "ignore",
@@ -16974,7 +16828,7 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 490,
+        "x": 540,
         "y": 180,
         "wires": [
             [
@@ -16986,14 +16840,14 @@
         "id": "7bce178a.c71068",
         "type": "function",
         "z": "a16b70f.e79399",
-        "name": "",
-        "func": "msg.headers = {};\nmsg.headers['User-Agent'] = 'request';\n/*\nmsg.headers['X-Auth-User'] = 'Ithoh';\nmsg.headers['X-Auth-Key'] = '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 ';\n*/\n\nreturn msg;",
+        "name": "Set request flag for github",
+        "func": "msg.headers = {};\nmsg.headers['User-Agent'] = 'request';\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
+        "x": 330,
         "y": 180,
         "wires": [
             [
@@ -17005,18 +16859,20 @@
         "id": "5854d612.d09038",
         "type": "function",
         "z": "a16b70f.e79399",
-        "name": "",
-        "func": "var updates = {};\nupdates.payload = [];\n\nmsg.payload.forEach(function(item,index){\n    updates.payload[index] = {\"Version\":item.tag_name, \"Changes\":item.body, \"Published_Date\":item.published_at, \"URL_Download\":item.zipball_url};\n    updates.payload[index].Published_Date = updates.payload[index].Published_Date.slice(0,10);\n});\n\nflow.set('Updates',updates.payload);\n\nreturn updates;",
+        "name": "Extract Version, Changes, Date and URL",
+        "func": "var updates = {};\nupdates.payload = [];\n\nmsg.payload.forEach(function(item,index){\n    updates.payload[index] = {\"Version\":item.tag_name, \"Changes\":item.body, \"Published_Date\":item.published_at, \"URL_Download\":item.zipball_url};\n    updates.payload[index].Published_Date = updates.payload[index].Published_Date.slice(0,10);\n    updates.payload[index].Changes = updates.payload[index].Changes.split('*');\n    updates.payload[index].Changes.shift();\n});\n\nflow.set('Updates',updates.payload);\n\nreturn updates;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
+        "x": 800,
         "y": 180,
         "wires": [
             [
-                "c8c7d357.4e8be"
+                "c8c7d357.4e8be",
+                "b3460387.03a5b",
+                "846568fa.f17c98"
             ]
         ]
     },
@@ -17026,12 +16882,12 @@
         "z": "a16b70f.e79399",
         "name": "",
         "group": "dc5b6f65.657e5",
-        "order": 4,
-        "width": 10,
+        "order": 2,
+        "width": 13,
         "height": 1,
         "passthru": false,
         "label": "Check for updates",
-        "tooltip": "",
+        "tooltip": "Check if any update is available, any update will be automatically displayed above, then select the desired version with the dropdown menu.",
         "color": "",
         "bgcolor": "",
         "icon": "mi-search",
@@ -17044,7 +16900,8 @@
         "wires": [
             [
                 "7bce178a.c71068",
-                "bdd5c567.f6f9b8"
+                "bdd5c567.f6f9b8",
+                "dd6baad4.00e718"
             ]
         ]
     },
@@ -17053,16 +16910,16 @@
         "type": "ui_template",
         "z": "a16b70f.e79399",
         "group": "dc5b6f65.657e5",
-        "name": "Test",
-        "order": 2,
-        "width": 20,
-        "height": 3,
-        "format": "<div layout=\"row\" layout-align=\"start center\">\n  <span flex style=\"font-weight: bold; font-size: 25px\">Version</span>\n  <span flex style=\"font-weight: bold; font-size: 25px\">Date</span>\n</div>\n<div layout=\"row\" layout-align=\"start center\" ng-repeat=\"x in msg.payload\">\n  <span flex style=\"color: lightgreen; font-weight: bold\">{{x.Version}}</span>\n  <span flex style=\"color: #f54545; font-weight: bold\">{{x.Published_Date}}</span>\n</div>",
+        "name": "Widget to display version / Publish date",
+        "order": 4,
+        "width": 26,
+        "height": 4,
+        "format": "<html>\n\n<head>\n\n<style>\n\n.flex-container {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.flex-item-left {\n  flex: 50%;\n}\n\n.flex-item-right {\n  flex: 50%;\n}\n\n</style>\n\n</head>\n\n<body>\n\n\n<div class=\"flex-container\"> \n    <div class=\"flex-item-left\">\n        <h2 style=\"font-weight: bold\">Available version(s)</h2>\n        <p ng-repeat=\"x in msg.payload\"><a href={{x.URL_Download}} target=\"_blank\" span style=\"color:lightgreen\">{{x.Version}}</a></p>\n    </div>\n    \n    <div class=\"flex-item-right\">\n        <h2 style=\"font-weight: bold; text-align: right\">Publish date</h2>\n        <p ng-repeat=\"x in msg.payload\" style=\"text-align: right;\">{{x.Published_Date}}</p>\n    </div>\n</div>\n\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 830,
+        "x": 1180,
         "y": 180,
         "wires": [
             []
@@ -17075,9 +16932,9 @@
         "name": "",
         "label": "",
         "tooltip": "",
-        "place": "Select a version",
+        "place": "SELECT A VERSION",
         "group": "dc5b6f65.657e5",
-        "order": 3,
+        "order": 5,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -17092,7 +16949,7 @@
         "payload": "",
         "topic": "topic",
         "topicType": "msg",
-        "x": 620,
+        "x": 820,
         "y": 240,
         "wires": [
             [
@@ -17104,14 +16961,14 @@
         "id": "b8e24c19.458cb",
         "type": "function",
         "z": "a16b70f.e79399",
-        "name": "",
+        "name": "Send avaible update to dropdown menu",
         "func": "\nvar updates = {};\nupdates.payload = RED.util.cloneMessage(flow.get('Updates'));\nupdates.options = [];\n\nupdates.payload.forEach(function(item,index){\n    updates.options[index] = item.Version;\n});\n\nreturn updates;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
+        "x": 580,
         "y": 240,
         "wires": [
             [
@@ -17146,14 +17003,14 @@
         "id": "bd64cea8.a562d",
         "type": "function",
         "z": "a16b70f.e79399",
-        "name": "",
+        "name": "Save selected update version",
         "func": "flow.set('Update_Selected',msg.payload);",
         "outputs": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
+        "x": 1030,
         "y": 240,
         "wires": []
     },
@@ -17163,8 +17020,8 @@
         "z": "a16b70f.e79399",
         "name": "",
         "group": "dc5b6f65.657e5",
-        "order": 5,
-        "width": 10,
+        "order": 3,
+        "width": 13,
         "height": 1,
         "passthru": false,
         "label": "Confirm update",
@@ -17198,7 +17055,7 @@
         "raw": false,
         "topic": "",
         "name": "Confirm",
-        "x": 300,
+        "x": 260,
         "y": 300,
         "wires": [
             [
@@ -17223,7 +17080,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 470,
+        "x": 390,
         "y": 300,
         "wires": [
             [
@@ -17276,14 +17133,14 @@
         "id": "6149d2a8.95f2dc",
         "type": "function",
         "z": "a16b70f.e79399",
-        "name": "",
+        "name": "Arguments for the WGET command to get the selected version",
         "func": "\nvar selected = RED.util.cloneMessage(flow.get('Update_Selected'));\nvar updates = {};\nupdates.payload = RED.util.cloneMessage(flow.get('Updates'));\n\nvar index = updates.payload.findIndex(x => x.Version === selected);\n\nmsg.payload = \"-O \" + selected + ' ' + updates.payload[index].URL_Download;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 620,
+        "x": 690,
         "y": 300,
         "wires": [
             [
@@ -17316,15 +17173,15 @@
         "id": "c6c6d6f5.fe6228",
         "type": "function",
         "z": "a16b70f.e79399",
-        "name": "",
+        "name": "Unzip command arguments",
         "func": "msg.payload = \"-o \" + RED.util.cloneMessage(flow.get('Update_Selected')) + \" -d ~/Releases\";\n// Arguments for the unzip command\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
-        "y": 420,
+        "x": 180,
+        "y": 480,
         "wires": [
             [
                 "605c2982.596388"
@@ -17342,8 +17199,8 @@
         "timer": "",
         "oldrc": false,
         "name": "",
-        "x": 530,
-        "y": 420,
+        "x": 390,
+        "y": 480,
         "wires": [
             [
                 "b8bee4f6.504178"
@@ -17356,15 +17213,15 @@
         "id": "b8bee4f6.504178",
         "type": "function",
         "z": "a16b70f.e79399",
-        "name": "",
+        "name": "Bakcup current flow (in case) and copy the new version",
         "func": "msg.payload = msg.payload.split(\"inflating: \");     // Get path of .json flow\nmsg.payload[1] = msg.payload[1].replace(/\\s/g, ''); // Remove whitespaces\n\nvar backup = {};\nbackup.payload = \"./backup.sh\" // Command to execute for the backup (run a script on the rpi)\n\nvar update = {};\nupdate.payload = \"-f \" + msg.payload[1] + \" ~/.node-red\"; // Arguments for the CP command \n\nreturn [backup,update];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 380,
+        "x": 560,
+        "y": 400,
         "wires": [
             [
                 "d083691b.2c40b8"
@@ -17385,8 +17242,8 @@
         "timer": "",
         "oldrc": false,
         "name": "Backup Current flow",
-        "x": 910,
-        "y": 360,
+        "x": 900,
+        "y": 380,
         "wires": [
             [],
             [],
@@ -17408,8 +17265,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 860,
-        "y": 420,
+        "x": 610,
+        "y": 480,
         "wires": [
             [
                 "b4ce453a.f0bf48"
@@ -17426,9 +17283,9 @@
         "useSpawn": "false",
         "timer": "",
         "oldrc": false,
-        "name": "",
-        "x": 1030,
-        "y": 420,
+        "name": "Copy new version",
+        "x": 810,
+        "y": 480,
         "wires": [
             [],
             [],
@@ -17447,9 +17304,9 @@
         "useSpawn": "false",
         "timer": "",
         "oldrc": false,
-        "name": "",
-        "x": 1200,
-        "y": 420,
+        "name": "Restart node red to apply changes",
+        "x": 1080,
+        "y": 480,
         "wires": [
             [],
             [],
@@ -17463,14 +17320,14 @@
         "group": "dc5b6f65.657e5",
         "name": "Warning",
         "order": 6,
-        "width": "0",
-        "height": "0",
-        "format": "<html>\n    \n<head>\n    \n<style>\np.a {\n  font-style: italic;\n  font-weight: 600;\n  font-size: small;\n  text-align: center;\n}\n</style>\n\n</head>\n\n<body>\n\n<p class=\"a\">Please be careful when downgrading, the update manager has been introduced in version 1.1.0, so downgrading furhter down will result in you having to update back manually.</p>\n\n</body>\n\n</html>",
+        "width": 0,
+        "height": 0,
+        "format": "<html>\n    \n<head>\n    \n<style>\np.a {\n  font-style: italic;\n  font-weight: 600;\n  font-size: medium;\n  text-align: center;\n}\n</style>\n\n</head>\n\n<body>\n\n<p class=\"a\">Please be careful when downgrading, the update manager has been introduced in version 1.1.0, so downgrading furhter down will result in you having to update back manually.</p>\n\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 140,
+        "x": 120,
         "y": 540,
         "wires": [
             []
@@ -17484,11 +17341,12 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 570,
-        "y": 880,
+        "x": 450,
+        "y": 520,
         "wires": [
             [
-                "73a25a02.774564"
+                "11065700.c72539",
+                "eec31011.f72ab"
             ]
         ]
     },
@@ -17502,8 +17360,8 @@
         "chunk": false,
         "sendError": false,
         "encoding": "none",
-        "x": 400,
-        "y": 880,
+        "x": 300,
+        "y": 520,
         "wires": [
             [
                 "3c0f77b6.7ba608"
@@ -17531,8 +17389,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 230,
-        "y": 880,
+        "x": 150,
+        "y": 520,
         "wires": [
             [
                 "38cf5455.4226bc"
@@ -17552,8 +17410,873 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 780,
-        "y": 880,
+        "x": 850,
+        "y": 520,
         "wires": []
+    },
+    {
+        "id": "ac89e3ba.3a5e",
+        "type": "ui_switch",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "label": "Auto refresh",
+        "tooltip": "",
+        "group": "8be25437.22e6e8",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "mi-check_box",
+        "oncolor": "#90EE90",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "mi-check_box_outline_blank",
+        "offcolor": "#FFFFFF",
+        "animate": true,
+        "x": 290,
+        "y": 580,
+        "wires": [
+            [
+                "cab9e224.9d03b"
+            ]
+        ]
+    },
+    {
+        "id": "c8d0fa3e.7fd6d8",
+        "type": "ui_switch",
+        "z": "156e72c0.3e9c8d",
+        "name": "",
+        "label": "Auto refresh",
+        "tooltip": "",
+        "group": "e87b1611.782c98",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "mi-check_box",
+        "oncolor": "#90EE90",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "mi-check_box_outline_blank",
+        "offcolor": "#FFFFFF",
+        "animate": true,
+        "x": 330,
+        "y": 180,
+        "wires": [
+            [
+                "abe98ee7.a2b27"
+            ]
+        ]
+    },
+    {
+        "id": "b3460387.03a5b",
+        "type": "ui_template",
+        "z": "a16b70f.e79399",
+        "group": "16302ec1.6c81c1",
+        "name": "Changelog widget",
+        "order": 1,
+        "width": 26,
+        "height": 6,
+        "format": "<html>\n\n<head>\n\n<style>\nh2{\n    font-size: 30px;\n}\n\nli{\n    font-size: 20px;\n}\n\n</style>\n\n</head>\n\n<body>\n\n<div ng-repeat=\"x in msg.payload\">\n    \n<h2>{{x.Version}}</h2>\n\n<ul> <!-- List that loops though the changes to display them -->\n    <li ng-repeat=\"c in x.Changes\">{{c}}</li>\n</ul>\n\n</div>    \n\n\n</body>\n\n</html>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1110,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "11065700.c72539",
+        "type": "function",
+        "z": "156e72c0.3e9c8d",
+        "name": "",
+        "func": "var dbc = [];\n\nmsg.payload.params.forEach(function(item, index){\n    dbc.push(item);\n    node.warn(item);\n});\n\nflow.set('DBC',dbc);\n\n//return dbc;\n\n\nvar can0 = RED.util.cloneMessage(global.get(\"CAN0_LOGGER\") || []);\n/*\nvar pos;\n\ncan0.forEach(function(frame, index){\n    pos = dbc.findIndex(ID => ID === frame.canid);\n    //frame = {Name:dbc[pos].name, ...frame};\n});\n\nreturn dbc;\n*/",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 520,
+        "wires": [
+            [
+                "73a25a02.774564"
+            ]
+        ]
+    },
+    {
+        "id": "eec31011.f72ab",
+        "type": "debug",
+        "z": "156e72c0.3e9c8d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "846568fa.f17c98",
+        "type": "debug",
+        "z": "a16b70f.e79399",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "981fb4a9.dfc7e8",
+        "type": "ui_dropdown",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "label": "",
+        "tooltip": "Select the PEF you want to configure",
+        "place": "Select option",
+        "group": "8be25437.22e6e8",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "PEF1",
+                "value": "PEF1",
+                "type": "str"
+            },
+            {
+                "label": "PEF2",
+                "value": "PEF2",
+                "type": "str"
+            },
+            {
+                "label": "PEF3",
+                "value": "PEF3",
+                "type": "str"
+            },
+            {
+                "label": "PEF4",
+                "value": "PEF4",
+                "type": "str"
+            },
+            {
+                "label": "PEF5",
+                "value": "PEF5",
+                "type": "str"
+            },
+            {
+                "label": "PEF6",
+                "value": "PEF6",
+                "type": "str"
+            },
+            {
+                "label": "PEF7",
+                "value": "PEF7",
+                "type": "str"
+            },
+            {
+                "label": "PEF8",
+                "value": "PEF8",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 80,
+        "y": 940,
+        "wires": [
+            [
+                "70e86e2a.265ba"
+            ]
+        ]
+    },
+    {
+        "id": "e4a273d4.65ad6",
+        "type": "ui_ui_control",
+        "z": "a3fb71ac.ab1f5",
+        "name": "Show PEF Config",
+        "events": "all",
+        "x": 590,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1f155cbc.a47ca3",
+        "type": "ui_form",
+        "z": "a3fb71ac.ab1f5",
+        "d": true,
+        "name": "",
+        "label": "",
+        "group": "5b0d54fa.48bc0c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "NAME",
+                "value": "NAME",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_I_ABSOLUTE_LIMIT",
+                "value": "CONF_I_ABSOLUTE_LIMIT",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_I_ABSOLUTE_CONTINUOUS_LIMIT",
+                "value": "CONF_I_ABSOLUTE_CONTINUOUS_LIMIT",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_I_MAX",
+                "value": "CONF_I_MAX",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_I_AVG",
+                "value": "CONF_I_AVG",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_I_TIME",
+                "value": "CONF_I_TIME",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_SAFE_STATE",
+                "value": "CONF_SAFE_STATE",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_DIAG_OL",
+                "value": "CONF_DIAG_OL",
+                "type": "switch",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_DIAG_CC_GND",
+                "value": "CONF_DIAG_CC_GND",
+                "type": "switch",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_DIAG_CC_BAT",
+                "value": "CONF_DIAG_CC_BAT",
+                "type": "switch",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_UNDERVOLTAGE",
+                "value": "CONF_UNDERVOLTAGE",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_OVERVOLTAGE",
+                "value": "CONF_OVERVOLTAGE",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_OVERTEMP",
+                "value": "CONF_OVERTEMP",
+                "type": "switch",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_CAL_CURRENT_COEF_A",
+                "value": "CONF_CAL_CURRENT_COEF_A",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_CAL_CURRENT_COEF_B",
+                "value": "CONF_CAL_CURRENT_COEF_B",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_CAL_TEMP_COEF_A",
+                "value": "CONF_CAL_TEMP_COEF_A",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "CONF_CAL_TEMP_COEF_B",
+                "value": "CONF_CAL_TEMP_COEF_B",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "NAME": "",
+            "CONF_I_ABSOLUTE_LIMIT": "",
+            "CONF_I_ABSOLUTE_CONTINUOUS_LIMIT": "",
+            "CONF_I_MAX": "",
+            "CONF_I_AVG": "",
+            "CONF_I_TIME": "",
+            "CONF_SAFE_STATE": "",
+            "CONF_DIAG_OL": false,
+            "CONF_DIAG_CC_GND": false,
+            "CONF_DIAG_CC_BAT": false,
+            "CONF_UNDERVOLTAGE": "",
+            "CONF_OVERVOLTAGE": "",
+            "CONF_OVERTEMP": false,
+            "CONF_CAL_CURRENT_COEF_A": "",
+            "CONF_CAL_CURRENT_COEF_B": "",
+            "CONF_CAL_TEMP_COEF_A": "",
+            "CONF_CAL_TEMP_COEF_B": ""
+        },
+        "payload": "",
+        "submit": "Send",
+        "cancel": "Cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "x": 530,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "563d7ba7.01c294",
+        "type": "change",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"PEF_PEF_Config\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 960,
+        "wires": [
+            [
+                "e4a273d4.65ad6"
+            ]
+        ]
+    },
+    {
+        "id": "70e86e2a.265ba",
+        "type": "switch",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "\"\"",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 210,
+        "y": 940,
+        "wires": [
+            [
+                "563d7ba7.01c294",
+                "7732f2a8.305fcc",
+                "22931ee5.da6f72"
+            ]
+        ]
+    },
+    {
+        "id": "b0227abe.e8fd58",
+        "type": "ui_ui_control",
+        "z": "a3fb71ac.ab1f5",
+        "name": "Hide PEF Config",
+        "events": "all",
+        "x": 530,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bc96e700.9c2798",
+        "type": "inject",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "{\"group\":{\"hide\":[\"PEF_PEF_Config\"]}}",
+        "payloadType": "json",
+        "x": 330,
+        "y": 740,
+        "wires": [
+            [
+                "b0227abe.e8fd58"
+            ]
+        ]
+    },
+    {
+        "id": "7732f2a8.305fcc",
+        "type": "function",
+        "z": "a3fb71ac.ab1f5",
+        "d": true,
+        "name": "",
+        "func": "var local_PEF = RED.util.cloneMessage(global.get(msg.payload));\n\nvar form = {};\n\nform.payload = local_PEF;\n\nreturn form;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 920,
+        "wires": [
+            [
+                "1f155cbc.a47ca3"
+            ]
+        ]
+    },
+    {
+        "id": "12067e14.53b9d2",
+        "type": "change",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"hide\":[\"PEF_PEF_Config\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 700,
+        "wires": [
+            [
+                "b0227abe.e8fd58"
+            ]
+        ]
+    },
+    {
+        "id": "62273b72.b23374",
+        "type": "ui_form",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "label": "",
+        "group": "5b0d54fa.48bc0c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "NAME",
+                "value": "NAME",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "BYPASSCTL",
+                "value": "BYPASSCTL",
+                "type": "switch",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "OUCTL",
+                "value": "OUCTL",
+                "type": "switch",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "S_T_CFG",
+                "value": "S_T_CFG",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "S_T_STOP",
+                "value": "S_T_STOP",
+                "type": "switch",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "S_T_START",
+                "value": "S_T_START",
+                "type": "switch",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "VDS_THR",
+                "value": "VDS_THR",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "HSHT_THR",
+                "value": "HSHT_THR",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "OVC_THR",
+                "value": "OVC_THR",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "T_NOM",
+                "value": "T_NOM",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "DIS_OU_MODE",
+                "value": "DIS_OU_MODE",
+                "type": "switch",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "WD_TIME",
+                "value": "WD_TIME",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "NTC_THR",
+                "value": "NTC_THR",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "NAME": "",
+            "BYPASSCTL": false,
+            "OUCTL": false,
+            "S_T_CFG": "",
+            "S_T_STOP": false,
+            "S_T_START": false,
+            "VDS_THR": "",
+            "HSHT_THR": "",
+            "OVC_THR": "",
+            "T_NOM": "",
+            "DIS_OU_MODE": false,
+            "WD_TIME": "",
+            "NTC_THR": ""
+        },
+        "payload": "",
+        "submit": "Send",
+        "cancel": "Clear",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "x": 530,
+        "y": 880,
+        "wires": [
+            [
+                "8efc6d60.757e9"
+            ]
+        ]
+    },
+    {
+        "id": "22931ee5.da6f72",
+        "type": "function",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "func": "var form = {};\n\nform.payload = {\"NAME\":msg.payload};\n\nreturn form;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 880,
+        "wires": [
+            [
+                "62273b72.b23374"
+            ]
+        ]
+    },
+    {
+        "id": "8efc6d60.757e9",
+        "type": "function",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "func": "if(msg.payload.S_T_CFG < 0 || msg.payload.S_T_CFG > 7) msg.payload.S_T_CFG = 0;\nif(msg.payload.VDS_THR < 0 || msg.payload.VDS_THR > 32) msg.payload.VDS_THR = 0;\nif(msg.payload.HSHT_THR < 0 || msg.payload.HSHT_THR > 16) msg.payload.HSHT_THR = 0;\nif(msg.payload.OVC_THR < 0 || msg.payload.OVC_THR > 32) msg.payload.OVC_THR = 0;\nif(msg.payload.T_NOM < 0 || msg.payload.T_NOM > 256) msg.payload.T_NOM = 0;\nif(msg.payload.WD_TIME < 0 || msg.payload.WD_TIME > 4) msg.payload.WD_TIME = 0;\nif(msg.payload.NTC_THR < 0 || msg.payload.NTC_THR > 16) msg.payload.NTC_THR = 0;\n\nvar conf = {};\n\nvar PEFid = parseInt(msg.payload.NAME.split(\"F\")[1], 10); // Split PEFX in two, select the number, and cast it to integer\n\nvar Byte2 = (msg.payload.S_T_START << 6) + (msg.payload.S_T_STOP << 5) + (msg.payload.S_T_CFG << 2) + (msg.payload.OUCTL << 1) + (msg.payload.BYPASSCTL << 0);\n\nvar Byte3 = msg.payload.VDS_THR << 0;\n\nvar Byte4 = msg.payload.HSHT_THR << 0;\n\nvar Byte5 = msg.payload.OVC_THR << 0;\n\nvar Byte6 = msg.payload.T_NOM << 0;\n\nvar Byte7 = (msg.payload.NTC_THR << 3) + (msg.payload.WD_TIME << 1) + (msg.payload.DIS_OU_MODE << 0);\n\nconf.payload = {\n    \n    canfd:true,\n    ext:false,\n    canid:1023,\n    dlc:7,\n    data:[\n        PEFid,\n        Byte2,\n        Byte3,\n        Byte4,\n        Byte5,\n        Byte6,\n        Byte7\n        ]\n}\n\nreturn conf;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4c6a4a7b.25bb34",
+        "type": "comment",
+        "z": "a3fb71ac.ab1f5",
+        "name": "Configure PEF",
+        "info": "",
+        "x": 100,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "6e853842.d494b8",
+        "type": "link in",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "links": [],
+        "x": 35,
+        "y": 840,
+        "wires": [
+            [
+                "763eac37.74b904"
+            ]
+        ]
+    },
+    {
+        "id": "763eac37.74b904",
+        "type": "link out",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "links": [],
+        "x": 1015,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "9cc56934.ec03c8",
+        "type": "link in",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "links": [],
+        "x": 35,
+        "y": 520,
+        "wires": [
+            [
+                "bd1cd0e2.170b9"
+            ]
+        ]
+    },
+    {
+        "id": "bd1cd0e2.170b9",
+        "type": "link out",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "links": [],
+        "x": 1015,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "a7b7ea97.895698",
+        "type": "comment",
+        "z": "a3fb71ac.ab1f5",
+        "name": "Show PEF Info",
+        "info": "",
+        "x": 100,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "51325f6f.00734",
+        "type": "link in",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "links": [],
+        "x": 35,
+        "y": 80,
+        "wires": [
+            [
+                "7f32be9c.0fc6f"
+            ]
+        ]
+    },
+    {
+        "id": "7f32be9c.0fc6f",
+        "type": "link out",
+        "z": "a3fb71ac.ab1f5",
+        "name": "",
+        "links": [],
+        "x": 1015,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "ec58bad3.b70d78",
+        "type": "comment",
+        "z": "a3fb71ac.ab1f5",
+        "name": "PEF Commands",
+        "info": "",
+        "x": 100,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "5be9c4b2.83e92c",
+        "type": "ui_ui_control",
+        "z": "a16b70f.e79399",
+        "name": "Hide Changelog",
+        "events": "all",
+        "x": 300,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "342f8483.32667c",
+        "type": "inject",
+        "z": "a16b70f.e79399",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "{\"group\":{\"hide\":[\"UPDATE_MANAGER_Changelog\"]}}",
+        "payloadType": "json",
+        "x": 110,
+        "y": 660,
+        "wires": [
+            [
+                "5be9c4b2.83e92c"
+            ]
+        ]
+    },
+    {
+        "id": "26b2edae.42bab2",
+        "type": "ui_ui_control",
+        "z": "a16b70f.e79399",
+        "name": "Show Changelog",
+        "events": "all",
+        "x": 510,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dd6baad4.00e718",
+        "type": "change",
+        "z": "a16b70f.e79399",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"UPDATE_MANAGER_Changelog\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 120,
+        "wires": [
+            [
+                "26b2edae.42bab2"
+            ]
+        ]
     }
 ]
