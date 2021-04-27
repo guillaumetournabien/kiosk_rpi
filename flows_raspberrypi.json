@@ -129,7 +129,7 @@
                 },
                 "page-titlebar-backgroundColor": {
                     "value": "#f5560a",
-                    "edited": false
+                    "edited": true
                 },
                 "page-backgroundColor": {
                     "value": "#000000",
@@ -1173,7 +1173,7 @@
         "tab": "fb10ab57.739838",
         "order": 4,
         "disp": true,
-        "width": "33",
+        "width": "6",
         "collapse": false
     },
     {
@@ -3367,7 +3367,7 @@
         "height": 2,
         "order": 2,
         "category": "image",
-        "file": "aptiv_logo_black.png",
+        "file": "aptiv_logo_transparent.png",
         "layout": "adjust",
         "showcontrols": false,
         "loop": false,
@@ -7007,7 +7007,7 @@
         "d": true,
         "name": "socketcan0",
         "config": "a2a7ae15.44d7e",
-        "x": 1670,
+        "x": 1570,
         "y": 140,
         "wires": []
     },
@@ -7032,7 +7032,7 @@
         "topic": "",
         "payload": "{\"ext\":false,\"canid\":384,\"dlc\":8,\"data\":[10,20,30,40,50,60,70,80]}",
         "payloadType": "json",
-        "x": 1280,
+        "x": 1180,
         "y": 78,
         "wires": [
             [
@@ -7061,7 +7061,7 @@
         "topic": "",
         "payload": "123#00112233",
         "payloadType": "str",
-        "x": 1280,
+        "x": 1180,
         "y": 160,
         "wires": [
             [
@@ -7090,7 +7090,7 @@
         "topic": "",
         "payload": "1F334455#1122334455667788",
         "payloadType": "str",
-        "x": 1280,
+        "x": 1180,
         "y": 200,
         "wires": [
             [
@@ -7119,7 +7119,7 @@
         "topic": "",
         "payload": "{\"ext\":true,\"canid\":32278,\"dlc\":5,\"data\":[1,2,3,4,5]}",
         "payloadType": "json",
-        "x": 1280,
+        "x": 1180,
         "y": 120,
         "wires": [
             [
@@ -7133,7 +7133,7 @@
         "z": "156e72c0.3e9c8d",
         "name": "socketcan1",
         "config": "4fa76aa7.abf7b4",
-        "x": 1670,
+        "x": 1570,
         "y": 320,
         "wires": []
     },
@@ -7158,7 +7158,7 @@
         "topic": "",
         "payload": "{\"ext\":false,\"canid\":387,\"dlc\":8,\"data\":[10,20,30,40,50,60,70,80]}",
         "payloadType": "json",
-        "x": 1280,
+        "x": 1180,
         "y": 280,
         "wires": [
             [
@@ -7187,7 +7187,7 @@
         "topic": "",
         "payload": "123#00112233",
         "payloadType": "str",
-        "x": 1280,
+        "x": 1180,
         "y": 360,
         "wires": [
             [
@@ -7216,7 +7216,7 @@
         "topic": "",
         "payload": "1F334455#1122334455667788",
         "payloadType": "str",
-        "x": 1280,
+        "x": 1180,
         "y": 400,
         "wires": [
             [
@@ -7245,7 +7245,7 @@
         "topic": "",
         "payload": "{\"ext\":true,\"canid\":32278,\"dlc\":5,\"data\":[1,2,3,4,5]}",
         "payloadType": "json",
-        "x": 1280,
+        "x": 1180,
         "y": 320,
         "wires": [
             [
@@ -7274,7 +7274,7 @@
         "topic": "",
         "payload": "{\"ext\":false,\"canid\":500,\"dlc\":8,\"data\":[255,20,255,40,255,60,255,80]}",
         "payloadType": "json",
-        "x": 1250,
+        "x": 1150,
         "y": 40,
         "wires": [
             [
@@ -13342,7 +13342,7 @@
         "type": "function",
         "z": "71ab03d8.0d992c",
         "name": "0x308 to 0x318 - Out 1 to 46 ==> Global variable (Current)",
-        "func": "var local_msg = RED.util.cloneMessage(msg);\nvar LOCAL_OUTA = null;\nvar LOCAL_OUTB = null;\nvar LOCAL_OUTC = null;\nvar LOCAL_OUTD = null;\n\n\nif (local_msg.payload.canid === 0x308){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT19'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT20'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT21'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT22'));\n}\nelse if (local_msg.payload.canid === 0x309){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT23'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT24'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT25'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT26'));\n}\nelse if (local_msg.payload.canid === 0x30A){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT27'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT28'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT29'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT30'));\n}\nelse if (local_msg.payload.canid === 0x30B){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT31'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT32'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT31')); // Not used\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT32')); // Not used\n}\nelse if (local_msg.payload.canid === 0x30C){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT33'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT34'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT35'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT36'));\n}\nelse if (local_msg.payload.canid === 0x30D){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT37'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT38'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT37')); // Not used\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT38')); // not used\n}\nelse if (local_msg.payload.canid === 0x312){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT3'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT5'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT6'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT13'));\n}\nelse if (local_msg.payload.canid === 0x313){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT14'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT18'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT14')); // Not used\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT18')); // not used\n}\nelse if (local_msg.payload.canid === 0x314){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT1'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT2'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT4'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT7'));\n}\nelse if (local_msg.payload.canid === 0x315){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT8'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT9'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT10'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT11')); \n}\nelse if (local_msg.payload.canid === 0x316){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT12'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT15'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT16'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT17'));\n}\nelse if (local_msg.payload.canid === 0x317){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT39'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT40'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT41'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT42'));\n}\nelse if (local_msg.payload.canid === 0x318){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT43'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT44'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT45'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT46'));\n}\nelse{\n    return msg;\n}\n\n    // Extraction of the Data from the CAN FRAME\n    // can be taken as a 16 bits value (12 bit ADC)\nLOCAL_OUTA.I_RAW_ADC = (((local_msg.payload.data[0]<<8)+local_msg.payload.data[1])).toFixed(0);\nLOCAL_OUTB.I_RAW_ADC = (((local_msg.payload.data[2]<<8)+local_msg.payload.data[3])).toFixed(0);\nLOCAL_OUTC.I_RAW_ADC = (((local_msg.payload.data[4]<<8)+local_msg.payload.data[5])).toFixed(0);\nLOCAL_OUTD.I_RAW_ADC = (((local_msg.payload.data[6]<<8)+local_msg.payload.data[7])).toFixed(0);\n    \n    // Convert DAC to mA \nLOCAL_OUTA.I_AVG = ((LOCAL_OUTA.I_RAW_ADC*LOCAL_OUTA.CONF_CAL_CURRENT_COEF_A+LOCAL_OUTA.CONF_CAL_CURRENT_COEF_B)/1000).toFixed(1);\nLOCAL_OUTB.I_AVG = ((LOCAL_OUTB.I_RAW_ADC*LOCAL_OUTB.CONF_CAL_CURRENT_COEF_A+LOCAL_OUTB.CONF_CAL_CURRENT_COEF_B)/1000).toFixed(1);\nLOCAL_OUTC.I_AVG = ((LOCAL_OUTC.I_RAW_ADC*LOCAL_OUTC.CONF_CAL_CURRENT_COEF_A+LOCAL_OUTC.CONF_CAL_CURRENT_COEF_B)/1000).toFixed(1);\nLOCAL_OUTD.I_AVG = ((LOCAL_OUTD.I_RAW_ADC*LOCAL_OUTD.CONF_CAL_CURRENT_COEF_A+LOCAL_OUTD.CONF_CAL_CURRENT_COEF_B)/1000).toFixed(1);\n\n\n\nif (local_msg.payload.canid === 0x308){    \n    global.set('OUT19',LOCAL_OUTA);    \n    global.set('OUT20',LOCAL_OUTB);    \n    global.set('OUT21',LOCAL_OUTC);    \n    global.set('OUT22',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x309){\n    global.set('OUT23',LOCAL_OUTA);    \n    global.set('OUT24',LOCAL_OUTB);    \n    global.set('OUT25',LOCAL_OUTC);    \n    global.set('OUT26',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x30A){\n    global.set('OUT27',LOCAL_OUTA);    \n    global.set('OUT28',LOCAL_OUTB);    \n    global.set('OUT29',LOCAL_OUTC);    \n    global.set('OUT30',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x30B){\n    global.set('OUT31',LOCAL_OUTA);    \n    global.set('OUT32',LOCAL_OUTB);\n}\nelse if (local_msg.payload.canid === 0x30C){\n    global.set('OUT33',LOCAL_OUTA);    \n    global.set('OUT34',LOCAL_OUTB);    \n    global.set('OUT35',LOCAL_OUTC);    \n    global.set('OUT36',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x30D){\n    global.set('OUT37',LOCAL_OUTA);    \n    global.set('OUT38',LOCAL_OUTB);    \n}\nelse if (local_msg.payload.canid === 0x312){\n    global.set('OUT3',LOCAL_OUTA);    \n    global.set('OUT5',LOCAL_OUTB);    \n    global.set('OUT6',LOCAL_OUTC);    \n    global.set('OUT13',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x313){\n    global.set('OUT14',LOCAL_OUTA);    \n    global.set('OUT18',LOCAL_OUTB);    \n}\nelse if (local_msg.payload.canid === 0x314){\n    global.set('OUT1',LOCAL_OUTA);    \n    global.set('OUT2',LOCAL_OUTB);    \n    global.set('OUT4',LOCAL_OUTC);    \n    global.set('OUT7',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x315){\n    global.set('OUT8',LOCAL_OUTA);    \n    global.set('OUT9',LOCAL_OUTB);    \n    global.set('OUT10',LOCAL_OUTC);    \n    global.set('OUT11',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x316){\n    global.set('OUT12',LOCAL_OUTA);    \n    global.set('OUT15',LOCAL_OUTB);    \n    global.set('OUT16',LOCAL_OUTC);    \n    global.set('OUT17',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x317){\n    global.set('OUT39',LOCAL_OUTA);    \n    global.set('OUT40',LOCAL_OUTB);    \n    global.set('OUT41',LOCAL_OUTC);    \n    global.set('OUT42',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x318){\n    global.set('OUT43',LOCAL_OUTA);    \n    global.set('OUT44',LOCAL_OUTB);    \n    global.set('OUT45',LOCAL_OUTC);    \n    global.set('OUT46',LOCAL_OUTD);  \n}",
+        "func": "var local_msg = RED.util.cloneMessage(msg);\n//node.warn(local_msg);\nvar LOCAL_OUTA = null;\nvar LOCAL_OUTB = null;\nvar LOCAL_OUTC = null;\nvar LOCAL_OUTD = null;\n\n\nif (local_msg.payload.canid === 0x308){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT19'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT20'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT21'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT22'));\n}\nelse if (local_msg.payload.canid === 0x309){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT23'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT24'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT25'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT26'));\n}\nelse if (local_msg.payload.canid === 0x30A){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT27'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT28'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT29'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT30'));\n}\nelse if (local_msg.payload.canid === 0x30B){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT31'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT32'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT31')); // Not used\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT32')); // Not used\n}\nelse if (local_msg.payload.canid === 0x30C){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT33'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT34'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT35'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT36'));\n}\nelse if (local_msg.payload.canid === 0x30D){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT37'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT38'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT37')); // Not used\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT38')); // not used\n}\nelse if (local_msg.payload.canid === 0x312){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT3'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT5'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT6'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT13'));\n}\nelse if (local_msg.payload.canid === 0x313){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT14'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT18'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT14')); // Not used\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT18')); // not used\n}\nelse if (local_msg.payload.canid === 0x314){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT1'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT2'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT4'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT7'));\n}\nelse if (local_msg.payload.canid === 0x315){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT8'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT9'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT10'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT11')); \n}\nelse if (local_msg.payload.canid === 0x316){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT12'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT15'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT16'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT17'));\n}\nelse if (local_msg.payload.canid === 0x317){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT39'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT40'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT41'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT42'));\n}\nelse if (local_msg.payload.canid === 0x318){\n    // Local Cloning of the information\n    LOCAL_OUTA = RED.util.cloneMessage(global.get('OUT43'));\n    LOCAL_OUTB = RED.util.cloneMessage(global.get('OUT44'));\n    LOCAL_OUTC = RED.util.cloneMessage(global.get('OUT45'));\n    LOCAL_OUTD = RED.util.cloneMessage(global.get('OUT46'));\n}\nelse{\n    return msg;\n}\n\n    // Extraction of the Data from the CAN FRAME\n    // can be taken as a 16 bits value (12 bit ADC)\nLOCAL_OUTA.I_RAW_ADC = (local_msg.payload.data[0]<<8)+local_msg.payload.data[1];\n//node.warn(LOCAL_OUTA);\nLOCAL_OUTB.I_RAW_ADC = (local_msg.payload.data[2]<<8)+local_msg.payload.data[3];\nLOCAL_OUTC.I_RAW_ADC = (local_msg.payload.data[4]<<8)+local_msg.payload.data[5];\nLOCAL_OUTD.I_RAW_ADC = (local_msg.payload.data[6]<<8)+local_msg.payload.data[7];\n    \n    // Convert DAC to mA \nLOCAL_OUTA.I_AVG = ((LOCAL_OUTA.I_RAW_ADC*LOCAL_OUTA.CONF_CAL_CURRENT_COEF_A+LOCAL_OUTA.CONF_CAL_CURRENT_COEF_B)/1000).toFixed(3);\nLOCAL_OUTB.I_AVG = ((LOCAL_OUTB.I_RAW_ADC*LOCAL_OUTB.CONF_CAL_CURRENT_COEF_A+LOCAL_OUTB.CONF_CAL_CURRENT_COEF_B)/1000).toFixed(3);\nLOCAL_OUTC.I_AVG = ((LOCAL_OUTC.I_RAW_ADC*LOCAL_OUTC.CONF_CAL_CURRENT_COEF_A+LOCAL_OUTC.CONF_CAL_CURRENT_COEF_B)/1000).toFixed(3);\nLOCAL_OUTD.I_AVG = ((LOCAL_OUTD.I_RAW_ADC*LOCAL_OUTD.CONF_CAL_CURRENT_COEF_A+LOCAL_OUTD.CONF_CAL_CURRENT_COEF_B)/1000).toFixed(3);\n\n\n\nif (local_msg.payload.canid === 0x308){    \n    global.set('OUT19',LOCAL_OUTA);    \n    global.set('OUT20',LOCAL_OUTB);    \n    global.set('OUT21',LOCAL_OUTC);    \n    global.set('OUT22',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x309){\n    global.set('OUT23',LOCAL_OUTA);    \n    global.set('OUT24',LOCAL_OUTB);    \n    global.set('OUT25',LOCAL_OUTC);    \n    global.set('OUT26',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x30A){\n    global.set('OUT27',LOCAL_OUTA);    \n    global.set('OUT28',LOCAL_OUTB);    \n    global.set('OUT29',LOCAL_OUTC);    \n    global.set('OUT30',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x30B){\n    global.set('OUT31',LOCAL_OUTA);    \n    global.set('OUT32',LOCAL_OUTB);\n}\nelse if (local_msg.payload.canid === 0x30C){\n    global.set('OUT33',LOCAL_OUTA);    \n    global.set('OUT34',LOCAL_OUTB);    \n    global.set('OUT35',LOCAL_OUTC);    \n    global.set('OUT36',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x30D){\n    global.set('OUT37',LOCAL_OUTA);    \n    global.set('OUT38',LOCAL_OUTB);    \n}\nelse if (local_msg.payload.canid === 0x312){\n    global.set('OUT3',LOCAL_OUTA);    \n    global.set('OUT5',LOCAL_OUTB);    \n    global.set('OUT6',LOCAL_OUTC);    \n    global.set('OUT13',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x313){\n    global.set('OUT14',LOCAL_OUTA);    \n    global.set('OUT18',LOCAL_OUTB);    \n}\nelse if (local_msg.payload.canid === 0x314){\n    global.set('OUT1',LOCAL_OUTA);    \n    global.set('OUT2',LOCAL_OUTB);    \n    global.set('OUT4',LOCAL_OUTC);    \n    global.set('OUT7',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x315){\n    global.set('OUT8',LOCAL_OUTA);    \n    global.set('OUT9',LOCAL_OUTB);    \n    global.set('OUT10',LOCAL_OUTC);    \n    global.set('OUT11',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x316){\n    global.set('OUT12',LOCAL_OUTA);    \n    global.set('OUT15',LOCAL_OUTB);    \n    global.set('OUT16',LOCAL_OUTC);    \n    global.set('OUT17',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x317){\n    global.set('OUT39',LOCAL_OUTA);    \n    global.set('OUT40',LOCAL_OUTB);    \n    global.set('OUT41',LOCAL_OUTC);    \n    global.set('OUT42',LOCAL_OUTD);  \n}\nelse if (local_msg.payload.canid === 0x318){\n    global.set('OUT43',LOCAL_OUTA);    \n    global.set('OUT44',LOCAL_OUTB);    \n    global.set('OUT45',LOCAL_OUTC);    \n    global.set('OUT46',LOCAL_OUTD);  \n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -13835,7 +13835,7 @@
         "topic": "",
         "payload": "{\"canfd\":true,\"ext\":false,\"canid\":12,\"dlc\":64,\"data\":[255,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,63]}",
         "payloadType": "json",
-        "x": 1310,
+        "x": 1210,
         "y": 440,
         "wires": [
             [
@@ -13906,7 +13906,7 @@
         "topic": "",
         "topicType": "str",
         "splitLayout": false,
-        "x": 1230,
+        "x": 1130,
         "y": 500,
         "wires": [
             [
@@ -13924,7 +13924,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1390,
+        "x": 1290,
         "y": 500,
         "wires": [
             [
@@ -13946,7 +13946,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1650,
+        "x": 1550,
         "y": 440,
         "wires": []
     },
@@ -13955,7 +13955,7 @@
         "type": "function",
         "z": "71ab03d8.0d992c",
         "name": "0x300 to 0x307 / 0x3F0 to 0x3F7",
-        "func": "var local_msg = RED.util.cloneMessage(msg);\nvar local_PEF = {};\n\nif (msg.payload.canid === 0x300){\n    \n    local_PEF = RED.util.cloneMessage(global.get('PEF1'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_DAC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF1',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F0){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF1'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF1',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x301){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF2'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_DAC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF2',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F1){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF2'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF2',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x302){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF3'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_DAC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF3',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F2){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF3'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF3',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x303){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF4'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_DAC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF4',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F3){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF4'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF4',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x304){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF5'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_DAC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF5',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F4){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF5'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF5',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x305){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF6'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_DAC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF6',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F5){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF6'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF6',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x306){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF7'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_DAC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF7',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F6){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF7'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF7',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x307){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF8'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_DAC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF8',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F7){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF8'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF8',local_PEF);       // Save the content\n\n}",
+        "func": "var local_msg = RED.util.cloneMessage(msg);\nvar local_PEF = {};\n\nif (msg.payload.canid === 0x300){\n    \n    local_PEF = RED.util.cloneMessage(global.get('PEF1'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_ADC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF1',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F0){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF1'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF1',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x301){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF2'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_ADC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF2',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F1){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF2'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF2',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x302){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF3'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_ADC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF3',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F2){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF3'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF3',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x303){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF4'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_ADC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF4',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F3){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF4'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF4',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x304){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF5'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_ADC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF5',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F4){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF5'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF5',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x305){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF6'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_ADC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF6',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F5){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF6'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF6',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x306){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF7'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_ADC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF7',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F6){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF7'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF7',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x307){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF8'));\n    // Extract data & read the CAN message\n    local_PEF.I_RAW_ADC = ((local_msg.payload.data[0]<<8)+local_msg.payload.data[1]);           // Read the RAW DATA from CAN message\n    local_PEF.I_AVG = local_PEF.I_RAW_ADC*local_PEF.CONF_CAL_CURRENT_COEF_A + local_PEF.CONF_CAL_CURRENT_COEF_B;\n    \n    local_PEF.DRIVER_TJ = ((local_msg.payload.data[2]<<8)+local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.DRIVER_NTC = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.OUT_VOLTAGE = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF8',local_PEF);       // Save the content\n\n}\n\nelse if (msg.payload.canid === 0x3F7){\n\n    local_PEF = RED.util.cloneMessage(global.get('PEF8'));\n    // Extract data & read the CAN message\n    local_PEF.GLB = local_msg.payload.data[0];           // Read the RAW DATA from CAN message\n    local_PEF.SR1 = ((local_msg.payload.data[1]<<16) + (local_msg.payload.data[2]<<8) + local_msg.payload.data[3]);           // Read the RAW DATA from CAN message\n    local_PEF.VDS = ((local_msg.payload.data[4]<<8)+local_msg.payload.data[5]);           // Read the RAW DATA from CAN message\n    local_PEF.HSHT_SAR = ((local_msg.payload.data[6]<<8)+local_msg.payload.data[7]);           // Read the RAW DATA from CAN message\n    global.set('PEF8',local_PEF);       // Save the content\n\n}",
         "outputs": 0,
         "noerr": 0,
         "initialize": "",
@@ -14071,8 +14071,8 @@
         "timer": "",
         "oldrc": false,
         "name": "",
-        "x": 590,
-        "y": 340,
+        "x": 610,
+        "y": 300,
         "wires": [
             [],
             [],
@@ -14098,8 +14098,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 110,
-        "y": 380,
+        "x": 130,
+        "y": 340,
         "wires": [
             [
                 "cee713ed.af27"
@@ -14120,8 +14120,8 @@
         "raw": false,
         "topic": "Confirm Erase all",
         "name": "Erase",
-        "x": 270,
-        "y": 380,
+        "x": 290,
+        "y": 340,
         "wires": [
             [
                 "4a7dd6ab.f39728"
@@ -14137,7 +14137,7 @@
         "order": 14,
         "width": 0,
         "height": 0,
-        "format": "<style>\n/*Change button corner radius (rounded corners)*/\n.md-button{             \n    border-radius: 10px\n}\n\n/*Change card tiles radius (rounded corners)*/\n.nr-dashboard-theme ui-card-panel {\n    border-radius: 10px;\n}\n\n/*Change style atributes of tile titles (rounded corners)*/\n.nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle{\n    font-size:20px;\n    font-weight:bold;\n}\n\n</style>",
+        "format": "<style>\n/*Change button corner radius (rounded corners)*/\n.md-button{             \n    border-radius: 10px\n}\n\n/*Change card tiles radius (rounded corners)*/\n.nr-dashboard-theme ui-card-panel {\n    border-radius: 10px;\n}\n\n/*Change style atributes of tile titles (rounded corners)*/\n.nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle{\n    font-size:20px;\n    font-weight:bold;\n}\n\n::-webkit-scrollbar {\n  width: 10px;\n}\n\n/* Track */\n::-webkit-scrollbar-track {\n  background: #333333;\n}\n \n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #F5560A;\n  border-radius:10px;\n}\n\n/* Handle on hover */\n::-webkit-scrollbar-thumb:hover {\n  background: #af560a;\n}\n\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -14159,8 +14159,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 440,
-        "y": 380,
+        "x": 460,
+        "y": 340,
         "wires": [
             [
                 "913736b2.79cb58"
@@ -14184,8 +14184,8 @@
         "raw": false,
         "topic": "",
         "name": "",
-        "x": 630,
-        "y": 420,
+        "x": 650,
+        "y": 380,
         "wires": []
     },
     {
@@ -14207,8 +14207,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 140,
-        "y": 500,
+        "x": 160,
+        "y": 460,
         "wires": [
             [
                 "a0982bb.ed448d8"
@@ -14230,8 +14230,8 @@
         "raw": false,
         "topic": "Latest release",
         "name": "",
-        "x": 610,
-        "y": 840,
+        "x": 530,
+        "y": 620,
         "wires": [
             [
                 "67a82701.f17ca8"
@@ -14250,8 +14250,8 @@
         "timer": "",
         "oldrc": false,
         "name": "",
-        "x": 180,
-        "y": 860,
+        "x": 100,
+        "y": 640,
         "wires": [
             [
                 "599e58b2.019af8"
@@ -14283,8 +14283,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 770,
-        "y": 840,
+        "x": 690,
+        "y": 620,
         "wires": [
             [
                 "414baace.1ff574"
@@ -14304,8 +14304,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 420,
-        "y": 840,
+        "x": 340,
+        "y": 620,
         "wires": [
             [
                 "a2978fc1.c4f63"
@@ -14324,8 +14324,8 @@
         "timer": "10",
         "oldrc": false,
         "name": "",
-        "x": 990,
-        "y": 800,
+        "x": 910,
+        "y": 580,
         "wires": [
             [],
             [],
@@ -14343,8 +14343,8 @@
         "timer": "10",
         "oldrc": false,
         "name": "",
-        "x": 730,
-        "y": 480,
+        "x": 750,
+        "y": 440,
         "wires": [
             [],
             [],
@@ -14365,8 +14365,8 @@
         "raw": false,
         "topic": "Do you want to restore to version before update ?",
         "name": "",
-        "x": 370,
-        "y": 500,
+        "x": 390,
+        "y": 460,
         "wires": [
             [
                 "ed1fad17.2ba04"
@@ -14395,8 +14395,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 550,
-        "y": 500,
+        "x": 570,
+        "y": 460,
         "wires": [
             [
                 "fb449a6b.f32c68"
@@ -14416,8 +14416,8 @@
         "label": "Dashboard version :",
         "format": "{{msg.payload.VERSION}}",
         "layout": "row-center",
-        "x": 560,
-        "y": 560,
+        "x": 580,
+        "y": 520,
         "wires": []
     },
     {
@@ -14441,8 +14441,8 @@
         "topic": "",
         "payload": "SW_VERSION",
         "payloadType": "global",
-        "x": 140,
-        "y": 560,
+        "x": 160,
+        "y": 520,
         "wires": [
             [
                 "d7586779.adc5c8"
@@ -16871,8 +16871,7 @@
         "wires": [
             [
                 "c8c7d357.4e8be",
-                "b3460387.03a5b",
-                "846568fa.f17c98"
+                "b3460387.03a5b"
             ]
         ]
     },
@@ -16913,8 +16912,8 @@
         "name": "Widget to display version / Publish date",
         "order": 4,
         "width": 26,
-        "height": 4,
-        "format": "<html>\n\n<head>\n\n<style>\n\n.flex-container {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.flex-item-left {\n  flex: 50%;\n}\n\n.flex-item-right {\n  flex: 50%;\n}\n\n</style>\n\n</head>\n\n<body>\n\n\n<div class=\"flex-container\"> \n    <div class=\"flex-item-left\">\n        <h2 style=\"font-weight: bold\">Available version(s)</h2>\n        <p ng-repeat=\"x in msg.payload\"><a href={{x.URL_Download}} target=\"_blank\" span style=\"color:lightgreen\">{{x.Version}}</a></p>\n    </div>\n    \n    <div class=\"flex-item-right\">\n        <h2 style=\"font-weight: bold; text-align: right\">Publish date</h2>\n        <p ng-repeat=\"x in msg.payload\" style=\"text-align: right;\">{{x.Published_Date}}</p>\n    </div>\n</div>\n\n</body>\n\n</html>",
+        "height": "4",
+        "format": "<html>\n\n<head>\n\n<style>\n\n.flex-container {\n  display: flex;\n  flex-wrap: wrap;\n  padding: 10px;\n}\n\n.flex-item-left {\n  flex: 50%;\n}\n\n.flex-item-right {\n  flex:50%;\n}\n\n</style>\n\n</head>\n\n<body>\n\n<div class=\"flex-container\"> \n    <div class=\"flex-item-left\">\n        <h2 style=\"font-weight: bold\">Available version(s)</h2>\n        <p ng-repeat=\"x in msg.payload\"><a href={{x.URL_Download}} target=\"_blank\" span style=\"color:lightgreen\">{{x.Version}}</a></p>\n    </div>\n    \n    <div class=\"flex-item-right\">\n        <h2 style=\"font-weight: bold; text-align: right\">Publish date</h2>\n        <p ng-repeat=\"x in msg.payload\" style=\"text-align: right;\">{{x.Published_Date}}</p>\n    </div>\n</div>\n\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -17337,6 +17336,7 @@
         "id": "3c0f77b6.7ba608",
         "type": "json",
         "z": "156e72c0.3e9c8d",
+        "d": true,
         "name": "",
         "property": "payload",
         "action": "",
@@ -17354,6 +17354,7 @@
         "id": "38cf5455.4226bc",
         "type": "file in",
         "z": "156e72c0.3e9c8d",
+        "d": true,
         "name": "",
         "filename": "dbc.json",
         "format": "utf8",
@@ -17372,6 +17373,7 @@
         "id": "330b5a91.2cc3d6",
         "type": "inject",
         "z": "156e72c0.3e9c8d",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -17401,6 +17403,7 @@
         "id": "73a25a02.774564",
         "type": "debug",
         "z": "156e72c0.3e9c8d",
+        "d": true,
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -17410,7 +17413,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 850,
+        "x": 930,
         "y": 520,
         "wires": []
     },
@@ -17488,8 +17491,8 @@
         "name": "Changelog widget",
         "order": 1,
         "width": 26,
-        "height": 6,
-        "format": "<html>\n\n<head>\n\n<style>\nh2{\n    font-size: 30px;\n}\n\nli{\n    font-size: 20px;\n}\n\n</style>\n\n</head>\n\n<body>\n\n<div ng-repeat=\"x in msg.payload\">\n    \n<h2>{{x.Version}}</h2>\n\n<ul> <!-- List that loops though the changes to display them -->\n    <li ng-repeat=\"c in x.Changes\">{{c}}</li>\n</ul>\n\n</div>    \n\n\n</body>\n\n</html>\n",
+        "height": "6",
+        "format": "<html>\n\n<head>\n\n<style>\n\n.vers{\n    font-size: 15px;\n    border: 3px solid white;\n    border-radius: 5px;\n    padding-left:10px;\n    padding-right:10px;\n    text-align:center;;\n\n}\n\nli{\n    font-size: 20px;\n}\n\n</style>\n\n</head>\n\n<body>\n\n<div ng-repeat=\"x in msg.payload\">\n    <div class=\"vers\">\n        <h1>{{x.Version}}</h1>\n    </div>\n\n    <div>\n        <ul> <!-- List that loops though the changes to display them -->\n            <li ng-repeat=\"c in x.Changes\">{{c}}</li>\n        </ul>\n    </div>\n</div>\n\n</body>\n\n</html>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -17504,8 +17507,9 @@
         "id": "11065700.c72539",
         "type": "function",
         "z": "156e72c0.3e9c8d",
+        "d": true,
         "name": "",
-        "func": "var dbc = [];\n\nmsg.payload.params.forEach(function(item, index){\n    dbc.push(item);\n    node.warn(item);\n});\n\nflow.set('DBC',dbc);\n\n//return dbc;\n\n\nvar can0 = RED.util.cloneMessage(global.get(\"CAN0_LOGGER\") || []);\n/*\nvar pos;\n\ncan0.forEach(function(frame, index){\n    pos = dbc.findIndex(ID => ID === frame.canid);\n    //frame = {Name:dbc[pos].name, ...frame};\n});\n\nreturn dbc;\n*/",
+        "func": "var dbc = [];\n\nmsg.payload.params.forEach(function(item, index){\n    dbc.push(item);\n    //node.warn(item);\n});\n\nflow.set('DBC',dbc);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -17515,7 +17519,7 @@
         "y": 520,
         "wires": [
             [
-                "73a25a02.774564"
+                "1d6688cc.64fa07"
             ]
         ]
     },
@@ -17523,8 +17527,9 @@
         "id": "eec31011.f72ab",
         "type": "debug",
         "z": "156e72c0.3e9c8d",
+        "d": true,
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -17534,23 +17539,6 @@
         "statusType": "auto",
         "x": 610,
         "y": 440,
-        "wires": []
-    },
-    {
-        "id": "846568fa.f17c98",
-        "type": "debug",
-        "z": "a16b70f.e79399",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 900,
-        "y": 80,
         "wires": []
     },
     {
@@ -17941,8 +17929,8 @@
         "label": "",
         "group": "5b0d54fa.48bc0c",
         "order": 1,
-        "width": 0,
-        "height": 0,
+        "width": "6",
+        "height": "12",
         "options": [
             {
                 "label": "NAME",
@@ -18276,6 +18264,47 @@
         "wires": [
             [
                 "26b2edae.42bab2"
+            ]
+        ]
+    },
+    {
+        "id": "76f0d44.962d22c",
+        "type": "ui_template",
+        "z": "49ede7b4.4b2d88",
+        "d": true,
+        "group": "5159aeda.1fd78",
+        "name": "logo",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "<html>\n    \n<body>\n    \n<script>\n    var spacer = document.createElement(\"md-card\");\n    spacer.className =\"nr-dashboard-spacer _md layout-row layout-align-start-stretch visible\";\n    spacer.style.left = \"388px\";\n    spacer.style.top = \"10px\";\n    spacer.style.width = \"2100px\";\n    spacer.style.height = \"48px\";\n    document.getElementById(\"nr-dashboard-toolbar\").appendChild(spacer);\n\n    var img = document.createElement(\"img\");\n    img.src = \"/uimedia/image/aptiv_logo_transparent.png\";\n    img.style.width = \"auto\";\n    img.style.height = \"auto\";\n    img.style.maxWidth = \"100%\";\n    img.style.maxHeight = \"80%\";\n    document.getElementById(\"nr-dashboard-toolbar\").appendChild(img);\n    \n</script>\n\n</body>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 570,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1d6688cc.64fa07",
+        "type": "function",
+        "z": "156e72c0.3e9c8d",
+        "d": true,
+        "name": "",
+        "func": "var can0 = {};\ncan0.payload = RED.util.cloneMessage(global.get('CAN0_LOGGER'));\n\nvar local_dbc = {};\nlocal_dbc.payload = RED.util.cloneMessage(flow.get('DBC'));\n\nvar result;\nvar pos;\n\ncan0.payload.forEach(function(frame, index, array){\n    // result = local_dbc.payload.find(ID => ID.canId === frame.canid);\n    pos = local_dbc.payload.findIndex(ID => ID.canId === frame.canid);\n    // node.warn(pos);\n    if(pos != -1)\n    {\n        frame = {Name:local_dbc.payload[pos].name, ...frame};\n        array[index] = frame;\n        node.warn(frame);\n    }\n});\n\nglobal.set('CAN0_DBC', can0.payload);\n\nreturn can0;\n\n/*\nvar result = local_can0log.find(canF => canF.canid === local_msg.canid);\nvar index = local_can0log.findIndex(canF => canF.canid === local_msg.canid);\n*/",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 520,
+        "wires": [
+            [
+                "73a25a02.774564"
             ]
         ]
     }
