@@ -49,6 +49,13 @@
         "info": ""
     },
     {
+        "id": "8c2dcd19.58c21",
+        "type": "tab",
+        "label": "CAN WAKEUP",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "71ab03d8.0d992c",
         "type": "tab",
         "label": "CAN bus",
@@ -507,7 +514,7 @@
         "tab": "43d4e613.6dedd8",
         "order": 6,
         "disp": true,
-        "width": "6",
+        "width": 5,
         "collapse": true
     },
     {
@@ -669,9 +676,8 @@
     {
         "id": "43d4e613.6dedd8",
         "type": "ui_tab",
-        "d": true,
-        "name": "OUT_HS (Hidden)",
-        "icon": "dashboard",
+        "name": "OUT_HS",
+        "icon": "mi-input",
         "order": 12,
         "disabled": false,
         "hidden": false
@@ -727,7 +733,7 @@
         "tab": "43d4e613.6dedd8",
         "order": 3,
         "disp": true,
-        "width": "6",
+        "width": 5,
         "collapse": true
     },
     {
@@ -737,17 +743,8 @@
         "tab": "43d4e613.6dedd8",
         "order": 4,
         "disp": true,
-        "width": "6",
+        "width": 5,
         "collapse": true
-    },
-    {
-        "id": "adcd94c7.a0f558",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "72d78d49.ca41e4",
-        "order": 21,
-        "width": 1,
-        "height": 1
     },
     {
         "id": "63140f80.a0076",
@@ -756,7 +753,7 @@
         "tab": "43d4e613.6dedd8",
         "order": 5,
         "disp": true,
-        "width": "6",
+        "width": 5,
         "collapse": true
     },
     {
@@ -766,7 +763,7 @@
         "tab": "43d4e613.6dedd8",
         "order": 7,
         "disp": true,
-        "width": "6",
+        "width": 5,
         "collapse": true
     },
     {
@@ -799,170 +796,9 @@
         "collapse": true
     },
     {
-        "id": "4f541a63.d36714",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6041b0e7.fbbb9",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "903a10a2.1cda2",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6041b0e7.fbbb9",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "8acd64ab.bb3688",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6041b0e7.fbbb9",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "7742cadb.f42444",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6041b0e7.fbbb9",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "7ebed106.e3448",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6041b0e7.fbbb9",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "9eb6296b.d4e6b8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6041b0e7.fbbb9",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "9fb6a9a5.d95b78",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6041b0e7.fbbb9",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "2941c851.594ea8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6041b0e7.fbbb9",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "618fe3af.90226c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6041b0e7.fbbb9",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "19b882a3.d361bd",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6041b0e7.fbbb9",
-        "order": 13,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e5e91d3b.d6973",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "e4a8c1e6.d3717",
-        "order": 1,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "ae1b053a.d376d8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1e6b9bc2.ee10a4",
-        "order": 4,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "dcc133c3.49d56",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "de1dbd4.c75af4",
-        "order": 4,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "32c0c281.02d97e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "d15f161a.08efc8",
-        "order": 4,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "38b54bae.30e674",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "cbef5dc3.befb3",
-        "order": 2,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "ea4523c0.771a9",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "cbef5dc3.befb3",
-        "order": 4,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "97f60c8a.74253",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "cbef5dc3.befb3",
-        "order": 6,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "933ddfdd.8a5ef",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "cbef5dc3.befb3",
-        "order": 8,
-        "width": 2,
-        "height": 1
-    },
-    {
         "id": "fac9722d.3365f",
         "type": "ui_group",
+        "d": true,
         "name": "Output_10",
         "tab": "f312fb5.ede9f08",
         "order": 10,
@@ -1204,6 +1040,620 @@
         "height": "20"
     },
     {
+        "id": "250472ea.6e3e1e",
+        "type": "ui_tab",
+        "name": "CAN WAKEUP",
+        "icon": "mi-alarm",
+        "order": 13,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6fd8f39b.7c0dcc",
+        "type": "ui_group",
+        "name": "Sleep",
+        "tab": "250472ea.6e3e1e",
+        "order": 3,
+        "disp": false,
+        "width": "25",
+        "collapse": false
+    },
+    {
+        "id": "abc15472.b41c28",
+        "type": "ui_group",
+        "name": "State",
+        "tab": "250472ea.6e3e1e",
+        "order": 1,
+        "disp": true,
+        "width": "11",
+        "collapse": false
+    },
+    {
+        "id": "41ccc82e.f12df8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 1,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "a4f70a49.9fdc28",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 3,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "248bf184.3bf6ae",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 5,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "a9da5253.a3f9",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2b6ed34d.52fd5c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b8d25675.145a18",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9e7fd41b.e7b1c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5f8662f2.f8616c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2b4ef1d6.4300ae",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e7687127.5a486",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7e656165.08aa1",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5573d999.a796a8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "32af8c34.3f9314",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 23,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "ab162199.e9798",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 25,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "f4f494da.a5f668",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 27,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "9151d99d.d53448",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 28,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4c285e53.ce1b6",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 30,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c0cf983b.ac1318",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 32,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "36482976.290a86",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 34,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6b7d573c.89bd18",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 36,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a0fa3dfb.fde02",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 38,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fcf1f26e.f1089",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dce3dda.1d6512",
+        "order": 40,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "68136117.a2aa8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6041b0e7.fbbb9",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2087a38f.499e3c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6041b0e7.fbbb9",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "78ee6861.7c2f08",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6041b0e7.fbbb9",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9217c795.6a28d8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6041b0e7.fbbb9",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3c0fa7ae.b0ea58",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6041b0e7.fbbb9",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a048501d.0085f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6041b0e7.fbbb9",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "301c73f.89fb38c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6041b0e7.fbbb9",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "83158641.356bf8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6041b0e7.fbbb9",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f10d5ae2.41aa08",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6041b0e7.fbbb9",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fa297110.68ff9",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6041b0e7.fbbb9",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "76d418fc.699928",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e4a8c1e6.d3717",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c0d92c98.872cf",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e4a8c1e6.d3717",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "aaceea39.dc3be8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e4a8c1e6.d3717",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2740489b.8835e8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "e4a8c1e6.d3717",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b8e8486b.146fb8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1e6b9bc2.ee10a4",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "5d7ad386.47be3c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "de1dbd4.c75af4",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "296ecf9a.cede8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "d15f161a.08efc8",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "128802ce.25c19d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "cbef5dc3.befb3",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "1b313a42.94a486",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "cbef5dc3.befb3",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "47ba009c.bebf9",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "cbef5dc3.befb3",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "3c33e0c2.35b4b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "cbef5dc3.befb3",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2f5fccaa.7cc2a4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "fac9722d.3365f",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "ac5b9558.adab88",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f17b7df8.6c76e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "51f6501a.5b35d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8ca83458.bdeb98",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b85360ca.6280a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "9281714d.61fda",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f74b8dbb.3bc75",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "392782ba.a1719e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "595ed32f.0c174c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e60f630d.05f6",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "fb6d1688.7e8558",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "5b22a08d.26946",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "5423dde9.8453d4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 16,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b9879d6d.54479",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 17,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "12b207ff.19b0f8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 18,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f2865ab3.74a518",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 19,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "9db658fb.6734c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "abc15472.b41c28",
+        "order": 20,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "eee52303.bb48c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6fd8f39b.7c0dcc",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "92c6dfc3.98747",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6fd8f39b.7c0dcc",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ee536f24.f3083",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6fd8f39b.7c0dcc",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2afff6ad.a9f07a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6fd8f39b.7c0dcc",
+        "order": 7,
+        "width": 8,
+        "height": 1
+    },
+    {
         "id": "3fd25878.e41668",
         "type": "ui_text",
         "z": "a413e725.e40048",
@@ -1371,7 +1821,7 @@
         "offvalueType": "bool",
         "officon": "lens",
         "offcolor": "grey",
-        "x": 2060,
+        "x": 2100,
         "y": 240,
         "wires": [
             []
@@ -1401,7 +1851,7 @@
         "offvalueType": "bool",
         "officon": "lens",
         "offcolor": "grey",
-        "x": 2520,
+        "x": 2560,
         "y": 240,
         "wires": [
             []
@@ -1448,7 +1898,7 @@
         "offvalueType": "bool",
         "officon": "lens",
         "offcolor": "grey",
-        "x": 2060,
+        "x": 2100,
         "y": 280,
         "wires": [
             []
@@ -1478,7 +1928,7 @@
         "offvalueType": "bool",
         "officon": "lens",
         "offcolor": "grey",
-        "x": 2520,
+        "x": 2560,
         "y": 280,
         "wires": [
             []
@@ -1596,7 +2046,7 @@
         "offvalueType": "bool",
         "officon": "lens",
         "offcolor": "grey",
-        "x": 2060,
+        "x": 2100,
         "y": 320,
         "wires": [
             []
@@ -1626,7 +2076,7 @@
         "offvalueType": "bool",
         "officon": "lens",
         "offcolor": "grey",
-        "x": 2520,
+        "x": 2560,
         "y": 320,
         "wires": [
             []
@@ -2403,7 +2853,7 @@
         "topic": "",
         "payload": "OUT33.I_AVG",
         "payloadType": "global",
-        "x": 1180,
+        "x": 1300,
         "y": 240,
         "wires": [
             [
@@ -2429,7 +2879,7 @@
         "topic": "",
         "payload": "OUT28.I_AVG",
         "payloadType": "global",
-        "x": 1180,
+        "x": 1300,
         "y": 280,
         "wires": [
             [
@@ -2455,7 +2905,7 @@
         "topic": "",
         "payload": "OUT29.I_AVG",
         "payloadType": "global",
-        "x": 1180,
+        "x": 1300,
         "y": 320,
         "wires": [
             [
@@ -3365,7 +3815,7 @@
         "name": "logo_aptiv",
         "width": 8,
         "height": 2,
-        "order": 2,
+        "order": 1,
         "category": "image",
         "file": "aptiv_logo_transparent.png",
         "layout": "adjust",
@@ -3394,6 +3844,7 @@
         "passthru": false,
         "decouple": "true",
         "topic": "",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -3403,7 +3854,8 @@
         "offvalueType": "bool",
         "officon": "fa-circle-thin fa-2x",
         "offcolor": "grey",
-        "x": 530,
+        "animate": true,
+        "x": 510,
         "y": 280,
         "wires": [
             []
@@ -3423,6 +3875,7 @@
         "passthru": false,
         "decouple": "true",
         "topic": "",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -3432,7 +3885,8 @@
         "offvalueType": "bool",
         "officon": "fa-circle-thin fa-2x",
         "offcolor": "grey",
-        "x": 530,
+        "animate": true,
+        "x": 510,
         "y": 240,
         "wires": [
             []
@@ -3452,6 +3906,7 @@
         "passthru": false,
         "decouple": "true",
         "topic": "",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -3461,7 +3916,8 @@
         "offvalueType": "bool",
         "officon": "fa-circle-thin fa-2x",
         "offcolor": "grey",
-        "x": 530,
+        "animate": true,
+        "x": 510,
         "y": 320,
         "wires": [
             []
@@ -3527,6 +3983,7 @@
         "passthru": true,
         "decouple": "false",
         "topic": "OUT33",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -3536,6 +3993,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
+        "animate": true,
         "x": 720,
         "y": 240,
         "wires": [
@@ -3558,6 +4016,7 @@
         "passthru": true,
         "decouple": "false",
         "topic": "OUT28",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -3567,6 +4026,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
+        "animate": true,
         "x": 720,
         "y": 280,
         "wires": [
@@ -4237,7 +4697,7 @@
         "name": "PBM_picture",
         "width": 6,
         "height": 5,
-        "order": 4,
+        "order": 3,
         "category": "PBM_STATE",
         "file": "pbm_sleep_2.png",
         "layout": "adjust",
@@ -4348,7 +4808,7 @@
         "offvalueType": "bool",
         "officon": "lens",
         "offcolor": "grey",
-        "x": 2060,
+        "x": 2100,
         "y": 200,
         "wires": [
             []
@@ -4378,7 +4838,7 @@
         "offvalueType": "bool",
         "officon": "lens",
         "offcolor": "grey",
-        "x": 2520,
+        "x": 2560,
         "y": 200,
         "wires": [
             []
@@ -4426,7 +4886,7 @@
         "topic": "",
         "payload": "OUT6.I_AVG",
         "payloadType": "global",
-        "x": 1180,
+        "x": 1300,
         "y": 200,
         "wires": [
             [
@@ -4460,7 +4920,7 @@
         "officon": "fa-circle-thin fa-2x",
         "offcolor": "grey",
         "animate": true,
-        "x": 530,
+        "x": 510,
         "y": 200,
         "wires": [
             []
@@ -4517,7 +4977,7 @@
         "topic": "",
         "payload": "OUT6.CC_BAT",
         "payloadType": "global",
-        "x": 1830,
+        "x": 1870,
         "y": 200,
         "wires": [
             [
@@ -4543,7 +5003,7 @@
         "topic": "",
         "payload": "OUT6.CC_GND",
         "payloadType": "global",
-        "x": 2330,
+        "x": 2370,
         "y": 200,
         "wires": [
             [
@@ -4569,7 +5029,7 @@
         "topic": "",
         "payload": "OUT33.CC_BAT",
         "payloadType": "global",
-        "x": 1830,
+        "x": 1870,
         "y": 240,
         "wires": [
             [
@@ -4595,7 +5055,7 @@
         "topic": "",
         "payload": "OUT28.CC_BAT",
         "payloadType": "global",
-        "x": 1830,
+        "x": 1870,
         "y": 280,
         "wires": [
             [
@@ -4621,7 +5081,7 @@
         "topic": "",
         "payload": "OUT29.CC_BAT",
         "payloadType": "global",
-        "x": 1830,
+        "x": 1870,
         "y": 320,
         "wires": [
             [
@@ -4647,7 +5107,7 @@
         "topic": "",
         "payload": "OUT33.CC_GND",
         "payloadType": "global",
-        "x": 2330,
+        "x": 2370,
         "y": 240,
         "wires": [
             [
@@ -4673,7 +5133,7 @@
         "topic": "",
         "payload": "OUT28.CC_GND",
         "payloadType": "global",
-        "x": 2330,
+        "x": 2370,
         "y": 280,
         "wires": [
             [
@@ -4699,7 +5159,7 @@
         "topic": "",
         "payload": "OUT29.CC_GND",
         "payloadType": "global",
-        "x": 2330,
+        "x": 2370,
         "y": 320,
         "wires": [
             [
@@ -6241,7 +6701,7 @@
         "tooltip": "",
         "group": "a94da031.69433",
         "order": 11,
-        "width": 2,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -6399,7 +6859,7 @@
         "tooltip": "",
         "group": "a94da031.69433",
         "order": 16,
-        "width": 2,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -6586,7 +7046,7 @@
         "tooltip": "",
         "group": "a94da031.69433",
         "order": 6,
-        "width": 2,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -7287,13 +7747,13 @@
         "type": "function",
         "z": "7454cb24.99b874",
         "name": "ON_OFF Command",
-        "func": "var LOCAL_TOPIC = RED.util.cloneMessage(msg.topic);\nvar LOCAL_PAYLOAD = RED.util.cloneMessage(msg.payload);\n\nvar OUT_SELECTED = RED.util.cloneMessage(global.get(msg.topic)||{});\nif (OUT_SELECTED === undefined){\n    msg.payload = \"Error\";\n    \n}\nelse{\n    OUT_SELECTED.CMD = msg.payload;\n    global.set((msg.topic),OUT_SELECTED);\n    msg.payload = OUT_SELECTED;\n}\nglobal.set( \"REQUEST_UPDATE\", true);\nreturn msg;",
+        "func": "var LOCAL_TOPIC = RED.util.cloneMessage(msg.topic);\nvar LOCAL_PAYLOAD = RED.util.cloneMessage(msg.payload);\n\nvar OUT_SELECTED = RED.util.cloneMessage(global.get(msg.topic)||{});\nif (OUT_SELECTED === undefined){\n    msg.payload = \"Error\";\n    \n}\nelse{\n    OUT_SELECTED.CMD = msg.payload;\n    OUT_SELECTED.STATE = true;\n    global.set((msg.topic),OUT_SELECTED);\n    msg.payload = OUT_SELECTED;\n}\nglobal.set( \"REQUEST_UPDATE\", true);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
+        "x": 680,
         "y": 1100,
         "wires": [
             []
@@ -7307,7 +7767,7 @@
         "label": "OUT28",
         "tooltip": "",
         "group": "63140f80.a0076",
-        "order": 20,
+        "order": 17,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -7322,7 +7782,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1160,
         "wires": [
             [
@@ -7338,7 +7798,7 @@
         "label": "OUT29",
         "tooltip": "",
         "group": "63140f80.a0076",
-        "order": 22,
+        "order": 19,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -7353,7 +7813,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1200,
         "wires": [
             [
@@ -7384,7 +7844,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1240,
         "wires": [
             [
@@ -7415,7 +7875,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1280,
         "wires": [
             [
@@ -7446,7 +7906,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1320,
         "wires": [
             [
@@ -7477,7 +7937,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1360,
         "wires": [
             [
@@ -7508,7 +7968,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1400,
         "wires": [
             [
@@ -7524,7 +7984,7 @@
         "label": "OUT27",
         "tooltip": "",
         "group": "63140f80.a0076",
-        "order": 18,
+        "order": 15,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -7539,7 +7999,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1120,
         "wires": [
             [
@@ -7555,7 +8015,7 @@
         "label": "OUT26",
         "tooltip": "",
         "group": "63140f80.a0076",
-        "order": 16,
+        "order": 13,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -7570,7 +8030,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1080,
         "wires": [
             [
@@ -7586,7 +8046,7 @@
         "label": "OUT25",
         "tooltip": "",
         "group": "63140f80.a0076",
-        "order": 13,
+        "order": 11,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -7601,7 +8061,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1040,
         "wires": [
             [
@@ -7617,7 +8077,7 @@
         "label": "OUT24",
         "tooltip": "",
         "group": "63140f80.a0076",
-        "order": 10,
+        "order": 9,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -7632,7 +8092,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1000,
         "wires": [
             [
@@ -7663,7 +8123,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 960,
         "wires": [
             [
@@ -7694,7 +8154,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 920,
         "wires": [
             [
@@ -7725,7 +8185,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 880,
         "wires": [
             [
@@ -7756,7 +8216,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 840,
         "wires": [
             [
@@ -7787,7 +8247,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 800,
         "wires": [
             [
@@ -7818,7 +8278,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1440,
         "wires": [
             [
@@ -7849,7 +8309,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1480,
         "wires": [
             [
@@ -7880,7 +8340,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1520,
         "wires": [
             [
@@ -7911,7 +8371,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1560,
         "wires": [
             [
@@ -7942,7 +8402,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 760,
         "wires": [
             [
@@ -7973,7 +8433,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 720,
         "wires": [
             [
@@ -8004,7 +8464,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 680,
         "wires": [
             [
@@ -8035,7 +8495,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 640,
         "wires": [
             [
@@ -8049,7 +8509,7 @@
         "z": "7454cb24.99b874",
         "name": "not available yet",
         "info": "",
-        "x": 160,
+        "x": 320,
         "y": 40,
         "wires": []
     },
@@ -8076,7 +8536,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 600,
         "wires": [
             [
@@ -8107,7 +8567,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 560,
         "wires": [
             [
@@ -8138,7 +8598,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 520,
         "wires": [
             [
@@ -8169,7 +8629,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 480,
         "wires": [
             [
@@ -8200,7 +8660,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 440,
         "wires": [
             [
@@ -8231,7 +8691,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
+        "x": 290,
         "y": 400,
         "wires": [
             [
@@ -8262,7 +8722,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
+        "x": 290,
         "y": 360,
         "wires": [
             [
@@ -8293,7 +8753,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
+        "x": 290,
         "y": 320,
         "wires": [
             [
@@ -8324,7 +8784,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
+        "x": 290,
         "y": 280,
         "wires": [
             [
@@ -8355,7 +8815,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
+        "x": 290,
         "y": 240,
         "wires": [
             [
@@ -8386,7 +8846,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
+        "x": 290,
         "y": 200,
         "wires": [
             [
@@ -8417,7 +8877,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
+        "x": 290,
         "y": 160,
         "wires": [
             [
@@ -8448,7 +8908,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 130,
+        "x": 290,
         "y": 120,
         "wires": [
             [
@@ -8481,7 +8941,7 @@
         "officon": "",
         "offcolor": "",
         "animate": true,
-        "x": 130,
+        "x": 290,
         "y": 80,
         "wires": [
             [
@@ -8533,7 +8993,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 2,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "COMMAND",
@@ -8549,7 +9009,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 5,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "IAVG",
@@ -8565,7 +9025,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 6,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "Temp",
@@ -8581,7 +9041,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 7,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "LIMIT_IAVG",
@@ -8597,7 +9057,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 8,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "LIMIT_IMAX",
@@ -8613,7 +9073,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 3,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "OUT_STATE",
@@ -8629,7 +9089,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 4,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "IMAX",
@@ -8645,7 +9105,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 9,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "UNDERVOLTAGE",
@@ -8661,7 +9121,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 10,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "OVERVOLTAGE",
@@ -8677,7 +9137,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 11,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "I_CAL_A",
@@ -8693,7 +9153,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 12,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "I_CAL_B",
@@ -8709,7 +9169,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 13,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "TEMP_CAL_A",
@@ -8725,7 +9185,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 14,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "TEMP_CAL_B",
@@ -8741,7 +9201,7 @@
         "z": "7454cb24.99b874",
         "group": "fe4c44de.1ecf78",
         "order": 1,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "ENABLE",
@@ -8755,9 +9215,8 @@
         "id": "229926b9.a4d94a",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "63140f80.a0076",
-        "order": 9,
+        "order": 8,
         "width": 3,
         "height": 1,
         "name": "OUT23_I_DAC",
@@ -8772,7 +9231,6 @@
         "id": "ba9c3364.f1b2f",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -8798,9 +9256,8 @@
         "id": "fb33d30.5d1673",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "63140f80.a0076",
-        "order": 12,
+        "order": 10,
         "width": 3,
         "height": 1,
         "name": "OUT24_I_DAC",
@@ -8815,7 +9272,6 @@
         "id": "5ec707d8.71df08",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -8841,7 +9297,6 @@
         "id": "3e9d4c5c.9b06e4",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -8867,9 +9322,8 @@
         "id": "e8f61538.be5aa8",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "63140f80.a0076",
-        "order": 17,
+        "order": 14,
         "width": 3,
         "height": 1,
         "name": "OUT26_I_DAC",
@@ -8884,7 +9338,6 @@
         "id": "9f8f0af1.5adc88",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -8910,9 +9363,8 @@
         "id": "40d08c70.127fe4",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "63140f80.a0076",
-        "order": 19,
+        "order": 16,
         "width": 3,
         "height": 1,
         "name": "OUT27_I_DAC",
@@ -8927,7 +9379,6 @@
         "id": "7cb3ed48.5b54d4",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -8953,9 +9404,8 @@
         "id": "85f1ef73.9f2ef",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "63140f80.a0076",
-        "order": 21,
+        "order": 18,
         "width": 3,
         "height": 1,
         "name": "OUT28_I_DAC",
@@ -8970,7 +9420,6 @@
         "id": "caa87a68.096128",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -8996,9 +9445,8 @@
         "id": "af000bc1.047288",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "63140f80.a0076",
-        "order": 23,
+        "order": 20,
         "width": 3,
         "height": 1,
         "name": "OUT29_I_DAC",
@@ -9013,7 +9461,6 @@
         "id": "a9972998.d53e58",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9039,7 +9486,6 @@
         "id": "e1f619ce.e07bc8",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "be8c51dd.a1e19",
         "order": 2,
         "width": 3,
@@ -9056,7 +9502,6 @@
         "id": "294852c3.2944de",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9082,7 +9527,6 @@
         "id": "47288d1f.e61bf4",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "be8c51dd.a1e19",
         "order": 4,
         "width": 3,
@@ -9099,7 +9543,6 @@
         "id": "34b0a2b6.6be3ee",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9125,7 +9568,6 @@
         "id": "1f8270d9.154aef",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "be8c51dd.a1e19",
         "order": 6,
         "width": 3,
@@ -9142,7 +9584,6 @@
         "id": "c0a219d7.611a28",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9168,7 +9609,6 @@
         "id": "b9cd16ce.2053a8",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "be8c51dd.a1e19",
         "order": 8,
         "width": 3,
@@ -9185,7 +9625,6 @@
         "id": "95703fd8.a8a87",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9211,7 +9650,6 @@
         "id": "be38ff25.4d479",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "be8c51dd.a1e19",
         "order": 10,
         "width": 3,
@@ -9228,7 +9666,6 @@
         "id": "b052db36.83c9a8",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9254,7 +9691,6 @@
         "id": "7aa574ea.240a4c",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "be8c51dd.a1e19",
         "order": 12,
         "width": 3,
@@ -9271,7 +9707,6 @@
         "id": "546b933d.e4476c",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9297,7 +9732,6 @@
         "id": "a4d76514.8e53f8",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "be8c51dd.a1e19",
         "order": 14,
         "width": 3,
@@ -9314,7 +9748,6 @@
         "id": "5b7a3958.31f3d8",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9340,7 +9773,6 @@
         "id": "888de6ee.b8fce8",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "be8c51dd.a1e19",
         "order": 16,
         "width": 3,
@@ -9357,7 +9789,6 @@
         "id": "b9be20d4.d96f4",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9383,7 +9814,6 @@
         "id": "3c156a1b.1153b6",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "be8c51dd.a1e19",
         "order": 18,
         "width": 3,
@@ -9400,7 +9830,6 @@
         "id": "b41e8263.b6f66",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9426,7 +9855,6 @@
         "id": "c82dd680.84c7c8",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "63140f80.a0076",
         "order": 6,
         "width": 3,
@@ -9443,7 +9871,6 @@
         "id": "3002d299.336dce",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9469,7 +9896,6 @@
         "id": "e2a62035.300a4",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "63140f80.a0076",
         "order": 4,
         "width": 3,
@@ -9486,7 +9912,6 @@
         "id": "57f66e97.33d08",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9512,7 +9937,6 @@
         "id": "840da66e.2e9ab8",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "63140f80.a0076",
         "order": 2,
         "width": 3,
@@ -9529,7 +9953,6 @@
         "id": "7efceb5a.8f9804",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9555,7 +9978,6 @@
         "id": "50d2a754.f65b58",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "72d78d49.ca41e4",
         "order": 20,
         "width": 3,
@@ -9572,7 +9994,6 @@
         "id": "cb4cd1ca.f9c8b",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9598,7 +10019,6 @@
         "id": "bea7244a.b39728",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "72d78d49.ca41e4",
         "order": 18,
         "width": 3,
@@ -9615,7 +10035,6 @@
         "id": "344c2884.1b8388",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9641,7 +10060,6 @@
         "id": "931ad834.500828",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "72d78d49.ca41e4",
         "order": 16,
         "width": 3,
@@ -9658,7 +10076,6 @@
         "id": "716201ac.f7e32",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9684,7 +10101,6 @@
         "id": "df37b47a.bf01c8",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "72d78d49.ca41e4",
         "order": 14,
         "width": 3,
@@ -9701,7 +10117,6 @@
         "id": "de4258e0.5131f8",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9727,7 +10142,6 @@
         "id": "918c411.d1373c",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "72d78d49.ca41e4",
         "order": 12,
         "width": 3,
@@ -9744,7 +10158,6 @@
         "id": "d6d0ea03.3d69c8",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9770,7 +10183,6 @@
         "id": "786ad94f.ccc638",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "72d78d49.ca41e4",
         "order": 10,
         "width": 3,
@@ -9787,7 +10199,6 @@
         "id": "3a24392a.029606",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9813,7 +10224,6 @@
         "id": "50bc1026.94e6c",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "72d78d49.ca41e4",
         "order": 8,
         "width": 3,
@@ -9830,7 +10240,6 @@
         "id": "fba4c722.7e1218",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9856,7 +10265,6 @@
         "id": "2b50fd01.65ae62",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "72d78d49.ca41e4",
         "order": 6,
         "width": 3,
@@ -9873,7 +10281,6 @@
         "id": "aee3db5.29f1828",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9899,7 +10306,6 @@
         "id": "c9771dd1.ca245",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "72d78d49.ca41e4",
         "order": 4,
         "width": 3,
@@ -9916,7 +10322,6 @@
         "id": "9706e6a9.a84778",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9942,7 +10347,6 @@
         "id": "f38afb5c.02d378",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "72d78d49.ca41e4",
         "order": 2,
         "width": 3,
@@ -9959,7 +10363,6 @@
         "id": "14aa1ae1.37c0b5",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -9985,7 +10388,6 @@
         "id": "ae7c8093.09a8f",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "ca5e8a.7b089178",
         "order": 18,
         "width": 3,
@@ -10002,7 +10404,6 @@
         "id": "81ef3c76.f2074",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10028,7 +10429,6 @@
         "id": "3ef86623.98a1ea",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "ca5e8a.7b089178",
         "order": 16,
         "width": 3,
@@ -10045,7 +10445,6 @@
         "id": "13810b5a.189c05",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10071,7 +10470,6 @@
         "id": "deff69e7.2d24d8",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "ca5e8a.7b089178",
         "order": 14,
         "width": 3,
@@ -10088,7 +10486,6 @@
         "id": "cd707800.4f87e8",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10114,7 +10511,6 @@
         "id": "eb627df1.ef694",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "ca5e8a.7b089178",
         "order": 12,
         "width": 3,
@@ -10131,7 +10527,6 @@
         "id": "30f1702e.95dc6",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10157,7 +10552,6 @@
         "id": "61694b76.92ed84",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "ca5e8a.7b089178",
         "order": 10,
         "width": 3,
@@ -10174,7 +10568,6 @@
         "id": "6d0d9479.be024c",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10200,7 +10593,6 @@
         "id": "2b8cce50.a4a202",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "ca5e8a.7b089178",
         "order": 8,
         "width": 3,
@@ -10217,7 +10609,6 @@
         "id": "c70eef03.581e",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10243,7 +10634,6 @@
         "id": "8c8944c0.899ea8",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "ca5e8a.7b089178",
         "order": 6,
         "width": 3,
@@ -10260,7 +10650,6 @@
         "id": "aa3cebc3.cc8ed8",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10286,7 +10675,6 @@
         "id": "cb720bdb.c3fd48",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "ca5e8a.7b089178",
         "order": 4,
         "width": 3,
@@ -10303,7 +10691,6 @@
         "id": "17eea0ee.28f21f",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10329,7 +10716,6 @@
         "id": "226909fe.c92ff6",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "ca5e8a.7b089178",
         "order": 2,
         "width": 3,
@@ -10346,7 +10732,6 @@
         "id": "4aefd8ff.85e668",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10372,9 +10757,8 @@
         "id": "4db6903a.374e4",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "63140f80.a0076",
-        "order": 15,
+        "order": 12,
         "width": 3,
         "height": 1,
         "name": "OUT25_I_DAC",
@@ -10389,7 +10773,6 @@
         "id": "83570bf3.ba6428",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "be8c51dd.a1e19",
         "order": 20,
         "width": 3,
@@ -10406,7 +10789,6 @@
         "id": "5f414d10.c6bf64",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10451,7 +10833,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1600,
         "wires": [
             [
@@ -10482,7 +10864,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1640,
         "wires": [
             [
@@ -10513,7 +10895,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1680,
         "wires": [
             [
@@ -10544,7 +10926,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1720,
         "wires": [
             [
@@ -10575,7 +10957,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1760,
         "wires": [
             [
@@ -10606,7 +10988,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1800,
         "wires": [
             [
@@ -10637,7 +11019,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1840,
         "wires": [
             [
@@ -10668,7 +11050,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 140,
+        "x": 300,
         "y": 1880,
         "wires": [
             [
@@ -10680,7 +11062,6 @@
         "id": "10a14b7.10376b5",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "dc77d716.dd3d18",
         "order": 2,
         "width": 3,
@@ -10697,7 +11078,6 @@
         "id": "377fec04.c2ce64",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10723,7 +11103,6 @@
         "id": "c53db1f7.34e49",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "dc77d716.dd3d18",
         "order": 4,
         "width": 3,
@@ -10740,7 +11119,6 @@
         "id": "d64c8dd9.cda18",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10766,7 +11144,6 @@
         "id": "43f4aaa1.c74954",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "dc77d716.dd3d18",
         "order": 6,
         "width": 3,
@@ -10783,7 +11160,6 @@
         "id": "6f643df6.493c44",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10809,7 +11185,6 @@
         "id": "345c0832.64b658",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "dc77d716.dd3d18",
         "order": 8,
         "width": 3,
@@ -10826,7 +11201,6 @@
         "id": "ee5bd56a.d93e98",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10852,7 +11226,6 @@
         "id": "db8d5603.3a3f68",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "dc77d716.dd3d18",
         "order": 10,
         "width": 3,
@@ -10869,7 +11242,6 @@
         "id": "af9e7534.e23a88",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10895,7 +11267,6 @@
         "id": "60391828.f3c958",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "dc77d716.dd3d18",
         "order": 12,
         "width": 3,
@@ -10912,7 +11283,6 @@
         "id": "11f071bd.9d065e",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -10938,7 +11308,6 @@
         "id": "7ef3781e.f55f58",
         "type": "ui_text",
         "z": "7454cb24.99b874",
-        "d": true,
         "group": "dc77d716.dd3d18",
         "order": 14,
         "width": 3,
@@ -10955,7 +11324,6 @@
         "id": "6f694c01.657b24",
         "type": "inject",
         "z": "7454cb24.99b874",
-        "d": true,
         "name": "",
         "props": [
             {
@@ -11279,6 +11647,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 440,
         "y": 520,
         "wires": [
@@ -12374,7 +12743,7 @@
         "type": "function",
         "z": "71ab03d8.0d992c",
         "name": "Create CAN 0x401 frame to send",
-        "func": "// Example to send a stream\n// SOCKET_CAN = {\"ext\":false,\"canid\":1025,\"dlc\":5,\"data\":[1,2,3,4,5]}\n// or\n// SOCKET_CAN = 123#00112233\n\nvar LOCAL_REQUEST_SEND = global.get('REQUEST_UPDATE');\nvar local_PEF1 = global.get('PEF1');\nvar local_PEF2 = global.get('PEF2');\nvar local_PEF3 = global.get('PEF3');\nvar local_PEF4 = global.get('PEF4');\nvar local_PEF5 = global.get('PEF5');\nvar local_PEF6 = global.get('PEF6');\nvar local_PEF7 = global.get('PEF7');\nvar local_PEF8 = global.get('PEF8');\nvar local_OUT19 = global.get('OUT19');\nvar local_OUT20 = global.get('OUT20');\nvar local_OUT21 = global.get('OUT21');\nvar local_OUT22 = global.get('OUT22');\nvar local_OUT23 = global.get('OUT23');\nvar local_OUT24 = global.get('OUT24');\nvar local_OUT25 = global.get('OUT25');\nvar local_OUT26 = global.get('OUT26');\nvar local_OUT27 = global.get('OUT27');\nvar local_OUT28 = global.get('OUT28');\nvar local_OUT29 = global.get('OUT29');\nvar local_OUT30 = global.get('OUT30');\nvar local_OUT31 = global.get('OUT31');\nvar local_OUT32 = global.get('OUT32');\nvar local_OUT33 = global.get('OUT33');\nvar local_OUT34 = global.get('OUT34');\nvar local_OUT35 = global.get('OUT35');\nvar local_OUT36 = global.get('OUT36');\nvar local_OUT37 = global.get('OUT37');\nvar local_OUT38 = global.get('OUT38');\nvar local_IO1 = global.get('IO1');\nvar local_IO2 = global.get('IO2');\nvar local_IO3 = global.get('IO3');\nvar local_IO4 = global.get('IO4');\nvar local_IO5 = global.get('IO5');\nvar local_IO6 = global.get('IO6');\nvar local_IO7 = global.get('IO7');\nvar local_IO8 = global.get('IO8');\nvar local_IO9 = global.get('IO9');\nvar local_IO10 = global.get('IO10');\nvar local_IO11 = global.get('IO11');\nvar local_IO12 = global.get('IO12');\nvar local_HB1 = global.get('HB1');\nvar local_HB2 = global.get('HB2');\nvar local_HB3 = global.get('HB3');\nvar local_HB4 = global.get('HB4');\nvar local_HB5 = global.get('HB5');\nvar local_HB6 = global.get('HB6');\nvar local_HB7 = global.get('HB7');\nvar local_HB8 = global.get('HB8');\n\n\n// ------------------------------------\n// Declaration of the CAN FRAME\n// ------------------------------------\nvar CAN_FRAME = {\n    \"payload\": {\n        \"canfd\": true,\n        \"ext\": false,\n        \"canid\": 0x401,\n        \"dlc\": 8,\n        \"data\": [0,0,0,0,0,0,0,0]\n    }\n};\n\n// -------------------------------\n// Define the CAN FRAME format\n// ------------------------------\nCAN_FRAME.payload.canid=0x401;\nCAN_FRAME.payload.dlc = 8;\nLOCAL_REQUEST_SEND = true;\n\nif (LOCAL_REQUEST_SEND === true){\n    \n    CAN_FRAME.payload.data[0]=0;\n    CAN_FRAME.payload.data[0]+=(local_PEF1.CMD && 0x01);\n    CAN_FRAME.payload.data[0]+=(local_PEF2.CMD && 0x02);\n    CAN_FRAME.payload.data[0]+=(local_PEF3.CMD && 0x04);\n    CAN_FRAME.payload.data[0]+=(local_PEF4.CMD && 0x08);\n    CAN_FRAME.payload.data[0]+=(local_PEF5.CMD && 0x10);\n    CAN_FRAME.payload.data[0]+=(local_PEF6.CMD && 0x20);\n    CAN_FRAME.payload.data[0]+=(local_PEF7.CMD && 0x40);\n    CAN_FRAME.payload.data[0]+=(local_PEF8.CMD && 0x80);\n    \n    CAN_FRAME.payload.data[1]=0;\n    CAN_FRAME.payload.data[1]+=local_OUT19.CMD && 0x01;   \n    CAN_FRAME.payload.data[1]+=local_OUT20.CMD && 0x02;\n    CAN_FRAME.payload.data[1]+=local_OUT21.CMD && 0x04;\n    CAN_FRAME.payload.data[1]+=local_OUT22.CMD && 0x08;\n    CAN_FRAME.payload.data[1]+=local_OUT23.CMD && 0x10;\n    CAN_FRAME.payload.data[1]+=local_OUT24.CMD && 0x20;\n    CAN_FRAME.payload.data[1]+=local_OUT25.CMD && 0x40;\n    CAN_FRAME.payload.data[1]+=local_OUT26.CMD && 0x80;\n    \n\n    CAN_FRAME.payload.data[2]+=local_OUT27.CMD && 0x01;\n    CAN_FRAME.payload.data[2]+=local_OUT28.CMD && 0x02;\n    CAN_FRAME.payload.data[2]+=local_OUT29.CMD && 0x04;\n    CAN_FRAME.payload.data[2]+=local_OUT30.CMD && 0x08;\n    CAN_FRAME.payload.data[2]+=local_OUT31.CMD && 0x10;\n    CAN_FRAME.payload.data[2]+=local_OUT32.CMD && 0x20;\n    CAN_FRAME.payload.data[2]+=local_OUT33.CMD && 0x40;\n    CAN_FRAME.payload.data[2]+=local_OUT34.CMD && 0x80;\n    \n    \n    CAN_FRAME.payload.data[3]=0;\n    CAN_FRAME.payload.data[3]+=local_OUT35.CMD && 0x01;\n    CAN_FRAME.payload.data[3]+=local_OUT36.CMD && 0x02;\n    CAN_FRAME.payload.data[3]+=local_OUT37.CMD && 0x04;\n    CAN_FRAME.payload.data[3]+=local_OUT38.CMD && 0x08;\n    CAN_FRAME.payload.data[3]+=local_IO11.CMD && 0x10;\n    CAN_FRAME.payload.data[3]+=local_IO12.CMD && 0x20;\n    CAN_FRAME.payload.data[3]+=local_IO5.CMD && 0x40;\n    CAN_FRAME.payload.data[3]+=local_IO6.CMD && 0x80;   \n    \n    CAN_FRAME.payload.data[4]=0;\n    CAN_FRAME.payload.data[4]+=local_IO7.CMD && 0x01;\n    CAN_FRAME.payload.data[4]+=local_IO8.CMD && 0x02;\n    //CAN_FRAME.payload.data[4]+=local_.CMD && 0x04;    //NC\n    //CAN_FRAME.payload.data[4]+=local_.CMD && 0x08;    //NC\n    CAN_FRAME.payload.data[4]+=local_IO3.CMD && 0x10;\n    CAN_FRAME.payload.data[4]+=local_IO4.CMD && 0x20;\n    CAN_FRAME.payload.data[4]+=local_IO1.CMD && 0x40;\n    CAN_FRAME.payload.data[4]+=local_IO2.CMD && 0x80;   \n    \n        CAN_FRAME.payload.data[5]=0;\n    CAN_FRAME.payload.data[5]+=local_IO9.CMD && 0x01;\n    CAN_FRAME.payload.data[5]+=local_IO10.CMD && 0x02;\n    //CAN_FRAME.payload.data[5]+=local_.CMD && 0x04;    //NC\n    //CAN_FRAME.payload.data[5]+=local_.CMD && 0x08;    //NC\n    CAN_FRAME.payload.data[5]+=local_HB6.CMD && 0x10;    \n    CAN_FRAME.payload.data[5]+=local_HB7.CMD && 0x20;\n    CAN_FRAME.payload.data[5]+=local_HB1.CMD && 0x40;\n    CAN_FRAME.payload.data[5]+=local_HB2.CMD && 0x80;   \n\n        CAN_FRAME.payload.data[6]=0;\n    CAN_FRAME.payload.data[6]+=local_HB3.CMD && 0x01;\n    CAN_FRAME.payload.data[6]+=local_HB4.CMD && 0x02;\n    CAN_FRAME.payload.data[6]+=local_HB5.CMD && 0x04;\n    CAN_FRAME.payload.data[6]+=local_HB8.CMD && 0x08;    \n    //CAN_FRAME.payload.data[6]+=local_.CMD && 0x10;\n    //CAN_FRAME.payload.data[6]+=local_.CMD && 0x20;\n    //CAN_FRAME.payload.data[6]+=local_.CMD && 0x40;\n    //CAN_FRAME.payload.data[-]+=local_.CMD && 0x80;   \n    \n    global.set( \"REQUEST_UPDATE\", false);\n    return CAN_FRAME;\n}\n\n",
+        "func": "// Example to send a stream\n// SOCKET_CAN = {\"ext\":false,\"canid\":1025,\"dlc\":5,\"data\":[1,2,3,4,5]}\n// or\n// SOCKET_CAN = 123#00112233\n\nvar LOCAL_REQUEST_SEND = global.get('REQUEST_UPDATE');\nvar local_PEF1 = global.get('PEF1');\nvar local_PEF2 = global.get('PEF2');\nvar local_PEF3 = global.get('PEF3');\nvar local_PEF4 = global.get('PEF4');\nvar local_PEF5 = global.get('PEF5');\nvar local_PEF6 = global.get('PEF6');\nvar local_PEF7 = global.get('PEF7');\nvar local_PEF8 = global.get('PEF8');\nvar local_OUT19 = global.get('OUT19');\nvar local_OUT20 = global.get('OUT20');\nvar local_OUT21 = global.get('OUT21');\nvar local_OUT22 = global.get('OUT22');\nvar local_OUT23 = global.get('OUT23');\nvar local_OUT24 = global.get('OUT24');\nvar local_OUT25 = global.get('OUT25');\nvar local_OUT26 = global.get('OUT26');\nvar local_OUT27 = global.get('OUT27');\nvar local_OUT28 = global.get('OUT28');\nvar local_OUT29 = global.get('OUT29');\nvar local_OUT30 = global.get('OUT30');\nvar local_OUT31 = global.get('OUT31');\nvar local_OUT32 = global.get('OUT32');\nvar local_OUT33 = global.get('OUT33');\nvar local_OUT34 = global.get('OUT34');\nvar local_OUT35 = global.get('OUT35');\nvar local_OUT36 = global.get('OUT36');\nvar local_OUT37 = global.get('OUT37');\nvar local_OUT38 = global.get('OUT38');\nvar local_IO1 = global.get('IO1');\nvar local_IO2 = global.get('IO2');\nvar local_IO3 = global.get('IO3');\nvar local_IO4 = global.get('IO4');\nvar local_IO5 = global.get('IO5');\nvar local_IO6 = global.get('IO6');\nvar local_IO7 = global.get('IO7');\nvar local_IO8 = global.get('IO8');\nvar local_IO9 = global.get('IO9');\nvar local_IO10 = global.get('IO10');\nvar local_IO11 = global.get('IO11');\nvar local_IO12 = global.get('IO12');\nvar local_HB1 = global.get('HB1');\nvar local_HB2 = global.get('HB2');\nvar local_HB3 = global.get('HB3');\nvar local_HB4 = global.get('HB4');\nvar local_HB5 = global.get('HB5');\nvar local_HB6 = global.get('HB6');\nvar local_HB7 = global.get('HB7');\nvar local_HB8 = global.get('HB8');\n\n\n// ------------------------------------\n// Declaration of the CAN FRAME\n// ------------------------------------\nvar CAN_FRAME = {\n    \"payload\": {\n        \"canfd\": true,\n        \"ext\": false,\n        \"canid\": 0x401,\n        \"dlc\": 8,\n        \"data\": [0,0,0,0,0,0,0,0]\n    }\n};\n\n// -------------------------------\n// Define the CAN FRAME format\n// ------------------------------\nCAN_FRAME.payload.canid=0x401;\nCAN_FRAME.payload.dlc = 8;\n// LOCAL_REQUEST_SEND = true;\n\nif (LOCAL_REQUEST_SEND === true){\n    \n    CAN_FRAME.payload.data[0]=0;\n    CAN_FRAME.payload.data[0]+=(local_PEF1.CMD && 0x01);\n    CAN_FRAME.payload.data[0]+=(local_PEF2.CMD && 0x02);\n    CAN_FRAME.payload.data[0]+=(local_PEF3.CMD && 0x04);\n    CAN_FRAME.payload.data[0]+=(local_PEF4.CMD && 0x08);\n    CAN_FRAME.payload.data[0]+=(local_PEF5.CMD && 0x10);\n    CAN_FRAME.payload.data[0]+=(local_PEF6.CMD && 0x20);\n    CAN_FRAME.payload.data[0]+=(local_PEF7.CMD && 0x40);\n    CAN_FRAME.payload.data[0]+=(local_PEF8.CMD && 0x80);\n    \n    CAN_FRAME.payload.data[1]=0;\n    CAN_FRAME.payload.data[1]+=local_OUT19.CMD && 0x01;   \n    CAN_FRAME.payload.data[1]+=local_OUT20.CMD && 0x02;\n    CAN_FRAME.payload.data[1]+=local_OUT21.CMD && 0x04;\n    CAN_FRAME.payload.data[1]+=local_OUT22.CMD && 0x08;\n    CAN_FRAME.payload.data[1]+=local_OUT23.CMD && 0x10;\n    CAN_FRAME.payload.data[1]+=local_OUT24.CMD && 0x20;\n    CAN_FRAME.payload.data[1]+=local_OUT25.CMD && 0x40;\n    CAN_FRAME.payload.data[1]+=local_OUT26.CMD && 0x80;\n    \n\n    CAN_FRAME.payload.data[2]+=local_OUT27.CMD && 0x01;\n    CAN_FRAME.payload.data[2]+=local_OUT28.CMD && 0x02;\n    CAN_FRAME.payload.data[2]+=local_OUT29.CMD && 0x04;\n    CAN_FRAME.payload.data[2]+=local_OUT30.CMD && 0x08;\n    CAN_FRAME.payload.data[2]+=local_OUT31.CMD && 0x10;\n    CAN_FRAME.payload.data[2]+=local_OUT32.CMD && 0x20;\n    CAN_FRAME.payload.data[2]+=local_OUT33.CMD && 0x40;\n    CAN_FRAME.payload.data[2]+=local_OUT34.CMD && 0x80;\n    \n    \n    CAN_FRAME.payload.data[3]=0;\n    CAN_FRAME.payload.data[3]+=local_OUT35.CMD && 0x01;\n    CAN_FRAME.payload.data[3]+=local_OUT36.CMD && 0x02;\n    CAN_FRAME.payload.data[3]+=local_OUT37.CMD && 0x04;\n    CAN_FRAME.payload.data[3]+=local_OUT38.CMD && 0x08;\n    CAN_FRAME.payload.data[3]+=local_IO11.CMD && 0x10;\n    CAN_FRAME.payload.data[3]+=local_IO12.CMD && 0x20;\n    CAN_FRAME.payload.data[3]+=local_IO5.CMD && 0x40;\n    CAN_FRAME.payload.data[3]+=local_IO6.CMD && 0x80;   \n    \n    CAN_FRAME.payload.data[4]=0;\n    CAN_FRAME.payload.data[4]+=local_IO7.CMD && 0x01;\n    CAN_FRAME.payload.data[4]+=local_IO8.CMD && 0x02;\n    //CAN_FRAME.payload.data[4]+=local_.CMD && 0x04;    //NC\n    //CAN_FRAME.payload.data[4]+=local_.CMD && 0x08;    //NC\n    CAN_FRAME.payload.data[4]+=local_IO3.CMD && 0x10;\n    CAN_FRAME.payload.data[4]+=local_IO4.CMD && 0x20;\n    CAN_FRAME.payload.data[4]+=local_IO1.CMD && 0x40;\n    CAN_FRAME.payload.data[4]+=local_IO2.CMD && 0x80;   \n    \n        CAN_FRAME.payload.data[5]=0;\n    CAN_FRAME.payload.data[5]+=local_IO9.CMD && 0x01;\n    CAN_FRAME.payload.data[5]+=local_IO10.CMD && 0x02;\n    //CAN_FRAME.payload.data[5]+=local_.CMD && 0x04;    //NC\n    //CAN_FRAME.payload.data[5]+=local_.CMD && 0x08;    //NC\n    CAN_FRAME.payload.data[5]+=local_HB6.CMD && 0x10;    \n    CAN_FRAME.payload.data[5]+=local_HB7.CMD && 0x20;\n    CAN_FRAME.payload.data[5]+=local_HB1.CMD && 0x40;\n    CAN_FRAME.payload.data[5]+=local_HB2.CMD && 0x80;   \n\n        CAN_FRAME.payload.data[6]=0;\n    CAN_FRAME.payload.data[6]+=local_HB3.CMD && 0x01;\n    CAN_FRAME.payload.data[6]+=local_HB4.CMD && 0x02;\n    CAN_FRAME.payload.data[6]+=local_HB5.CMD && 0x04;\n    CAN_FRAME.payload.data[6]+=local_HB8.CMD && 0x08;    \n    //CAN_FRAME.payload.data[6]+=local_.CMD && 0x10;\n    //CAN_FRAME.payload.data[6]+=local_.CMD && 0x20;\n    //CAN_FRAME.payload.data[6]+=local_.CMD && 0x40;\n    //CAN_FRAME.payload.data[-]+=local_.CMD && 0x80;   \n    \n    global.set( \"REQUEST_UPDATE\", false);\n    return CAN_FRAME;\n}\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12524,6 +12893,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1580,
         "y": 240,
         "wires": [
@@ -13308,16 +13678,6 @@
         ]
     },
     {
-        "id": "3aed805a.f053c",
-        "type": "socketcan-in",
-        "z": "a413e725.e40048",
-        "name": "Can send can0",
-        "config": "a2a7ae15.44d7e",
-        "x": 420,
-        "y": 540,
-        "wires": []
-    },
-    {
         "id": "a0e7a6a3.61a508",
         "type": "function",
         "z": "71ab03d8.0d992c",
@@ -13383,33 +13743,6 @@
         ]
     },
     {
-        "id": "159525fb.7288fa",
-        "type": "ui_button",
-        "z": "a413e725.e40048",
-        "name": "",
-        "group": "e4a8c1e6.d3717",
-        "order": 2,
-        "width": 4,
-        "height": 1,
-        "passthru": false,
-        "label": "SLEEP MODE REQUEST",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "icon": "mi-nightlight_round",
-        "payload": "{\"canfd\":true,\"ext\":false,\"canid\":1028,\"dlc\":8,\"data\":[1,0,0,0,0,0,0,0]}",
-        "payloadType": "json",
-        "topic": "Sleep",
-        "topicType": "str",
-        "x": 170,
-        "y": 540,
-        "wires": [
-            [
-                "3aed805a.f053c"
-            ]
-        ]
-    },
-    {
         "id": "5e807bfc.fc61b4",
         "type": "function",
         "z": "a413e725.e40048",
@@ -13434,9 +13767,9 @@
         "z": "a413e725.e40048",
         "name": "",
         "group": "e4a8c1e6.d3717",
-        "order": 11,
-        "width": 0,
-        "height": 0,
+        "order": 7,
+        "width": 6,
+        "height": 4,
         "gtype": "compass",
         "title": "ALIVE COUNTER",
         "label": "",
@@ -13485,7 +13818,7 @@
         "z": "a413e725.e40048",
         "d": true,
         "group": "fac9722d.3365f",
-        "order": 2,
+        "order": 1,
         "width": 3,
         "height": 1,
         "name": "",
@@ -13493,7 +13826,7 @@
         "format": "{{msg.payload}} A",
         "layout": "row-spread",
         "x": 1630,
-        "y": 380,
+        "y": 360,
         "wires": []
     },
     {
@@ -13503,7 +13836,7 @@
         "d": true,
         "name": "Iavg",
         "group": "fac9722d.3365f",
-        "order": 6,
+        "order": 3,
         "width": 6,
         "height": 4,
         "label": "",
@@ -13535,7 +13868,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 1490,
-        "y": 380,
+        "y": 360,
         "wires": [
             []
         ],
@@ -13561,8 +13894,8 @@
         "topic": "",
         "payload": "OUT10.I_AVG",
         "payloadType": "global",
-        "x": 1180,
-        "y": 380,
+        "x": 1300,
+        "y": 360,
         "wires": [
             [
                 "4510995.edfc168",
@@ -15797,7 +16130,7 @@
         "type": "function",
         "z": "eb8df6c6.74f658",
         "name": "Initialisation Variable",
-        "func": "// Declaration of the generic structure\n//\nvar SW_VERSION = {\n        \"NAME\":\"SW_VERSION\",\n        \"VERSION\":\"1.1.2\"\n};\nvar SERIAL_NUMBER = {\n    \"NAME\":\"SERIAL_NUMBER\",\n    \"SERIAL_NUMBER\":\"0\"\n};\n\nvar OUT_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"I_RAW_ADC\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,\n    \"CONF_I_ABSOLUTE_LIMIT\":0,\n    \"CONF_I_ABSOLUTE_CONTINUOUS_LIMIT\":0,\n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24.1,\n    \"CONF_OVERTEMP\":true,\n    \"CONF_CAL_CURRENT_COEF_A\":1.1,\n    \"CONF_CAL_CURRENT_COEF_B\":0.1,\n    \"CONF_CAL_TEMP_COEF_A\":1.1,\n    \"CONF_CAL_TEMP_COEF_B\":0.1,\n    \"LOGGING\":false\n};\nvar PEF_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"I_RAW_ADC\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,\n    \"DRIVER_TJ\":0,\n    \"DRIVER_NTC\":0,\n    \"GLB\":0,\n    \"SR1\":0,\n    \"VDS\":0,\n    \"HSHT_SAR\":0,\n    \"CONF_I_ABSOLUTE_LIMIT\":0,\n    \"CONF_I_ABSOLUTE_CONTINUOUS_LIMIT\":0,\n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"CONF_CAL_CURRENT_COEF_A\":1,\n    \"CONF_CAL_CURRENT_COEF_B\":0,\n    \"CONF_CAL_TEMP_COEF_A\":1,\n    \"CONF_CAL_TEMP_COEF_B\":0,\n    \"REG_COMMAND\":0,\n    \"REG_INPUT1\":0,\n    \"REG_INPUT2\":0,\n    \"REG_INPUT3\":0,\n    \"REG_STATUS\":0,\n    \"REG_DATA1\":0,\n    \"REG_DATA2\":0,\n    \"REG_DATA3\":0,\n    \"LOGGING\":false\n};\nvar HB_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,    \n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"LOGGING\":false\n};\nvar IO_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"ANA\":0,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,    \n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"LOGGING\":false\n};\nvar ANA_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"VOLTAGE\":0,\n    \"CONF_CAL_COEF_A\":1,\n    \"CONF_CAL_COEF_B\":0,\n    \"TEMP\":0\n};\nvar CAN_TEMPLATE={\n    \"ENABLE\":true,\n    \"SPEED\":500,\n    \"LOAD\":0\n}\nvar PRODUCT_INFO_TEMPLATE={\n    \"NAME\":\"PRODUCT_INFO\",\n    \"SERIAL_NUMBER\":0,\n    \"ALIVE_COUNTER\":0,\n    \"STATE_MODE\":0,\n    \"SW_VERS_DAY\":0,\n    \"SW_VERS_MONTH\":0,\n    \"SW_VERS_YEAR\":0,\n    \"SW_VERS_MAJOR\":0,\n    \"SW_VERS_MINOR\":0,\n    \"SW_VERS_PATCH\":0\n}\nglobal.set('SW_VERSION', SW_VERSION);\nglobal.set('SERIAL_NUMBER', SERIAL_NUMBER);\nglobal.set('PRODUCT_INFO', PRODUCT_INFO_TEMPLATE);\n\nvar CAN1 = {\"NAME\":\"CAN1\", ...CAN_TEMPLATE};\nvar CAN2 = {\"NAME\":\"CAN2\", ...CAN_TEMPLATE};\nvar CAN3 = {\"NAME\":\"CAN3\", ...CAN_TEMPLATE};\n\nglobal.set('CAN1',CAN1);\nglobal.set('CAN2',CAN2);\nglobal.set('CAN3',CAN3);\n\nglobal.set('ANA_IN01',ANA_TEMPLATE);\nglobal.set('ANA_IN02',ANA_TEMPLATE);\nglobal.set('ANA_IN03',ANA_TEMPLATE);\nglobal.set('ANA_IN04',ANA_TEMPLATE);\nglobal.set('ANA_IN05',ANA_TEMPLATE);\nglobal.set('ANA_IN06',ANA_TEMPLATE);\nglobal.set('ANA_IN07',ANA_TEMPLATE);\nglobal.set('ANA_IN08',ANA_TEMPLATE);\nglobal.set('ANA_IN09',ANA_TEMPLATE);\nglobal.set('ANA_IN10',ANA_TEMPLATE);\nglobal.set('ANA_IN11',ANA_TEMPLATE);\nglobal.set('ANA_ACC_SNSR1',ANA_TEMPLATE);\nglobal.set('ANA_ACC_SNSR2',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30A',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30B',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30_PROTECT',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30A_PWR',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30B_PWR',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_5V_SW',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3_SW',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3_BRIDGE',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_12V',ANA_TEMPLATE);\nglobal.set('INTERNAL_ADC1',ANA_TEMPLATE);\nglobal.set('INTERNAL_ADC2',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP1',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP2',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP3',ANA_TEMPLATE);\n\nglobal.set('IO1',IO_TEMPLATE);\nglobal.set('IO2',IO_TEMPLATE);\nglobal.set('IO3',IO_TEMPLATE);\nglobal.set('IO4',IO_TEMPLATE);\nglobal.set('IO5',IO_TEMPLATE);\nglobal.set('IO6',IO_TEMPLATE);\nglobal.set('IO7',IO_TEMPLATE);\nglobal.set('IO8',IO_TEMPLATE);\nglobal.set('IO9',IO_TEMPLATE);\nglobal.set('IO10',IO_TEMPLATE);\nglobal.set('IO11',IO_TEMPLATE);\nglobal.set('IO12',IO_TEMPLATE);\nglobal.set('OUT1',OUT_TEMPLATE);\nglobal.set('OUT2',OUT_TEMPLATE);\nglobal.set('OUT3',OUT_TEMPLATE);\nglobal.set('OUT4',OUT_TEMPLATE);\nglobal.set('OUT5',OUT_TEMPLATE);\nglobal.set('OUT6',OUT_TEMPLATE);\nglobal.set('OUT7',OUT_TEMPLATE);\nglobal.set('OUT8',OUT_TEMPLATE);\nglobal.set('OUT9',OUT_TEMPLATE);\nglobal.set('OUT10',OUT_TEMPLATE);\nglobal.set('OUT11',OUT_TEMPLATE);\nglobal.set('OUT12',OUT_TEMPLATE);\nglobal.set('OUT13',OUT_TEMPLATE);\nglobal.set('OUT14',OUT_TEMPLATE);\nglobal.set('OUT15',OUT_TEMPLATE);\nglobal.set('OUT16',OUT_TEMPLATE);\nglobal.set('OUT17',OUT_TEMPLATE);\nglobal.set('OUT18',OUT_TEMPLATE);\nglobal.set('OUT19',OUT_TEMPLATE);\nglobal.set('OUT20',OUT_TEMPLATE);\nglobal.set('OUT21',OUT_TEMPLATE);\nglobal.set('OUT22',OUT_TEMPLATE);\nglobal.set('OUT23',OUT_TEMPLATE);\nglobal.set('OUT24',OUT_TEMPLATE);\nglobal.set('OUT25',OUT_TEMPLATE);\nglobal.set('OUT26',OUT_TEMPLATE);\nglobal.set('OUT27',OUT_TEMPLATE);\nglobal.set('OUT28',OUT_TEMPLATE);\nglobal.set('OUT29',OUT_TEMPLATE);\nglobal.set('OUT30',OUT_TEMPLATE);\nglobal.set('OUT31',OUT_TEMPLATE);\nglobal.set('OUT32',OUT_TEMPLATE);\nglobal.set('OUT33',OUT_TEMPLATE);\nglobal.set('OUT34',OUT_TEMPLATE);\nglobal.set('OUT35',OUT_TEMPLATE);\nglobal.set('OUT36',OUT_TEMPLATE);\nglobal.set('OUT37',OUT_TEMPLATE);\nglobal.set('OUT38',OUT_TEMPLATE);\nglobal.set('OUT39',OUT_TEMPLATE);\nglobal.set('OUT40',OUT_TEMPLATE);\nglobal.set('OUT41',OUT_TEMPLATE);\nglobal.set('OUT42',OUT_TEMPLATE);\nglobal.set('OUT43',OUT_TEMPLATE);\nglobal.set('OUT44',OUT_TEMPLATE);\nglobal.set('OUT45',OUT_TEMPLATE);\nglobal.set('OUT46',OUT_TEMPLATE);\nglobal.set('OUT47',OUT_TEMPLATE);\nglobal.set('OUT48',OUT_TEMPLATE);\n\nglobal.set('PEF1',PEF_TEMPLATE);\nglobal.set('PEF2',PEF_TEMPLATE);\nglobal.set('PEF3',PEF_TEMPLATE);\nglobal.set('PEF4',PEF_TEMPLATE);\nglobal.set('PEF5',PEF_TEMPLATE);\nglobal.set('PEF6',PEF_TEMPLATE);\nglobal.set('PEF7',PEF_TEMPLATE);\nglobal.set('PEF8',PEF_TEMPLATE);\nglobal.set('HB1',HB_TEMPLATE);\nglobal.set('HB2',HB_TEMPLATE);\nglobal.set('HB3',HB_TEMPLATE);\nglobal.set('HB4',HB_TEMPLATE);\nglobal.set('HB5',HB_TEMPLATE);\nglobal.set('HB6',HB_TEMPLATE);\nglobal.set('HB7',HB_TEMPLATE);\nglobal.set('HB8',HB_TEMPLATE);\n\nglobal.set('CAN0_LOGGER',[]);\nglobal.set('MQTT_ENABLE', false);\n\nglobal.set('NODE_TLS_REJECT_UNAUTHORIZED',0);\n\nreturn msg;",
+        "func": "// Declaration of the generic structure\n//\nvar SW_VERSION = {\n        \"NAME\":\"SW_VERSION\",\n        \"VERSION\":\"1.1.3\"\n};\nvar SERIAL_NUMBER = {\n    \"NAME\":\"SERIAL_NUMBER\",\n    \"SERIAL_NUMBER\":\"0\"\n};\n\nvar OUT_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"I_RAW_ADC\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,\n    \"CONF_I_ABSOLUTE_LIMIT\":0,\n    \"CONF_I_ABSOLUTE_CONTINUOUS_LIMIT\":0,\n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24.1,\n    \"CONF_OVERTEMP\":true,\n    \"CONF_CAL_CURRENT_COEF_A\":1.1,\n    \"CONF_CAL_CURRENT_COEF_B\":0.1,\n    \"CONF_CAL_TEMP_COEF_A\":1.1,\n    \"CONF_CAL_TEMP_COEF_B\":0.1,\n    \"LOGGING\":false\n};\nvar PEF_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"I_RAW_ADC\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,\n    \"DRIVER_TJ\":0,\n    \"DRIVER_NTC\":0,\n    \"GLB\":0,\n    \"SR1\":0,\n    \"VDS\":0,\n    \"HSHT_SAR\":0,\n    \"CONF_I_ABSOLUTE_LIMIT\":0,\n    \"CONF_I_ABSOLUTE_CONTINUOUS_LIMIT\":0,\n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"CONF_CAL_CURRENT_COEF_A\":1,\n    \"CONF_CAL_CURRENT_COEF_B\":0,\n    \"CONF_CAL_TEMP_COEF_A\":1,\n    \"CONF_CAL_TEMP_COEF_B\":0,\n    \"REG_COMMAND\":0,\n    \"REG_INPUT1\":0,\n    \"REG_INPUT2\":0,\n    \"REG_INPUT3\":0,\n    \"REG_STATUS\":0,\n    \"REG_DATA1\":0,\n    \"REG_DATA2\":0,\n    \"REG_DATA3\":0,\n    \"LOGGING\":false\n};\nvar HB_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,    \n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"LOGGING\":false\n};\nvar IO_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"ANA\":0,\n    \"CMD\":false,\n    \"STATE\":false,\n    \"I_AVG\":0,\n    \"I_PEAK\":0,\n    \"OL\":false,\n    \"CC_BAT\":false,\n    \"CC_GND\":false,\n    \"OVERTEMP\":0,\n    \"IN_VOLTAGE\":0,\n    \"OUT_VOLTAGE\":0,\n    \"TEMP\":0,    \n    \"CONF_I_MAX\":10,\n    \"CONF_I_AVG\":3,\n    \"CONF_I_TIME\":0.1,\n    \"CONF_SAFE_STATE\":0,\n    \"CONF_DIAG_OL\":true,\n    \"CONF_DIAG_CC_GND\":true,\n    \"CONF_DIAG_CC_BAT\":true,\n    \"CONF_DIAG_TEMP\":true,\n    \"CONF_UNDERVOLTAGE\":7.5,\n    \"CONF_OVERVOLTAGE\":24,\n    \"CONF_OVERTEMP\":true,\n    \"LOGGING\":false\n};\nvar ANA_TEMPLATE={\n    \"NAME\":\"undefined\",\n    \"DESIGNATION\":\"undefined\",\n    \"ENABLE\":true,\n    \"VOLTAGE\":0,\n    \"CONF_CAL_COEF_A\":1,\n    \"CONF_CAL_COEF_B\":0,\n    \"TEMP\":0\n};\nvar CAN_TEMPLATE={\n    \"ENABLE\":true,\n    \"SPEED\":500,\n    \"LOAD\":0\n}\nvar PRODUCT_INFO_TEMPLATE={\n    \"NAME\":\"PRODUCT_INFO\",\n    \"SERIAL_NUMBER\":0,\n    \"ALIVE_COUNTER\":0,\n    \"STATE_MODE\":0,\n    \"SW_VERS_DAY\":0,\n    \"SW_VERS_MONTH\":0,\n    \"SW_VERS_YEAR\":0,\n    \"SW_VERS_MAJOR\":0,\n    \"SW_VERS_MINOR\":0,\n    \"SW_VERS_PATCH\":0\n}\n\nglobal.set('REQUEST_UPDATE', false);\n\nglobal.set('SW_VERSION', SW_VERSION);\nglobal.set('SERIAL_NUMBER', SERIAL_NUMBER);\nglobal.set('PRODUCT_INFO', PRODUCT_INFO_TEMPLATE);\n\nvar CAN1 = {\"NAME\":\"CAN1\", ...CAN_TEMPLATE};\nvar CAN2 = {\"NAME\":\"CAN2\", ...CAN_TEMPLATE};\nvar CAN3 = {\"NAME\":\"CAN3\", ...CAN_TEMPLATE};\n\nglobal.set('CAN1',CAN1);\nglobal.set('CAN2',CAN2);\nglobal.set('CAN3',CAN3);\n\nglobal.set('ANA_IN01',ANA_TEMPLATE);\nglobal.set('ANA_IN02',ANA_TEMPLATE);\nglobal.set('ANA_IN03',ANA_TEMPLATE);\nglobal.set('ANA_IN04',ANA_TEMPLATE);\nglobal.set('ANA_IN05',ANA_TEMPLATE);\nglobal.set('ANA_IN06',ANA_TEMPLATE);\nglobal.set('ANA_IN07',ANA_TEMPLATE);\nglobal.set('ANA_IN08',ANA_TEMPLATE);\nglobal.set('ANA_IN09',ANA_TEMPLATE);\nglobal.set('ANA_IN10',ANA_TEMPLATE);\nglobal.set('ANA_IN11',ANA_TEMPLATE);\nglobal.set('ANA_ACC_SNSR1',ANA_TEMPLATE);\nglobal.set('ANA_ACC_SNSR2',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30A',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30B',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30_PROTECT',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30A_PWR',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_KL30B_PWR',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_5V_SW',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3_SW',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_3V3_BRIDGE',ANA_TEMPLATE);\nglobal.set('INTERNAL_ANA_12V',ANA_TEMPLATE);\nglobal.set('INTERNAL_ADC1',ANA_TEMPLATE);\nglobal.set('INTERNAL_ADC2',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP1',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP2',ANA_TEMPLATE);\nglobal.set('INTERNAL_TEMP3',ANA_TEMPLATE);\n\nglobal.set('IO1',IO_TEMPLATE);\nglobal.set('IO2',IO_TEMPLATE);\nglobal.set('IO3',IO_TEMPLATE);\nglobal.set('IO4',IO_TEMPLATE);\nglobal.set('IO5',IO_TEMPLATE);\nglobal.set('IO6',IO_TEMPLATE);\nglobal.set('IO7',IO_TEMPLATE);\nglobal.set('IO8',IO_TEMPLATE);\nglobal.set('IO9',IO_TEMPLATE);\nglobal.set('IO10',IO_TEMPLATE);\nglobal.set('IO11',IO_TEMPLATE);\nglobal.set('IO12',IO_TEMPLATE);\nglobal.set('OUT1',OUT_TEMPLATE);\nglobal.set('OUT2',OUT_TEMPLATE);\nglobal.set('OUT3',OUT_TEMPLATE);\nglobal.set('OUT4',OUT_TEMPLATE);\nglobal.set('OUT5',OUT_TEMPLATE);\nglobal.set('OUT6',OUT_TEMPLATE);\nglobal.set('OUT7',OUT_TEMPLATE);\nglobal.set('OUT8',OUT_TEMPLATE);\nglobal.set('OUT9',OUT_TEMPLATE);\nglobal.set('OUT10',OUT_TEMPLATE);\nglobal.set('OUT11',OUT_TEMPLATE);\nglobal.set('OUT12',OUT_TEMPLATE);\nglobal.set('OUT13',OUT_TEMPLATE);\nglobal.set('OUT14',OUT_TEMPLATE);\nglobal.set('OUT15',OUT_TEMPLATE);\nglobal.set('OUT16',OUT_TEMPLATE);\nglobal.set('OUT17',OUT_TEMPLATE);\nglobal.set('OUT18',OUT_TEMPLATE);\nglobal.set('OUT19',OUT_TEMPLATE);\nglobal.set('OUT20',OUT_TEMPLATE);\nglobal.set('OUT21',OUT_TEMPLATE);\nglobal.set('OUT22',OUT_TEMPLATE);\nglobal.set('OUT23',OUT_TEMPLATE);\nglobal.set('OUT24',OUT_TEMPLATE);\nglobal.set('OUT25',OUT_TEMPLATE);\nglobal.set('OUT26',OUT_TEMPLATE);\nglobal.set('OUT27',OUT_TEMPLATE);\nglobal.set('OUT28',OUT_TEMPLATE);\nglobal.set('OUT29',OUT_TEMPLATE);\nglobal.set('OUT30',OUT_TEMPLATE);\nglobal.set('OUT31',OUT_TEMPLATE);\nglobal.set('OUT32',OUT_TEMPLATE);\nglobal.set('OUT33',OUT_TEMPLATE);\nglobal.set('OUT34',OUT_TEMPLATE);\nglobal.set('OUT35',OUT_TEMPLATE);\nglobal.set('OUT36',OUT_TEMPLATE);\nglobal.set('OUT37',OUT_TEMPLATE);\nglobal.set('OUT38',OUT_TEMPLATE);\nglobal.set('OUT39',OUT_TEMPLATE);\nglobal.set('OUT40',OUT_TEMPLATE);\nglobal.set('OUT41',OUT_TEMPLATE);\nglobal.set('OUT42',OUT_TEMPLATE);\nglobal.set('OUT43',OUT_TEMPLATE);\nglobal.set('OUT44',OUT_TEMPLATE);\nglobal.set('OUT45',OUT_TEMPLATE);\nglobal.set('OUT46',OUT_TEMPLATE);\nglobal.set('OUT47',OUT_TEMPLATE);\nglobal.set('OUT48',OUT_TEMPLATE);\n\nglobal.set('PEF1',PEF_TEMPLATE);\nglobal.set('PEF2',PEF_TEMPLATE);\nglobal.set('PEF3',PEF_TEMPLATE);\nglobal.set('PEF4',PEF_TEMPLATE);\nglobal.set('PEF5',PEF_TEMPLATE);\nglobal.set('PEF6',PEF_TEMPLATE);\nglobal.set('PEF7',PEF_TEMPLATE);\nglobal.set('PEF8',PEF_TEMPLATE);\nglobal.set('HB1',HB_TEMPLATE);\nglobal.set('HB2',HB_TEMPLATE);\nglobal.set('HB3',HB_TEMPLATE);\nglobal.set('HB4',HB_TEMPLATE);\nglobal.set('HB5',HB_TEMPLATE);\nglobal.set('HB6',HB_TEMPLATE);\nglobal.set('HB7',HB_TEMPLATE);\nglobal.set('HB8',HB_TEMPLATE);\n\nglobal.set('CAN0_LOGGER',[]);\nglobal.set('MQTT_ENABLE', false);\n\nglobal.set('NODE_TLS_REJECT_UNAUTHORIZED',0);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -15875,7 +16208,7 @@
         "z": "eb8df6c6.74f658",
         "name": "",
         "group": "a94da031.69433",
-        "order": 21,
+        "order": 22,
         "width": 0,
         "height": 0,
         "passthru": false,
@@ -18086,7 +18419,9 @@
         "x": 680,
         "y": 880,
         "wires": [
-            []
+            [
+                "848d6c2.987d49"
+            ]
         ]
     },
     {
@@ -18307,5 +18642,1062 @@
                 "73a25a02.774564"
             ]
         ]
+    },
+    {
+        "id": "f1bd8d20.faaba",
+        "type": "socketcan-in",
+        "z": "8c2dcd19.58c21",
+        "name": "Can send can1",
+        "config": "4fa76aa7.abf7b4",
+        "x": 600,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "c4c55792.78d9f8",
+        "type": "ui_button",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "group": "e4a8c1e6.d3717",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "SLEEP MODE REQUEST",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "mi-nightlight_round",
+        "payload": "{\"canfd\":true,\"ext\":false,\"canid\":1028,\"dlc\":8,\"data\":[1,0,0,0,0,0,0,0]}",
+        "payloadType": "json",
+        "topic": "Sleep",
+        "topicType": "str",
+        "x": 150,
+        "y": 200,
+        "wires": [
+            [
+                "a2afd83.ba34628"
+            ]
+        ]
+    },
+    {
+        "id": "9551ac62.9b73e",
+        "type": "ui_button",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "group": "e4a8c1e6.d3717",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "WAKE UP REQUEST",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "mi-wb_sunny",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "Wake",
+        "topicType": "str",
+        "x": 140,
+        "y": 260,
+        "wires": [
+            [
+                "b9f3e47.e29ad18"
+            ]
+        ]
+    },
+    {
+        "id": "f10273e2.dfce8",
+        "type": "socketcan-out",
+        "z": "8c2dcd19.58c21",
+        "name": "can receive can0",
+        "config": "a2a7ae15.44d7e",
+        "x": 810,
+        "y": 200,
+        "wires": [
+            [
+                "2a1a2d26.3b79a2"
+            ]
+        ]
+    },
+    {
+        "id": "2a1a2d26.3b79a2",
+        "type": "function",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "func": "var Start = {};\nStart.payload = RED.util.cloneMessage(flow.get('StartT'));\n\nif(msg.payload.canid === 1025) // 0x404 frame working frame normal or sleep mode request sent periodically\n{\n    if(msg.payload.data[0] === 0){\n        flow.set('StartT', msg.payload.timestamp);\n        flow.set('First',true);\n        // node.warn('Trame de reveil recu');\n        // node.warn(msg.payload.timestamp);\n    }\n}\n\nelse if(msg.payload.canid != 1025) // 0x400 frame, alive frame sent once the product is out of sleep mode\n{\n    if(flow.get('First')===true)\n    {\n        flow.set('EndT',msg.payload.timestamp);\n        flow.set('Delta', (msg.payload.timestamp - Start.payload));\n        // node.warn('waking up');\n        // node.warn((msg.payload.timestamp - Start.payload));\n        flow.set('First', false);\n        msg.payload = msg.payload.timestamp - Start.payload;\n        return msg\n    }\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7e79b273.d4b3fc",
+        "type": "ui_media",
+        "z": "8c2dcd19.58c21",
+        "group": "abc15472.b41c28",
+        "name": "PBM_picture",
+        "width": 7,
+        "height": 7,
+        "order": 7,
+        "category": "PBM_STATE",
+        "file": "pbm_sleep_2.png",
+        "layout": "center",
+        "showcontrols": false,
+        "loop": false,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 670,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3d54bef4.999282",
+        "type": "inject",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "0.2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "PRODUCT_INFO.STATE_MODE",
+        "payloadType": "global",
+        "x": 220,
+        "y": 560,
+        "wires": [
+            [
+                "b42a19ee.5a3fc8"
+            ]
+        ]
+    },
+    {
+        "id": "b42a19ee.5a3fc8",
+        "type": "function",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "func": "var state = {};\n\nif(msg.payload === \"1\") // Normal mode\n{\n    state.payload = \"PBM_STATE/pbm_normal.png\"\n    return state;\n}\n\nif(msg.payload === \"2\") // Normal mode\n{\n    state.payload = \"PBM_STATE/pbm_sleep_2.png\"\n    return state;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 560,
+        "wires": [
+            [
+                "7e79b273.d4b3fc"
+            ]
+        ]
+    },
+    {
+        "id": "d76a1168.6991",
+        "type": "ui_gauge",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "group": "6fd8f39b.7c0dcc",
+        "order": 8,
+        "width": 7,
+        "height": 6,
+        "gtype": "compass",
+        "title": "ALIVE COUNTER",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "255",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 650,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "9192654e.fb53b8",
+        "type": "inject",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "0.2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "PRODUCT_INFO.ALIVE_COUNTER",
+        "payloadType": "global",
+        "x": 230,
+        "y": 600,
+        "wires": [
+            [
+                "d76a1168.6991"
+            ]
+        ]
+    },
+    {
+        "id": "faa4e93a.7fb268",
+        "type": "inject",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Normal",
+        "payloadType": "str",
+        "x": 140,
+        "y": 40,
+        "wires": [
+            [
+                "1339138d.c0c35c"
+            ]
+        ]
+    },
+    {
+        "id": "1339138d.c0c35c",
+        "type": "function",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "func": "flow.set('Mode', msg.payload);",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "3801f8a3.39ec78",
+        "type": "inject",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Mode",
+        "payloadType": "flow",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "1c399e6c.d5a8f2"
+            ]
+        ]
+    },
+    {
+        "id": "1c399e6c.d5a8f2",
+        "type": "function",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "func": "if(msg.payload === \"Normal\")\n{\n    msg.payload = {\"canfd\":true,\"ext\":false,\"canid\":1028,\"dlc\":8,\"data\":[0,0,0,0,0,0,0,0]};\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 120,
+        "wires": [
+            [
+                "f1bd8d20.faaba"
+            ]
+        ]
+    },
+    {
+        "id": "a2afd83.ba34628",
+        "type": "change",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "Mode",
+                "pt": "flow",
+                "to": "Sleep",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 200,
+        "wires": [
+            [
+                "f1bd8d20.faaba"
+            ]
+        ]
+    },
+    {
+        "id": "b9f3e47.e29ad18",
+        "type": "change",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Mode",
+                "pt": "flow",
+                "to": "Normal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"canfd\":true,\"ext\":false,\"canid\":1025,\"dlc\":8,\"data\":[0,0,0,0,0,0,0,0]}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 260,
+        "wires": [
+            [
+                "f1bd8d20.faaba"
+            ]
+        ]
+    },
+    {
+        "id": "bee7850e.720198",
+        "type": "switch",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Normal",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 750,
+        "y": 100,
+        "wires": [
+            [
+                "96fa6886.5259b8"
+            ]
+        ]
+    },
+    {
+        "id": "1ae15a05.ef2a86",
+        "type": "inject",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "0.4",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Mode",
+        "payloadType": "flow",
+        "x": 580,
+        "y": 100,
+        "wires": [
+            [
+                "bee7850e.720198"
+            ]
+        ]
+    },
+    {
+        "id": "96fa6886.5259b8",
+        "type": "change",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "REQUEST_UPDATE",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d4aba90.026798",
+        "type": "ui_button",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "group": "6fd8f39b.7c0dcc",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Pulse wake up",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "mi-wb_sunny",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "Wake",
+        "topicType": "str",
+        "x": 140,
+        "y": 340,
+        "wires": [
+            [
+                "e38ef59c.8f5a68",
+                "eecccd2d.c73b4"
+            ]
+        ]
+    },
+    {
+        "id": "e38ef59c.8f5a68",
+        "type": "change",
+        "z": "8c2dcd19.58c21",
+        "name": "Wake up pulse",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"canfd\":true,\"ext\":false,\"canid\":1025,\"dlc\":8,\"data\":[0,0,0,0,0,0,0,0]}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 340,
+        "wires": [
+            [
+                "f1bd8d20.faaba"
+            ]
+        ]
+    },
+    {
+        "id": "a17e1753.7661a8",
+        "type": "daemon",
+        "z": "8c2dcd19.58c21",
+        "d": true,
+        "name": "",
+        "command": "candump",
+        "args": " -tz can1",
+        "autorun": false,
+        "cr": false,
+        "redo": false,
+        "op": "lines",
+        "closer": "SIGKILL",
+        "x": 420,
+        "y": 880,
+        "wires": [
+            [
+                "80a251b.b98a8b",
+                "579c5a7d.632ae4"
+            ],
+            [
+                "329b720c.5bdabe"
+            ],
+            [
+                "84485c3f.d14f7"
+            ]
+        ]
+    },
+    {
+        "id": "80a251b.b98a8b",
+        "type": "debug",
+        "z": "8c2dcd19.58c21",
+        "d": true,
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "329b720c.5bdabe",
+        "type": "debug",
+        "z": "8c2dcd19.58c21",
+        "d": true,
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "84485c3f.d14f7",
+        "type": "debug",
+        "z": "8c2dcd19.58c21",
+        "d": true,
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "3f449113.f0843e",
+        "type": "inject",
+        "z": "8c2dcd19.58c21",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "start",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 880,
+        "wires": [
+            [
+                "a17e1753.7661a8"
+            ]
+        ]
+    },
+    {
+        "id": "7bff39b7.1f6218",
+        "type": "inject",
+        "z": "8c2dcd19.58c21",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "kill",
+                "v": "SIGKILL",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 920,
+        "wires": [
+            [
+                "a17e1753.7661a8"
+            ]
+        ]
+    },
+    {
+        "id": "579c5a7d.632ae4",
+        "type": "function",
+        "z": "8c2dcd19.58c21",
+        "d": true,
+        "name": "",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eecccd2d.c73b4",
+        "type": "delay",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 610,
+        "y": 380,
+        "wires": [
+            [
+                "49ff9e74.96f5d"
+            ]
+        ]
+    },
+    {
+        "id": "49ff9e74.96f5d",
+        "type": "change",
+        "z": "8c2dcd19.58c21",
+        "name": "inject delta",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Delta",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 380,
+        "wires": [
+            [
+                "ee74d06c.b7f45",
+                "9251adaa.4f98d",
+                "86b64813.781fe8"
+            ]
+        ]
+    },
+    {
+        "id": "ee74d06c.b7f45",
+        "type": "ui_text",
+        "z": "8c2dcd19.58c21",
+        "group": "6fd8f39b.7c0dcc",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Wake up time",
+        "format": "{{msg.payload}} ms",
+        "layout": "row-spread",
+        "x": 1010,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "9251adaa.4f98d",
+        "type": "ui_chart",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "group": "6fd8f39b.7c0dcc",
+        "order": 9,
+        "width": 18,
+        "height": 6,
+        "label": "Wake up timings",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "20",
+        "removeOlder": 1,
+        "removeOlderPoints": "1000",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 1000,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c8198eab.0b099",
+        "type": "inject",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Refresh",
+        "x": 120,
+        "y": 460,
+        "wires": [
+            [
+                "5ea9ed05.ea45f4"
+            ]
+        ]
+    },
+    {
+        "id": "5ea9ed05.ea45f4",
+        "type": "ui_switch",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "label": "100 Measurements",
+        "tooltip": "",
+        "group": "6fd8f39b.7c0dcc",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "mi-check_box",
+        "oncolor": "#90EE90",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "mi-check_box_outline_blank",
+        "offcolor": "#FFFFFF",
+        "animate": true,
+        "x": 150,
+        "y": 400,
+        "wires": [
+            [
+                "db651eeb.b408f"
+            ]
+        ]
+    },
+    {
+        "id": "db651eeb.b408f",
+        "type": "function",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "func": "if(msg.topic === \"Refresh\" && msg.payload === true)\n{\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 400,
+        "wires": [
+            [
+                "696ba06c.baeba"
+            ]
+        ]
+    },
+    {
+        "id": "696ba06c.baeba",
+        "type": "delay",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "x": 340,
+        "y": 460,
+        "wires": [
+            [
+                "e38ef59c.8f5a68",
+                "eecccd2d.c73b4"
+            ]
+        ]
+    },
+    {
+        "id": "f0b9cc7c.79ed7",
+        "type": "ui_button",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "group": "6fd8f39b.7c0dcc",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Clear chart",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "mi-clear",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 790,
+        "y": 420,
+        "wires": [
+            [
+                "9251adaa.4f98d"
+            ]
+        ]
+    },
+    {
+        "id": "86b64813.781fe8",
+        "type": "function",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "func": "var Tab = RED.util.cloneMessage(flow.get('Tab_Hist') || []);\nvar sum = 0;\nvar avg = {};\n\nif(Tab.length > 99)\n{\n    for(i = 0; i < Tab.length; i++)\n    {\n        sum += Tab[i];\n    }\n    avg.payload = sum/Tab.length;\n    msg.payload = false;\n    Tab = [];\n    flow.set('Tab_Hist',Tab);\n    flow.set('Average',avg.payload);\n    return[avg,msg];\n}\n\nTab.push(msg.payload);\n\nflow.set('Tab_Hist',Tab);",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 460,
+        "wires": [
+            [
+                "b96198d3.0d28f8"
+            ],
+            [
+                "5ea9ed05.ea45f4"
+            ]
+        ]
+    },
+    {
+        "id": "b96198d3.0d28f8",
+        "type": "ui_text",
+        "z": "8c2dcd19.58c21",
+        "group": "6fd8f39b.7c0dcc",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Average for 100 measurments :",
+        "format": "{{msg.payload}} ms",
+        "layout": "row-spread",
+        "x": 1220,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "57e785e1.41eb6c",
+        "type": "ui_button",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "group": "abc15472.b41c28",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "SLEEP",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "mi-nightlight_round",
+        "payload": "{\"canfd\":true,\"ext\":false,\"canid\":1028,\"dlc\":8,\"data\":[1,0,0,0,0,0,0,0]}",
+        "payloadType": "json",
+        "topic": "Sleep",
+        "topicType": "str",
+        "x": 100,
+        "y": 180,
+        "wires": [
+            [
+                "a2afd83.ba34628"
+            ]
+        ]
+    },
+    {
+        "id": "7fdfe72c.1c5d88",
+        "type": "ui_button",
+        "z": "8c2dcd19.58c21",
+        "name": "",
+        "group": "abc15472.b41c28",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "WAKE UP",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "mi-wb_sunny",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "Wake",
+        "topicType": "str",
+        "x": 110,
+        "y": 280,
+        "wires": [
+            [
+                "b9f3e47.e29ad18"
+            ]
+        ]
+    },
+    {
+        "id": "61fab645.9e4778",
+        "type": "catch",
+        "z": "a16b70f.e79399",
+        "name": "",
+        "scope": [
+            "5854d612.d09038"
+        ],
+        "uncaught": false,
+        "x": 730,
+        "y": 60,
+        "wires": [
+            [
+                "270717c0.49e528"
+            ]
+        ]
+    },
+    {
+        "id": "6bd626b0.0feed8",
+        "type": "ui_toast",
+        "z": "a16b70f.e79399",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 1210,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "270717c0.49e528",
+        "type": "change",
+        "z": "a16b70f.e79399",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Error while fetching updates, check if your RPi is connected to internet",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 940,
+        "y": 60,
+        "wires": [
+            [
+                "6bd626b0.0feed8"
+            ]
+        ]
+    },
+    {
+        "id": "848d6c2.987d49",
+        "type": "socketcan-in",
+        "z": "a3fb71ac.ab1f5",
+        "name": "socketcan-in",
+        "config": "a2a7ae15.44d7e",
+        "x": 860,
+        "y": 880,
+        "wires": []
     }
 ]
