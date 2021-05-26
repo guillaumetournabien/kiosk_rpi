@@ -17614,7 +17614,7 @@
         "type": "function",
         "z": "a16b70f.e79399",
         "name": "Bakcup current flow (in case) and copy the new version",
-        "func": "msg.payload = msg.payload.split(\"inflating: \");     // Get path of .json flow\nmsg.payload[3] = msg.payload[3].replace(/\\s/g, ''); // Remove whitespaces\n\nvar backup = {};\nbackup.payload = \"./backup.sh\" // Command to execute for the backup (run a script on the rpi)\n\nvar update = {};\nupdate.payload = \"-f \" + msg.payload[3] + \" ~/.node-red\"; // Arguments for the CP command \n\nreturn [backup,update];",
+        "func": "msg.payload = msg.payload.split(\"inflating: \");     // Get path of .json flow\nmsg.payload[1] = msg.payload[1].replace(/\\s/g, ''); // Remove whitespaces\n\nvar backup = {};\nbackup.payload = \"./backup.sh\" // Command to execute for the backup (run a script on the rpi)\n\nvar update = {};\nupdate.payload = \"-f \" + msg.payload[1] + \" ~/.node-red\"; // Arguments for the CP command \n\nreturn [backup,update];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
